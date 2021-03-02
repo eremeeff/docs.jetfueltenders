@@ -45,7 +45,7 @@ Mandatory field: Only applicable and mandatory for "Open Invoice" payments, leav
 
 Description: This field should be populated with one of the following codes
 
-Example value: D/1
+Example value: ``D/1``
 
 ==== ==================
 Code Description
@@ -63,6 +63,86 @@ A/1  Annually
 ==== ==================
 
 
+Invoice Type
+^^^^^^^^^^^^
+
+Mandatory field:
+
+Description: What format is used for sending invoices?
+
+This field should be populated with one of the following codes.
+
+Example value: ``PDF``
+
+========= ===========
+Code      Description
+========= ===========
+XML_3_2_1 XML_3_2_1
+XML_3_2_0 XML_3_2_0
+XML_3_1_0 XML_3_1_0
+XML_3_0_1 XML_3_0_1
+XML_3_0_0 XML_3_0_0
+XML_2_0_2 XML_2_0_2
+EDI       EDI
+PPR       Paper
+PDF       PDF Format
+EXC       Excel
+========= ===========
+
+Prepayment - Number Of Days Prepaid
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Mandatory field: Only applicable and mandatory for "Prepayment", leave empty if "Open Invoice" is used
+
+Description: How many days of deliveries must prepayment cover?
+
+Example value: ``3``
+
+
+Prepayment - Payment First Delivery Date
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Mandatory field: Only applicable and mandatory for "Prepayment", leave empty if "Open Invoice" is used
+
+Description: How many days of deliveries must prepayment cover?
+
+Example value: ``3``
+
+
+Prepayment - Payment First Delivery Date
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Mandatory field: Only applicable and mandatory for "Prepayment", leave empty if "Open Invoice" is used
+
+Description: Number of days prior to first delivery that payment is due
+
+Example value: ``3``
+
+Prepayment - Payment Frequency
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Mandatory field: Only applicable and mandatory for "Prepayment", leave empty if "Open Invoice" is used
+
+Description: How often is the prepayment required
+
+Example value: ``D/1``
+
+This field should be populated with one of the following codes
+
+==== ==================
+Code Description
+==== ==================
+B/0  Per delivery (B/L)
+D/1  Daily
+D/3  Every 3 days
+M30  Monthly
+S/15 Semimonthly
+T/10 Every 10 days
+W/7  Weekly
+Q/4  Quarterly
+Q/2  Semiannually
+A/1  Annually
+==== ==================
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
