@@ -15,12 +15,3 @@ Welcome to JetFuelTenders's documentation!
     Export Tenders Information to Excel <pages/export-excel/index.rst>
     Import Tender Bids from Excel <pages/import-excel/index.rst>
     User Management <pages/user-management/index.rst>
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
