@@ -12,10 +12,8 @@ Welcome to JetFuelTenders's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-    Excel Bid Import <pages/import-excel.rst>
-    Locations Sheet <pages/import-excel-locations.rst>
-    Volume Base Fees & Taxes Sheet <pages/import-excel-volume-fees.rst>
-    Per Usage Base Fees & Taxes Sheet <pages/import-excel-usage-fees.rst>
+    Export Tenders Information to Excel <pages/export-excel/index.rst>
+    Import Tender Bids from Excel <pages/import-excel/index.rst>
 
 
 
