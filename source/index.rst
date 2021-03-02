@@ -3,15 +3,17 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to JetFuelTenders's documentation!
-==========================================
+JetFuelTenders Docs
+===================
 
+This section is intended to provide detailed information to JetFuelTenders.com users about the platform features.
 
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
+    Place Bid <pages/place-bid/index.rst>
     Export Tenders Information to Excel <pages/export-excel/index.rst>
     Import Tender Bids from Excel <pages/import-excel/index.rst>
     User Management <pages/user-management/index.rst>

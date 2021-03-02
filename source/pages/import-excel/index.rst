@@ -1,6 +1,6 @@
-#####
+########################
 `Import bids from Excel`
-#####
+########################
 
 
 This tutorial explains how to prepare the Excel file for Import.
