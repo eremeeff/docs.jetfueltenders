@@ -15,17 +15,13 @@ The user management tool allows you to share tender information with members of 
 
 User Roles
 ^^^^^^^^^^
-**Viewer**
-
-Users will be able to view and export tender information.
-
-**User**
-
-Users will be able to view, export and manage tenders.
-
-**Manager**
-
-Users can do all the above as well as manage users.
+======= =========================================================
+Role    Permissions
+======= =========================================================
+Viewer  Users will be able to view and export tender information.
+User    Users will be able to view, export and manage tenders.
+Manager Users can do all the above as well as manage users.
+======= =========================================================
 
 Once a new user is saved, an email is sent to the user's email address. This email will contain a link to the "Set Password" page where the user will finalised the setup process.
 
