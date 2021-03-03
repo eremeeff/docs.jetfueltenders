@@ -33,7 +33,7 @@ locations (do not edit columns A - J)
 This document is based on IATA XML Tender / Bid Fuel Data Standard.
 
 NOTE: The bid importer is not case sensitive, so values can be input in
-lower case or uppercase.
+lowercase or uppercase.
 
 Location Sheet - Field Details
 ==============================
@@ -1145,13 +1145,13 @@ codes.
 ==== ===========
 Code Description
 ==== ===========
-USG  USG
-KG   KG
-LBS  LBS
-LT   LT
-MT   MT
-BBL  BBL
-CBM  CBM
+USG  US Gallons
+KG   Kilograms
+LBS  Pounds
+LTR   Liters
+MT   Metric Ton
+BBL  Barrels
+CBM  Cubic Metre
 ==== ===========
 
 --------------
@@ -1400,13 +1400,13 @@ codes.
 ==== ===========
 Code Description
 ==== ===========
-USG  USG
-KG   KG
-LBS  LBS
-LT   LT
-MT   MT
-BBL  BBL
-CBM  CBM
+USG  US Gallons
+KG   Kilograms
+LBS  Pounds
+LTR   Liters
+MT   Metric Ton
+BBL  Barrels
+CBM  Cubic Metre
 ==== ===========
 
 --------------
