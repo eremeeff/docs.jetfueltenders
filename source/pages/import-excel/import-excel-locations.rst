@@ -1534,33 +1534,13 @@ Delivery Method to Airport 1 covering?
 
 --------------
 
-Delivery Method to Airport 2
-----------------------------
-
---------------
-
-Delivery Method to Airport 2 Percentage
----------------------------------------
-
---------------
-
-Delivery Method to Airport 3
-----------------------------
-
---------------
-
-Delivery Method to Airport 3 Percentage
----------------------------------------
-
---------------
-
-Delivery Method to Airport 4
-----------------------------
-
---------------
-
-Delivery Method to Airport 4 Percentage
----------------------------------------
+Additional delivery methods can be specified in the following columns, using the same logic as above
+* Delivery Method to Airport 2
+* Delivery Method to Airport 2 Percentage
+* Delivery Method to Airport 3
+* Delivery Method to Airport 3 Percentage
+* Delivery Method to Airport 4
+* Delivery Method to Airport 4 Percentage
 
 --------------
 
