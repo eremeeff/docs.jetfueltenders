@@ -33,7 +33,7 @@ locations (do not edit columns A - J)
 This document is based on IATA XML Tender / Bid Fuel Data Standard.
 
 NOTE: The bid importer is not case sensitive, so values can be input in
-lower case or uppercase.
+lowercase or uppercase.
 
 Location Sheet - Field Details
 ==============================
