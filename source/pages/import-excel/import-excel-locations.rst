@@ -1145,13 +1145,13 @@ codes.
 ==== ===========
 Code Description
 ==== ===========
-USG  USG
-KG   KG
-LBS  LBS
-LT   LT
-MT   MT
-BBL  BBL
-CBM  CBM
+USG  US Gallons
+KG   Kilograms
+LBS  Pounds
+LTR   Liters
+MT   Metric Ton
+BBL  Barrels
+CBM  Cubic Metre
 ==== ===========
 
 --------------
@@ -1400,13 +1400,13 @@ codes.
 ==== ===========
 Code Description
 ==== ===========
-USG  USG
-KG   KG
-LBS  LBS
-LT   LT
-MT   MT
-BBL  BBL
-CBM  CBM
+USG  US Gallons
+KG   Kilograms
+LBS  Pounds
+LTR   Liters
+MT   Metric Ton
+BBL  Barrels
+CBM  Cubic Metre
 ==== ===========
 
 --------------
