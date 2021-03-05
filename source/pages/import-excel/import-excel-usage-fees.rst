@@ -44,7 +44,9 @@ Example value: USD
 Description: This field should be populated with one of the following
 codes.
 
-=== ========================================================
+==== ========================================================
+Code Name
+==== ========================================================
 USD United States of America, Dollars
 AED United Arab Emirates, Dirhams
 AFN Afghanistan, Afghani
@@ -196,5 +198,5 @@ XOF Communauté Financière Africaine BCEAO, Francs
 XPF Comptoirs Français du Pacifique Francs
 YER Yemen, Rials
 ZAR South Africa, Rand
-=== ========================================================
+==== ========================================================
 
