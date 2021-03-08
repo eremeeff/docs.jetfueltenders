@@ -2,8 +2,14 @@
 `Import bids from Excel`
 ########################
 
+The goal of JetFuelTenders.com is to allow airlines and fuel suppliers to run digital tenders without the need for exchanging data via email using spreadsheets. We understand, however, that many suppliers have their own internal database which automatically generates fuel price offers.
 
-This tutorial explains how to prepare the Excel file for Import.
+If your company's database can transmit your bid data via a spreadsheet, an XML file, or via an API data-feed, then it is possible to integrate with JetFuelTenders.com and automate the transmission of your offers into the JetFuelTenders.com platform.
+
+The process requires a one-time configuration and a strong knowledge of excel.  I would be happy to set up a one-on-one session with you or your technical team to walk you through this process.
+
+
+**In this video, I will show you how to upload your offers via an excel file.**
 
 Before you begin:
 
