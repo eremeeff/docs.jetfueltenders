@@ -19,15 +19,17 @@ Example value: Throughput fee
 
 --------------
 
-Amount
+Amount or Percentage
 ------
 
 Example value: 0.05
 
 --------------
 
-Currency
+Amount Currency
 --------
+
+Conditional field: Only applicable and mandatory this fee or tax tax is amount based. Leave this field empty if the fee or tax tax is percentage based.
 
 Example value: USD
 
@@ -193,8 +195,10 @@ ZAR  South Africa, Rand
 
 --------------
 
-Units
+Amount Units
 -----
+
+Conditional field: Only applicable and mandatory this fee or tax tax is amount based. Leave this field empty if the fee or tax tax is percentage based.
 
 Example value: USG
 
@@ -212,3 +216,25 @@ MT   Metric Ton
 BBL  Barrels
 CBM  Cubic Metre
 ==== ===========
+
+
+Percentage Applicability
+-----
+
+Conditional field: Only applicable and mandatory the fee is a percentage. Leave this field empty if the fee or tax tax is amount based.
+
+Description: This field should be populated with one of the following
+codes. What does this fee or tax apply to?
+
+============ =====================================
+Code         Description
+differential Percentage applicable to differentail
+total_price  Percentage applicable to total price
+============ =====================================
+
+Percentage Notes
+-----
+
+Conditional field: Only applicable and mandatory the fee is a percentage. Leave this field empty if the fee or tax tax is amount based.
+
+Description: Please specify any detail about this fee or tax. How is this tax applied or exempted?
