@@ -29,13 +29,13 @@ Before you begin:
    Complete all mandatory fields in this sheet. Use the below
    information to reference the input format.
 #. Go to the Volume Base Fees & Taxes
-   Input any related fees and taxes for each specific locaiton. One fee
+   Input any related fees and taxes for each specific location. One fee
    or tax per row
 #. Go to the Per Usage Base Fees & Taxes
-   Input any related fees and taxes for each specific locaiton. One fee
+   Input any related fees and taxes for each specific location. One fee
    or tax per row
 #. When ready, save the Excel document and upload it to
-   JetFuelTenders.com by clickin on the Import button on the tender page
+   JetFuelTenders.com by clicking on the Import button on the tender page
    or send this document to the airline via emails.
 
 This document is based on IATA XML Tender / Bid Fuel Data Standard.

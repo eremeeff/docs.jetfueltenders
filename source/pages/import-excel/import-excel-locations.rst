@@ -599,12 +599,52 @@ Index - Code
 Example value: AAFIY00h
 
 Description: None that the index bate is specified as the last later of
-the code. There are 2 options available h for high and l for low. This
+the code. There are 3 options available `c` for close `h` for high and `l` for low. This
 field should be populated with one of the following codes.
 
 ======== ==============
 Provider Code
 ======== ==============
+Platts   AAIDL00c
+Platts   AAIDN00c
+Platts   AAJNL00c
+Platts   AAKNZ00c
+Platts   AAQWL00c
+Platts   AAQWM00c
+Platts   AAVTH00c
+Platts   AAVTI00c
+Platts   AAVTJ00c
+Platts   AAVTK00c
+Platts   AAVTL00c
+Platts   AAXPV00c
+Platts   AAZBN00c
+Platts   PJAAA00c
+Platts   PJAAD00c
+Platts   PJAAD10c
+Platts   PJAAF00c
+Platts   PJAAI00c
+Platts   PJAAN00c
+Platts   PJAAP00c
+Platts   PJAAU00c
+Platts   PJAAV00c
+Platts   PJAAW00c
+Platts   PJAAX00c
+Platts   PJABA00c
+Platts   PJABC00c
+Platts   PJABF00c
+Platts   PJABI00c
+Platts   PJABJ00c
+Platts   PJABK00c
+Platts   PJABL00c
+Platts   PJABM00c
+Platts   PJABN00c
+Platts   PJABO00c
+Platts   PJABP00c
+Platts   PJABQ00c
+Platts   PJACB00c
+Platts   PJACD00c
+Platts   PJADG00c
+Platts   PTAEO09c
 Platts   AAFIY00h
 Platts   AAIDL00h
 Platts   AAIDN00h
