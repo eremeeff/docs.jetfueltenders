@@ -602,283 +602,634 @@ Description: None that the index bate is specified as the last later of
 the code. There are 3 options available `c` for close `h` for high and `l` for low. This
 field should be populated with one of the following codes.
 
-======== ==============
-Provider Code
-======== ==============
-Platts   AAIDL00c
-Platts   AAIDN00c
-Platts   AAJNL00c
-Platts   AAKNZ00c
-Platts   AAQWL00c
-Platts   AAQWM00c
-Platts   AAVTH00c
-Platts   AAVTI00c
-Platts   AAVTJ00c
-Platts   AAVTK00c
-Platts   AAVTL00c
-Platts   AAXPV00c
-Platts   AAZBN00c
-Platts   PJAAA00c
-Platts   PJAAD00c
-Platts   PJAAD10c
-Platts   PJAAF00c
-Platts   PJAAI00c
-Platts   PJAAN00c
-Platts   PJAAP00c
-Platts   PJAAU00c
-Platts   PJAAV00c
-Platts   PJAAW00c
-Platts   PJAAX00c
-Platts   PJABA00c
-Platts   PJABC00c
-Platts   PJABF00c
-Platts   PJABI00c
-Platts   PJABJ00c
-Platts   PJABK00c
-Platts   PJABL00c
-Platts   PJABM00c
-Platts   PJABN00c
-Platts   PJABO00c
-Platts   PJABP00c
-Platts   PJABQ00c
-Platts   PJACB00c
-Platts   PJACD00c
-Platts   PJADG00c
-Platts   PTAEO09c
-Platts   AAFIY00h
-Platts   AAIDL00h
-Platts   AAIDN00h
-Platts   AAJNL00h
-Platts   AAKNZ00h
-Platts   AAQWL00h
-Platts   AAQWM00h
-Platts   AAVTH00h
-Platts   AAVTI00h
-Platts   AAVTJ00h
-Platts   AAVTK00h
-Platts   AAVTL00h
-Platts   AAXPV00h
-Platts   AAZBN00h
-Platts   PJAAA00h
-Platts   PJAAD00h
-Platts   PJAAD10h
-Platts   PJAAF00h
-Platts   PJAAI00h
-Platts   PJAAN00h
-Platts   PJAAP00h
-Platts   PJAAU00h
-Platts   PJAAV00h
-Platts   PJAAW00h
-Platts   PJAAX00h
-Platts   PJABA00h
-Platts   PJABC00h
-Platts   PJABF00h
-Platts   PJABI00h
-Platts   PJABJ00h
-Platts   PJABK00h
-Platts   PJABL00h
-Platts   PJABM00h
-Platts   PJABN00h
-Platts   PJABO00h
-Platts   PJABP00h
-Platts   PJABQ00h
-Platts   PJACB00h
-Platts   PJACD00h
-Platts   PJADG00h
-Platts   PTAEO09h
-Platts   AAFIY00l
-Platts   AAIDL00l
-Platts   AAIDN00l
-Platts   AAJNL00l
-Platts   AAKNZ00l
-Platts   AAQWL00l
-Platts   AAQWM00l
-Platts   AAVTH00l
-Platts   AAVTI00l
-Platts   AAVTJ00l
-Platts   AAVTK00l
-Platts   AAVTL00l
-Platts   AAXPV00l
-Platts   AAZBN00l
-Platts   PJAAA00l
-Platts   PJAAD00l
-Platts   PJAAD10l
-Platts   PJAAF00l
-Platts   PJAAI00l
-Platts   PJAAN00l
-Platts   PJAAP00l
-Platts   PJAAU00l
-Platts   PJAAV00l
-Platts   PJAAW00l
-Platts   PJAAX00l
-Platts   PJABA00l
-Platts   PJABC00l
-Platts   PJABF00l
-Platts   PJABI00l
-Platts   PJABJ00l
-Platts   PJABK00l
-Platts   PJABL00l
-Platts   PJABM00l
-Platts   PJABN00l
-Platts   PJABO00l
-Platts   PJABP00l
-Platts   PJABQ00l
-Platts   PJACB00l
-Platts   PJACD00l
-Platts   PJADG00l
-Platts   PTAEO09l
-Argus    PA0003951-2
-Argus    PA0002901-2
-Argus    PA0002760-2
-Argus    PA0004245-2
-Argus    PA0003948-2
-Argus    PA0001024-2
-Argus    PA0018544-2
-Argus    PA0003953-2
-Argus    PA0001011-2
-Argus    PA0001012-2
-Argus    PA0002147-2
-Argus    PA0001010-2
-Argus    PA0005171-2
-Argus    PA0014711-2
-Argus    PA0001027-2
-Argus    PA0003945-2
-Argus    PA0015003-2
-Argus    PA0015002-2
-Argus    PA0015001-2
-Argus    PA0015004-2
-Argus    PA0015005-2
-Argus    PA0015006-2
-Argus    PA0015007-2
-Argus    PA0018005-2
-Argus    PA0005630-2
-Argus    PA0018507-2
-Argus    PA0015000-2
-Argus    PA0009049-2
-Argus    PA0009048-2
-Argus    PA0001016-2
-Argus    PA0001017-2
-Argus    PA0007734-2
-Argus    PA0007733-2
-Argus    PA0001025-2
-Argus    PA0001018-2
-Argus    PA0001026-2
-Argus    PA0005631-2
-Argus    PA0005336-2
-Argus    PA0001019-2
-Argus    PA0010050-2
-Argus    PA0009545-2
-Argus    PA0009549-2
-Argus    PA0001021-2
-Argus    PA0003952-2
-Argus    PA0016541-2
-Argus    PA0016533-2
-Argus    PA0002762-2
-Argus    PA0001014-2
-Argus    PA0002148-2
-Argus    PA0002149-2
-Argus    PA0001015-2
-Argus    PA0016523-2
-Argus    PA0001022-2
-Argus    PA0016567-2
-Argus    PA0004980-2
-Argus    PA0004979-2
-Argus    PA0016566-2
-Argus    PA0004977-2
-Argus    PA0016565-2
-Argus    PA0004978-2
-Argus    PA0001020-2
-Argus    PA0003951-1
-Argus    PA0002901-1
-Argus    PA0002760-1
-Argus    PA0004245-1
-Argus    PA0003948-1
-Argus    PA0001024-1
-Argus    PA0018544-1
-Argus    PA0003953-1
-Argus    PA0001011-1
-Argus    PA0001012-1
-Argus    PA0002147-1
-Argus    PA0001010-1
-Argus    PA0005171-1
-Argus    PA0014711-1
-Argus    PA0001027-1
-Argus    PA0003945-1
-Argus    PA0015003-1
-Argus    PA0015002-1
-Argus    PA0015001-1
-Argus    PA0015004-1
-Argus    PA0015005-1
-Argus    PA0015006-1
-Argus    PA0015007-1
-Argus    PA0018005-1
-Argus    PA0005630-1
-Argus    PA0018507-1
-Argus    PA0015000-1
-Argus    PA0009049-1
-Argus    PA0009048-1
-Argus    PA0001016-1
-Argus    PA0001017-1
-Argus    PA0007734-1
-Argus    PA0007733-1
-Argus    PA0001025-1
-Argus    PA0001018-1
-Argus    PA0001026-1
-Argus    PA0005631-1
-Argus    PA0005336-1
-Argus    PA0001019-1
-Argus    PA0010050-1
-Argus    PA0009545-1
-Argus    PA0009549-1
-Argus    PA0001021-1
-Argus    PA0003952-1
-Argus    PA0016541-1
-Argus    PA0016533-1
-Argus    PA0002762-1
-Argus    PA0001014-1
-Argus    PA0002148-1
-Argus    PA0002149-1
-Argus    PA0001015-1
-Argus    PA0016523-1
-Argus    PA0001022-1
-Argus    PA0016567-1
-Argus    PA0004980-1
-Argus    PA0004979-1
-Argus    PA0016566-1
-Argus    PA0004977-1
-Argus    PA0016565-1
-Argus    PA0004978-1
-Argus    PA0001020-1
-Opis     JETKEROAGLR1
-Opis     JETKEROAGLR2
-Opis     JETKEROKOR
-Opis     JETTAIW
-Opis     JETKEROSING
-Opis     JETNWECGCIF
-Opis     JETNWECGFOB
-Opis     JETRTDBG
-Opis     JETMEDCG
-Opis     JET450RTDBG
-Opis     JET450DFSRTDBG
-Opis     KEROBUCPL
-Opis     JETBUCPL
-Opis     JETCHIPL
-Opis     JETGR3PL
-Opis     KEROUSGPL
-Opis     JETUSGPL
-Opis     ULSKUSGPL
-Opis     KEROUSGBG
-Opis     JETUSGBG
-Opis     JETLAUPL
-Opis     JETLINPL
-Opis     JETLAXPL
-Opis     JETNYBG
-Opis     KERONYBG
-Opis     ULSKNYBG
-Opis     JETNYCG
-Opis     JETPNWBG
-Opis     JETSFPL
-======== ==============
++----------+----------------+----------------------------------------+
+| Provider | Provider code  | Description                            |
++----------+----------------+----------------------------------------+
+| Platts   | AAFIY00c       | Jet Kero C+F Australia Cargo Close     |
++----------+----------------+----------------------------------------+
+| Platts   | AAIDL00c       | Jet FOB Med Cargo Close                |
++----------+----------------+----------------------------------------+
+| Platts   | AAIDN00c       | Jet FOB Med Premium Cargo Close        |
++----------+----------------+----------------------------------------+
+| Platts   | AAJNL00c       | Jet Kero New Jersey Buckeye Pipeline   |
+|          |                | Close                                  |
++----------+----------------+----------------------------------------+
+| Platts   | AAKNZ00c       | Jet Kero LR2 FOB Arab Gulf Cargo Close |
++----------+----------------+----------------------------------------+
+| Platts   | AAQWL00c       | Jet Kero MOP West India $/bbl Close    |
++----------+----------------+----------------------------------------+
+| Platts   | AAQWM00c       | Jet Kero MOP West India $/mt Close     |
++----------+----------------+----------------------------------------+
+| Platts   | AAVTH00c       | Jet Kero ULS New York Harbor Cargo     |
+|          |                | Close                                  |
++----------+----------------+----------------------------------------+
+| Platts   | AAVTI00c       | Jet Kero ULS New York Harbor Barge     |
+|          |                | Close                                  |
++----------+----------------+----------------------------------------+
+| Platts   | AAVTJ00c       | Jet Kero ULS Boston Cargo Close        |
++----------+----------------+----------------------------------------+
+| Platts   | AAVTK00c       | Jet Kero ULS USGC Waterborne Close     |
++----------+----------------+----------------------------------------+
+| Platts   | AAVTL00c       | Jet Kero ULS USGC Prompt Pipeline      |
+|          |                | Close                                  |
++----------+----------------+----------------------------------------+
+| Platts   | AAXPV00c       | Jet Kero 54 USAC Linden Pipeline       |
+|          |                | prompt cycle assessment Close          |
++----------+----------------+----------------------------------------+
+| Platts   | AAZBN00c       | Jet CIF Med Cargo Close                |
++----------+----------------+----------------------------------------+
+| Platts   | PJAAA00c       | Jet Kero FOB Arab Gulf Cargo Close     |
++----------+----------------+----------------------------------------+
+| Platts   | PJAAD00c       | Jet Kero Caribbean Cargo $/mt Close    |
++----------+----------------+----------------------------------------+
+| Platts   | PJAAD10c       | Jet Kero Caribbean Cargo cts/gal Close |
++----------+----------------+----------------------------------------+
+| Platts   | PJAAF00c       | Jet Kero FOB Chicago Pipe Close        |
++----------+----------------+----------------------------------------+
+| Platts   | PJAAI00c       | Jet Kero Group 3 Pipeline Close        |
++----------+----------------+----------------------------------------+
+| Platts   | PJAAN00c       | Jet Kero C+F Japan Cargo Close         |
++----------+----------------+----------------------------------------+
+| Platts   | PJAAP00c       | Jet Kero Los Angeles CA Pipeline Close |
++----------+----------------+----------------------------------------+
+| Platts   | PJAAU00c       | Jet CIF NWE Cargo Close                |
++----------+----------------+----------------------------------------+
+| Platts   | PJAAV00c       | Jet FOB NWE Cargo Close                |
++----------+----------------+----------------------------------------+
+| Platts   | PJAAW00c       | Jet Kero New York Harbor Barge Close   |
++----------+----------------+----------------------------------------+
+| Platts   | PJAAX00c       | Jet Kero New York Harbor Cargo Close   |
++----------+----------------+----------------------------------------+
+| Platts   | PJABA00c       | Jet FOB Rdam Barge Close               |
++----------+----------------+----------------------------------------+
+| Platts   | PJABC00c       | Jet Kero San Francisco CA Pipeline     |
+|          |                | Close                                  |
++----------+----------------+----------------------------------------+
+| Platts   | PJABF00c       | Jet Kero FOB Spore Cargo Close         |
++----------+----------------+----------------------------------------+
+| Platts   | PJABI00c       | Jet Kero USWC Waterborne Close         |
++----------+----------------+----------------------------------------+
+| Platts   | PJABJ00c       | Jet Kero LS New York Harbor Barge      |
+|          |                | Close                                  |
++----------+----------------+----------------------------------------+
+| Platts   | PJABK00c       | Jet Kero LS New York Harbor Cargo      |
+|          |                | Close                                  |
++----------+----------------+----------------------------------------+
+| Platts   | PJABL00c       | Jet Kero LS Boston Cargo Close         |
++----------+----------------+----------------------------------------+
+| Platts   | PJABM00c       | Jet Kero 54 USGC Waterborne Close      |
++----------+----------------+----------------------------------------+
+| Platts   | PJABN00c       | Jet Kero 55 USGC Waterborne Close      |
++----------+----------------+----------------------------------------+
+| Platts   | PJABO00c       | Jet Kero 54 USGC Prompt Pipeline Close |
++----------+----------------+----------------------------------------+
+| Platts   | PJABP00c       | Jet Kero 55 USGC Prompt Pipeline Close |
++----------+----------------+----------------------------------------+
+| Platts   | PJABQ00c       | Jet Kero C+F South China Cargo Close   |
++----------+----------------+----------------------------------------+
+| Platts   | PJACB00c       | Jet Kero ULS No1 Group 3 Pipeline      |
+|          |                | Close                                  |
++----------+----------------+----------------------------------------+
+| Platts   | PJACD00c       | Jet Kero ULS No1 FOB Chicago Pipe      |
+|          |                | Close                                  |
++----------+----------------+----------------------------------------+
+| Platts   | PJADG00c       | Jet Kero FOB Korea Cargo Close         |
++----------+----------------+----------------------------------------+
+| Platts   | PTAEO09c       | Jet Carib Shell W Close                |
++----------+----------------+----------------------------------------+
+| Platts   | AAFIY00h       | Jet Kero C+F Australia Cargo High      |
++----------+----------------+----------------------------------------+
+| Platts   | AAIDL00h       | Jet FOB Med Cargo High                 |
++----------+----------------+----------------------------------------+
+| Platts   | AAIDN00h       | Jet FOB Med Premium Cargo High         |
++----------+----------------+----------------------------------------+
+| Platts   | AAJNL00h       | Jet Kero New Jersey Buckeye Pipeline   |
+|          |                | High                                   |
++----------+----------------+----------------------------------------+
+| Platts   | AAKNZ00h       | Jet Kero LR2 FOB Arab Gulf Cargo High  |
++----------+----------------+----------------------------------------+
+| Platts   | AAQWL00h       | Jet Kero MOP West India $/bbl High     |
++----------+----------------+----------------------------------------+
+| Platts   | AAQWM00h       | Jet Kero MOP West India $/mt High      |
++----------+----------------+----------------------------------------+
+| Platts   | AAVTH00h       | Jet Kero ULS New York Harbor Cargo     |
+|          |                | High                                   |
++----------+----------------+----------------------------------------+
+| Platts   | AAVTI00h       | Jet Kero ULS New York Harbor Barge     |
+|          |                | High                                   |
++----------+----------------+----------------------------------------+
+| Platts   | AAVTJ00h       | Jet Kero ULS Boston Cargo High         |
++----------+----------------+----------------------------------------+
+| Platts   | AAVTK00h       | Jet Kero ULS USGC Waterborne High      |
++----------+----------------+----------------------------------------+
+| Platts   | AAVTL00h       | Jet Kero ULS USGC Prompt Pipeline High |
++----------+----------------+----------------------------------------+
+| Platts   | AAXPV00h       | Jet Kero 54 USAC Linden Pipeline       |
+|          |                | prompt cycle assessment High           |
++----------+----------------+----------------------------------------+
+| Platts   | AAZBN00h       | Jet CIF Med Cargo High                 |
++----------+----------------+----------------------------------------+
+| Platts   | PJAAA00h       | Jet Kero FOB Arab Gulf Cargo High      |
++----------+----------------+----------------------------------------+
+| Platts   | PJAAD00h       | Jet Kero Caribbean Cargo $/mt High     |
++----------+----------------+----------------------------------------+
+| Platts   | PJAAD10h       | Jet Kero Caribbean Cargo cts/gal High  |
++----------+----------------+----------------------------------------+
+| Platts   | PJAAF00h       | Jet Kero FOB Chicago Pipe High         |
++----------+----------------+----------------------------------------+
+| Platts   | PJAAI00h       | Jet Kero Group 3 Pipeline High         |
++----------+----------------+----------------------------------------+
+| Platts   | PJAAN00h       | Jet Kero C+F Japan Cargo High          |
++----------+----------------+----------------------------------------+
+| Platts   | PJAAP00h       | Jet Kero Los Angeles CA Pipeline High  |
++----------+----------------+----------------------------------------+
+| Platts   | PJAAU00h       | Jet CIF NWE Cargo High                 |
++----------+----------------+----------------------------------------+
+| Platts   | PJAAV00h       | Jet FOB NWE Cargo High                 |
++----------+----------------+----------------------------------------+
+| Platts   | PJAAW00h       | Jet Kero New York Harbor Barge High    |
++----------+----------------+----------------------------------------+
+| Platts   | PJAAX00h       | Jet Kero New York Harbor Cargo High    |
++----------+----------------+----------------------------------------+
+| Platts   | PJABA00h       | Jet FOB Rdam Barge High                |
++----------+----------------+----------------------------------------+
+| Platts   | PJABC00h       | Jet Kero San Francisco CA Pipeline     |
+|          |                | High                                   |
++----------+----------------+----------------------------------------+
+| Platts   | PJABF00h       | Jet Kero FOB Spore Cargo High          |
++----------+----------------+----------------------------------------+
+| Platts   | PJABI00h       | Jet Kero USWC Waterborne High          |
++----------+----------------+----------------------------------------+
+| Platts   | PJABJ00h       | Jet Kero LS New York Harbor Barge High |
++----------+----------------+----------------------------------------+
+| Platts   | PJABK00h       | Jet Kero LS New York Harbor Cargo High |
++----------+----------------+----------------------------------------+
+| Platts   | PJABL00h       | Jet Kero LS Boston Cargo High          |
++----------+----------------+----------------------------------------+
+| Platts   | PJABM00h       | Jet Kero 54 USGC Waterborne High       |
++----------+----------------+----------------------------------------+
+| Platts   | PJABN00h       | Jet Kero 55 USGC Waterborne High       |
++----------+----------------+----------------------------------------+
+| Platts   | PJABO00h       | Jet Kero 54 USGC Prompt Pipeline High  |
++----------+----------------+----------------------------------------+
+| Platts   | PJABP00h       | Jet Kero 55 USGC Prompt Pipeline High  |
++----------+----------------+----------------------------------------+
+| Platts   | PJABQ00h       | Jet Kero C+F South China Cargo High    |
++----------+----------------+----------------------------------------+
+| Platts   | PJACB00h       | Jet Kero ULS No1 Group 3 Pipeline High |
++----------+----------------+----------------------------------------+
+| Platts   | PJACD00h       | Jet Kero ULS No1 FOB Chicago Pipe High |
++----------+----------------+----------------------------------------+
+| Platts   | PJADG00h       | Jet Kero FOB Korea Cargo High          |
++----------+----------------+----------------------------------------+
+| Platts   | PTAEO09h       | Jet Carib Shell W High                 |
++----------+----------------+----------------------------------------+
+| Platts   | AAFIY00l       | Jet Kero C+F Australia Cargo Low       |
++----------+----------------+----------------------------------------+
+| Platts   | AAIDL00l       | Jet FOB Med Cargo Low                  |
++----------+----------------+----------------------------------------+
+| Platts   | AAIDN00l       | Jet FOB Med Premium Cargo Low          |
++----------+----------------+----------------------------------------+
+| Platts   | AAJNL00l       | Jet Kero New Jersey Buckeye Pipeline   |
+|          |                | Low                                    |
++----------+----------------+----------------------------------------+
+| Platts   | AAKNZ00l       | Jet Kero LR2 FOB Arab Gulf Cargo Low   |
++----------+----------------+----------------------------------------+
+| Platts   | AAQWL00l       | Jet Kero MOP West India $/bbl Low      |
++----------+----------------+----------------------------------------+
+| Platts   | AAQWM00l       | Jet Kero MOP West India $/mt Low       |
++----------+----------------+----------------------------------------+
+| Platts   | AAVTH00l       | Jet Kero ULS New York Harbor Cargo Low |
++----------+----------------+----------------------------------------+
+| Platts   | AAVTI00l       | Jet Kero ULS New York Harbor Barge Low |
++----------+----------------+----------------------------------------+
+| Platts   | AAVTJ00l       | Jet Kero ULS Boston Cargo Low          |
++----------+----------------+----------------------------------------+
+| Platts   | AAVTK00l       | Jet Kero ULS USGC Waterborne Low       |
++----------+----------------+----------------------------------------+
+| Platts   | AAVTL00l       | Jet Kero ULS USGC Prompt Pipeline Low  |
++----------+----------------+----------------------------------------+
+| Platts   | AAXPV00l       | Jet Kero 54 USAC Linden Pipeline       |
+|          |                | prompt cycle assessment Low            |
++----------+----------------+----------------------------------------+
+| Platts   | AAZBN00l       | Jet CIF Med Cargo Low                  |
++----------+----------------+----------------------------------------+
+| Platts   | PJAAA00l       | Jet Kero FOB Arab Gulf Cargo Low       |
++----------+----------------+----------------------------------------+
+| Platts   | PJAAD00l       | Jet Kero Caribbean Cargo $/mt Low      |
++----------+----------------+----------------------------------------+
+| Platts   | PJAAD10l       | Jet Kero Caribbean Cargo cts/gal Low   |
++----------+----------------+----------------------------------------+
+| Platts   | PJAAF00l       | Jet Kero FOB Chicago Pipe Low          |
++----------+----------------+----------------------------------------+
+| Platts   | PJAAI00l       | Jet Kero Group 3 Pipeline Low          |
++----------+----------------+----------------------------------------+
+| Platts   | PJAAN00l       | Jet Kero C+F Japan Cargo Low           |
++----------+----------------+----------------------------------------+
+| Platts   | PJAAP00l       | Jet Kero Los Angeles CA Pipeline Low   |
++----------+----------------+----------------------------------------+
+| Platts   | PJAAU00l       | Jet CIF NWE Cargo Low                  |
++----------+----------------+----------------------------------------+
+| Platts   | PJAAV00l       | Jet FOB NWE Cargo Low                  |
++----------+----------------+----------------------------------------+
+| Platts   | PJAAW00l       | Jet Kero New York Harbor Barge Low     |
++----------+----------------+----------------------------------------+
+| Platts   | PJAAX00l       | Jet Kero New York Harbor Cargo Low     |
++----------+----------------+----------------------------------------+
+| Platts   | PJABA00l       | Jet FOB Rdam Barge Low                 |
++----------+----------------+----------------------------------------+
+| Platts   | PJABC00l       | Jet Kero San Francisco CA Pipeline Low |
++----------+----------------+----------------------------------------+
+| Platts   | PJABF00l       | Jet Kero FOB Spore Cargo Low           |
++----------+----------------+----------------------------------------+
+| Platts   | PJABI00l       | Jet Kero USWC Waterborne Low           |
++----------+----------------+----------------------------------------+
+| Platts   | PJABJ00l       | Jet Kero LS New York Harbor Barge Low  |
++----------+----------------+----------------------------------------+
+| Platts   | PJABK00l       | Jet Kero LS New York Harbor Cargo Low  |
++----------+----------------+----------------------------------------+
+| Platts   | PJABL00l       | Jet Kero LS Boston Cargo Low           |
++----------+----------------+----------------------------------------+
+| Platts   | PJABM00l       | Jet Kero 54 USGC Waterborne Low        |
++----------+----------------+----------------------------------------+
+| Platts   | PJABN00l       | Jet Kero 55 USGC Waterborne Low        |
++----------+----------------+----------------------------------------+
+| Platts   | PJABO00l       | Jet Kero 54 USGC Prompt Pipeline Low   |
++----------+----------------+----------------------------------------+
+| Platts   | PJABP00l       | Jet Kero 55 USGC Prompt Pipeline Low   |
++----------+----------------+----------------------------------------+
+| Platts   | PJABQ00l       | Jet Kero C+F South China Cargo Low     |
++----------+----------------+----------------------------------------+
+| Platts   | PJACB00l       | Jet Kero ULS No1 Group 3 Pipeline Low  |
++----------+----------------+----------------------------------------+
+| Platts   | PJACD00l       | Jet Kero ULS No1 FOB Chicago Pipe Low  |
++----------+----------------+----------------------------------------+
+| Platts   | PJADG00l       | Jet Kero FOB Korea Cargo Low           |
++----------+----------------+----------------------------------------+
+| Platts   | PTAEO09l       | Jet Carib Shell W Low                  |
++----------+----------------+----------------------------------------+
+| Argus    | PA0003951-2    | Jet fuel Buckeye pipe fob High         |
++----------+----------------+----------------------------------------+
+| Argus    | PA0002901-2    | Jet fuel Chicago pipe fob cycle High   |
++----------+----------------+----------------------------------------+
+| Argus    | PA0002760-2    | Jet fuel Colonial 54 pipe fob cycle    |
+|          |                | High                                   |
++----------+----------------+----------------------------------------+
+| Argus    | PA0004245-2    | Jet fuel Colonial 54 pipe fob wtd avg  |
+|          |                | cycle High                             |
++----------+----------------+----------------------------------------+
+| Argus    | PA0003948-2    | Jet fuel Group 3 Magellan Q pipe fob   |
+|          |                | High                                   |
++----------+----------------+----------------------------------------+
+| Argus    | PA0001024-2    | Jet fuel LA pipe fob month High        |
++----------+----------------+----------------------------------------+
+| Argus    | PA0018544-2    | Jet fuel LA pipe fob wtd avg month     |
+|          |                | High                                   |
++----------+----------------+----------------------------------------+
+| Argus    | PA0003953-2    | Jet fuel Laurel pipe fob High          |
++----------+----------------+----------------------------------------+
+| Argus    | PA0001011-2    | Jet fuel NYH barge fob 10 days fwd     |
+|          |                | High                                   |
++----------+----------------+----------------------------------------+
+| Argus    | PA0001012-2    | Jet fuel NYH barge fob 15 days fwd     |
+|          |                | High                                   |
++----------+----------------+----------------------------------------+
+| Argus    | PA0002147-2    | Jet fuel NYH barge fob 20 days fwd     |
+|          |                | High                                   |
++----------+----------------+----------------------------------------+
+| Argus    | PA0001010-2    | Jet fuel NYH barge fob prompt High     |
++----------+----------------+----------------------------------------+
+| Argus    | PA0005171-2    | Jet fuel NYH cargo del High            |
++----------+----------------+----------------------------------------+
+| Argus    | PA0014711-2    | Jet fuel NYH offline Colonial 54 pipe  |
+|          |                | del cycle                              |
++----------+----------------+----------------------------------------+
+| Argus    | PA0001027-2    | Jet fuel SF pipe fob month             |
++----------+----------------+----------------------------------------+
+| Argus    | PA0003945-2    | Jet fuel USGC waterborne fob           |
++----------+----------------+----------------------------------------+
+| Argus    | PA0015003-2    | Jet Orsk - Kazakhstan (Aktobe) del     |
+|          |                | price index High                       |
++----------+----------------+----------------------------------------+
+| Argus    | PA0015002-2    | Jet Orsk - Kazakhstan (Alma-Ata) del   |
+|          |                | price index High                       |
++----------+----------------+----------------------------------------+
+| Argus    | PA0015001-2    | Jet Orsk - Kazakhstan (Astana) del     |
+|          |                | price index High                       |
++----------+----------------+----------------------------------------+
+| Argus    | PA0015004-2    | Jet Orsk - Kazakhstan (Atyrau) del     |
+|          |                | price index High                       |
++----------+----------------+----------------------------------------+
+| Argus    | PA0015005-2    | Jet Orsk - Kazakhstan (Karaganda) del  |
+|          |                | price index High                       |
++----------+----------------+----------------------------------------+
+| Argus    | PA0015006-2    | Jet Orsk - Kazakhstan (Uralsk) del     |
+|          |                | price index High                       |
++----------+----------------+----------------------------------------+
+| Argus    | PA0015007-2    | Jet Orsk - Kazakhstan                  |
+|          |                | (Ust-Kamenogorsk) del price index High |
++----------+----------------+----------------------------------------+
+| Argus    | PA0018005-2    | Jet/kerosine c+f Durban High           |
++----------+----------------+----------------------------------------+
+| Argus    | PA0005630-2    | Jet/Kerosine Chimkent High             |
++----------+----------------+----------------------------------------+
+| Argus    | PA0018507-2    | Jet/kerosine delivered west Africa $/t |
+|          |                | High                                   |
++----------+----------------+----------------------------------------+
+| Argus    | PA0015000-2    | Jet/Kerosine fca Orsk High             |
++----------+----------------+----------------------------------------+
+| Argus    | PA0009049-2    | Jet/Kerosine fit Moscow spot ex. VAT   |
+|          |                | High                                   |
++----------+----------------+----------------------------------------+
+| Argus    | PA0009048-2    | Jet/Kerosine fit Moscow spot incl. VAT |
+|          |                | High                                   |
++----------+----------------+----------------------------------------+
+| Argus    | PA0001016-2    | Jet/kerosine Japan c+f High            |
++----------+----------------+----------------------------------------+
+| Argus    | PA0001017-2    | Jet/kerosine Mideast Gulf fob High     |
++----------+----------------+----------------------------------------+
+| Argus    | PA0007734-2    | Jet/Kerosine Moscow formula ex. VAT    |
+|          |                | High                                   |
++----------+----------------+----------------------------------------+
+| Argus    | PA0007733-2    | Jet/Kerosine Moscow formula incl. VAT  |
+|          |                | High                                   |
++----------+----------------+----------------------------------------+
+| Argus    | PA0001025-2    | Jet/kerosine NWE barge High            |
++----------+----------------+----------------------------------------+
+| Argus    | PA0001018-2    | Jet/kerosine NWE cif High              |
++----------+----------------+----------------------------------------+
+| Argus    | PA0001026-2    | Jet/kerosine NWE fob High              |
++----------+----------------+----------------------------------------+
+| Argus    | PA0005631-2    | Jet/Kerosine Pavlodar High             |
++----------+----------------+----------------------------------------+
+| Argus    | PA0005336-2    | Jet/kerosine S Korea High              |
++----------+----------------+----------------------------------------+
+| Argus    | PA0001019-2    | Jet/kerosine Singapore High            |
++----------+----------------+----------------------------------------+
+| Argus    | PA0010050-2    | Jet/Kerosine SPIMEX Index High         |
++----------+----------------+----------------------------------------+
+| Argus    | PA0009545-2    | Jet/kerosine W Med cif High            |
++----------+----------------+----------------------------------------+
+| Argus    | PA0009549-2    | Jet/kerosine W Med cif diff to Jet fob |
+|          |                | W Med High                             |
++----------+----------------+----------------------------------------+
+| Argus    | PA0001021-2    | Jet/kerosine W Med fob High            |
++----------+----------------+----------------------------------------+
+| Argus    | PA0003952-2    | Kerosine Buckeye pipe fob High         |
++----------+----------------+----------------------------------------+
+| Argus    | PA0016541-2    | Kerosine Buckeye pipe fob (AST) High   |
++----------+----------------+----------------------------------------+
+| Argus    | PA0016533-2    | Kerosine Colonial 55 pipe fob (AST)    |
+|          |                | cycle High                             |
++----------+----------------+----------------------------------------+
+| Argus    | PA0002762-2    | Kerosine Colonial 55 pipe fob cycle    |
+|          |                | High                                   |
++----------+----------------+----------------------------------------+
+| Argus    | PA0001014-2    | Kerosine NYH barge fob 10 days fwd     |
+|          |                | High                                   |
++----------+----------------+----------------------------------------+
+| Argus    | PA0002148-2    | Kerosine NYH barge fob 15 days fwd     |
+|          |                | High                                   |
++----------+----------------+----------------------------------------+
+| Argus    | PA0002149-2    | Kerosine NYH barge fob 20 days fwd     |
+|          |                | High                                   |
++----------+----------------+----------------------------------------+
+| Argus    | PA0001015-2    | Kerosine NYH barge fob prompt High     |
++----------+----------------+----------------------------------------+
+| Argus    | PA0016523-2    | Kerosine NYH barge fob prompt (AST)    |
+|          |                | High                                   |
++----------+----------------+----------------------------------------+
+| Argus    | PA0001022-2    | Kerosine NYH cargo del High            |
++----------+----------------+----------------------------------------+
+| Argus    | PA0016567-2    | Kerosine ULSK Chicago pipe fob (AST)   |
+|          |                | cycle High                             |
++----------+----------------+----------------------------------------+
+| Argus    | PA0004980-2    | Kerosine ULSK Chicago pipe fob cycle   |
+|          |                | High                                   |
++----------+----------------+----------------------------------------+
+| Argus    | PA0004979-2    | Kerosine ULSK Group 3 Magellan Y pipe  |
+|          |                | fob prompt High                        |
++----------+----------------+----------------------------------------+
+| Argus    | PA0016566-2    | Kerosine ULSK Group 3 Magellan Y pipe  |
+|          |                | fob prompt (AST) High                  |
++----------+----------------+----------------------------------------+
+| Argus    | PA0004977-2    | Kerosine ULSK NYH barge fob High       |
++----------+----------------+----------------------------------------+
+| Argus    | PA0016565-2    | Kerosine ULSK NYH barge fob (AST) High |
++----------+----------------+----------------------------------------+
+| Argus    | PA0004978-2    | Kerosine ULSK NYH cargo del High       |
++----------+----------------+----------------------------------------+
+| Argus    | PA0001020-2    | Kerosine USGC waterborne fob High      |
++----------+----------------+----------------------------------------+
+| Argus    | PA0003951-1    | Jet fuel Buckeye pipe fob Low          |
++----------+----------------+----------------------------------------+
+| Argus    | PA0002901-1    | Jet fuel Chicago pipe fob cycle Low    |
++----------+----------------+----------------------------------------+
+| Argus    | PA0002760-1    | Jet fuel Colonial 54 pipe fob cycle    |
+|          |                | Low                                    |
++----------+----------------+----------------------------------------+
+| Argus    | PA0004245-1    | Jet fuel Colonial 54 pipe fob wtd avg  |
+|          |                | cycle Low                              |
++----------+----------------+----------------------------------------+
+| Argus    | PA0003948-1    | Jet fuel Group 3 Magellan Q pipe fob   |
+|          |                | Low                                    |
++----------+----------------+----------------------------------------+
+| Argus    | PA0001024-1    | Jet fuel LA pipe fob month Low         |
++----------+----------------+----------------------------------------+
+| Argus    | PA0018544-1    | Jet fuel LA pipe fob wtd avg month Low |
++----------+----------------+----------------------------------------+
+| Argus    | PA0003953-1    | Jet fuel Laurel pipe fob Low           |
++----------+----------------+----------------------------------------+
+| Argus    | PA0001011-1    | Jet fuel NYH barge fob 10 days fwd Low |
++----------+----------------+----------------------------------------+
+| Argus    | PA0001012-1    | Jet fuel NYH barge fob 15 days fwd Low |
++----------+----------------+----------------------------------------+
+| Argus    | PA0002147-1    | Jet fuel NYH barge fob 20 days fwd Low |
++----------+----------------+----------------------------------------+
+| Argus    | PA0001010-1    | Jet fuel NYH barge fob prompt Low      |
++----------+----------------+----------------------------------------+
+| Argus    | PA0005171-1    | Jet fuel NYH cargo del Low             |
++----------+----------------+----------------------------------------+
+| Argus    | PA0014711-1    | Jet fuel NYH offline Colonial 54 pipe  |
+|          |                | del cycle Low                          |
++----------+----------------+----------------------------------------+
+| Argus    | PA0001027-1    | Jet fuel SF pipe fob month Low         |
++----------+----------------+----------------------------------------+
+| Argus    | PA0003945-1    | Jet fuel USGC waterborne fob Low       |
++----------+----------------+----------------------------------------+
+| Argus    | PA0015003-1    | Jet Orsk - Kazakhstan (Aktobe) del     |
+|          |                | price index Low                        |
++----------+----------------+----------------------------------------+
+| Argus    | PA0015002-1    | Jet Orsk - Kazakhstan (Alma-Ata) del   |
+|          |                | price index Low                        |
++----------+----------------+----------------------------------------+
+| Argus    | PA0015001-1    | Jet Orsk - Kazakhstan (Astana) del     |
+|          |                | price index Low                        |
++----------+----------------+----------------------------------------+
+| Argus    | PA0015004-1    | Jet Orsk - Kazakhstan (Atyrau) del     |
+|          |                | price index Low                        |
++----------+----------------+----------------------------------------+
+| Argus    | PA0015005-1    | Jet Orsk - Kazakhstan (Karaganda) del  |
+|          |                | price index Low                        |
++----------+----------------+----------------------------------------+
+| Argus    | PA0015006-1    | Jet Orsk - Kazakhstan (Uralsk) del     |
+|          |                | price index Low                        |
++----------+----------------+----------------------------------------+
+| Argus    | PA0015007-1    | Jet Orsk - Kazakhstan                  |
+|          |                | (Ust-Kamenogorsk) del price index Low  |
++----------+----------------+----------------------------------------+
+| Argus    | PA0018005-1    | Jet/kerosine c+f Durban Low            |
++----------+----------------+----------------------------------------+
+| Argus    | PA0005630-1    | Jet/Kerosine Chimkent Low              |
++----------+----------------+----------------------------------------+
+| Argus    | PA0018507-1    | Jet/kerosine delivered west Africa $/t |
+|          |                | Low                                    |
++----------+----------------+----------------------------------------+
+| Argus    | PA0015000-1    | Jet/Kerosine fca Orsk Low              |
++----------+----------------+----------------------------------------+
+| Argus    | PA0009049-1    | Jet/Kerosine fit Moscow spot ex. VAT   |
+|          |                | Low                                    |
++----------+----------------+----------------------------------------+
+| Argus    | PA0009048-1    | Jet/Kerosine fit Moscow spot incl. VAT |
+|          |                | Low                                    |
++----------+----------------+----------------------------------------+
+| Argus    | PA0001016-1    | Jet/kerosine Japan c+f Low             |
++----------+----------------+----------------------------------------+
+| Argus    | PA0001017-1    | Jet/kerosine Mideast Gulf fob Low      |
++----------+----------------+----------------------------------------+
+| Argus    | PA0007734-1    | Jet/Kerosine Moscow formula ex. VAT    |
+|          |                | Low                                    |
++----------+----------------+----------------------------------------+
+| Argus    | PA0007733-1    | Jet/Kerosine Moscow formula incl. VAT  |
+|          |                | Low                                    |
++----------+----------------+----------------------------------------+
+| Argus    | PA0001025-1    | Jet/kerosine NWE barge Low             |
++----------+----------------+----------------------------------------+
+| Argus    | PA0001018-1    | Jet/kerosine NWE cif Low               |
++----------+----------------+----------------------------------------+
+| Argus    | PA0001026-1    | Jet/kerosine NWE fob Low               |
++----------+----------------+----------------------------------------+
+| Argus    | PA0005631-1    | Jet/Kerosine Pavlodar Low              |
++----------+----------------+----------------------------------------+
+| Argus    | PA0005336-1    | Jet/kerosine S Korea Low               |
++----------+----------------+----------------------------------------+
+| Argus    | PA0001019-1    | Jet/kerosine Singapore Low             |
++----------+----------------+----------------------------------------+
+| Argus    | PA0010050-1    | Jet/Kerosine SPIMEX Index Low          |
++----------+----------------+----------------------------------------+
+| Argus    | PA0009545-1    | Jet/kerosine W Med cif Low             |
++----------+----------------+----------------------------------------+
+| Argus    | PA0009549-1    | Jet/kerosine W Med cif diff to Jet fob |
+|          |                | W Med Low                              |
++----------+----------------+----------------------------------------+
+| Argus    | PA0001021-1    | Jet/kerosine W Med fob Low             |
++----------+----------------+----------------------------------------+
+| Argus    | PA0003952-1    | Kerosine Buckeye pipe fob Low          |
++----------+----------------+----------------------------------------+
+| Argus    | PA0016541-1    | Kerosine Buckeye pipe fob (AST) Low    |
++----------+----------------+----------------------------------------+
+| Argus    | PA0016533-1    | Kerosine Colonial 55 pipe fob (AST)    |
+|          |                | cycle Low                              |
++----------+----------------+----------------------------------------+
+| Argus    | PA0002762-1    | Kerosine Colonial 55 pipe fob cycle    |
+|          |                | Low                                    |
++----------+----------------+----------------------------------------+
+| Argus    | PA0001014-1    | Kerosine NYH barge fob 10 days fwd Low |
++----------+----------------+----------------------------------------+
+| Argus    | PA0002148-1    | Kerosine NYH barge fob 15 days fwd Low |
++----------+----------------+----------------------------------------+
+| Argus    | PA0002149-1    | Kerosine NYH barge fob 20 days fwd Low |
++----------+----------------+----------------------------------------+
+| Argus    | PA0001015-1    | Kerosine NYH barge fob prompt Low      |
++----------+----------------+----------------------------------------+
+| Argus    | PA0016523-1    | Kerosine NYH barge fob prompt (AST)    |
+|          |                | Low                                    |
++----------+----------------+----------------------------------------+
+| Argus    | PA0001022-1    | Kerosine NYH cargo del Low             |
++----------+----------------+----------------------------------------+
+| Argus    | PA0016567-1    | Kerosine ULSK Chicago pipe fob (AST)   |
+|          |                | cycle Low                              |
++----------+----------------+----------------------------------------+
+| Argus    | PA0004980-1    | Kerosine ULSK Chicago pipe fob cycle   |
+|          |                | Low                                    |
++----------+----------------+----------------------------------------+
+| Argus    | PA0004979-1    | Kerosine ULSK Group 3 Magellan Y pipe  |
+|          |                | fob prompt Low                         |
++----------+----------------+----------------------------------------+
+| Argus    | PA0016566-1    | Kerosine ULSK Group 3 Magellan Y pipe  |
+|          |                | fob prompt (AST) Low                   |
++----------+----------------+----------------------------------------+
+| Argus    | PA0004977-1    | Kerosine ULSK NYH barge fob Low        |
++----------+----------------+----------------------------------------+
+| Argus    | PA0016565-1    | Kerosine ULSK NYH barge fob (AST) Low  |
++----------+----------------+----------------------------------------+
+| Argus    | PA0004978-1    | Kerosine ULSK NYH cargo del Low        |
++----------+----------------+----------------------------------------+
+| Argus    | PA0001020-1    | Kerosine USGC waterborne fob Low       |
++----------+----------------+----------------------------------------+
+| Opis     | JETKEROAGLR1   | Jet Kerosene FOB Arab Gulf LR1         |
++----------+----------------+----------------------------------------+
+| Opis     | JETKEROAGLR2   | Jet Kerosene FOB Arab Gulf LR2         |
++----------+----------------+----------------------------------------+
+| Opis     | JETKEROKOR     | Jet Kerosene FOB Korea                 |
++----------+----------------+----------------------------------------+
+| Opis     | JETTAIW        | Jet Kerosene FOB Taiwan                |
++----------+----------------+----------------------------------------+
+| Opis     | JETKEROSING    | Jet Kerosene Singapore                 |
++----------+----------------+----------------------------------------+
+| Opis     | JETNWECGCIF    | Jet Fuel Northwest Europe Cargo Cif    |
++----------+----------------+----------------------------------------+
+| Opis     | JETNWECGFOB    | Jet Fuel Northwest Europe Cargo FOB    |
++----------+----------------+----------------------------------------+
+| Opis     | JETRTDBG       | Jet Fuel Rotterdam Barge FOB           |
++----------+----------------+----------------------------------------+
+| Opis     | JETMEDCG       | Jet Fuel Mediterranean Cargo FOB       |
++----------+----------------+----------------------------------------+
+| Opis     | JET450RTDBG    | Jet Fuel OPIS450 Rdam Barge            |
++----------+----------------+----------------------------------------+
+| Opis     | JET450DFSRTDBG | Jet Fuel OPIS450 Rdam Barge            |
+|          |                | Diff+Settle                            |
++----------+----------------+----------------------------------------+
+| Opis     | KEROBUCPL      | 55 Grade Kerosene Buckeye Pipeline     |
+|          |                | (NY)                                   |
++----------+----------------+----------------------------------------+
+| Opis     | JETBUCPL       | Jet 54 Grade Buckeye Pipeline (NY)     |
++----------+----------------+----------------------------------------+
+| Opis     | JETCHIPL       | Jet 54 Grade Chicago                   |
++----------+----------------+----------------------------------------+
+| Opis     | JETGR3PL       | Jet 54 Grade Group 3                   |
++----------+----------------+----------------------------------------+
+| Opis     | KEROUSGPL      | 55 Grade Kerosene Gulf Coast           |
++----------+----------------+----------------------------------------+
+| Opis     | JETUSGPL       | Jet 54 Grade Gulf Coast                |
++----------+----------------+----------------------------------------+
+| Opis     | ULSKUSGPL      | Ultra Low Sulfur Kerosene Gulf Coast   |
++----------+----------------+----------------------------------------+
+| Opis     | KEROUSGBG      | 55 Grade Kerosene Gulf Coast           |
+|          |                | Waterborne                             |
++----------+----------------+----------------------------------------+
+| Opis     | JETUSGBG       | Jet 54 Grade Gulf Coast Waterborne     |
++----------+----------------+----------------------------------------+
+| Opis     | JETLAUPL       | Jet 54 Grade Laurel Pipeline           |
++----------+----------------+----------------------------------------+
+| Opis     | JETLINPL       | Jet 54 Grade Linden Junction           |
++----------+----------------+----------------------------------------+
+| Opis     | JETLAXPL       | Jet LAX Los Angeles                    |
++----------+----------------+----------------------------------------+
+| Opis     | JETNYBG        | Jet 54 Grade NY Harbor Barge           |
++----------+----------------+----------------------------------------+
+| Opis     | KERONYBG       | 55 Grade Kerosene NY Harbor Barge      |
++----------+----------------+----------------------------------------+
+| Opis     | ULSKNYBG       | Ultra Low Sulfur Kerosene NY Harbor    |
+|          |                | Barge                                  |
++----------+----------------+----------------------------------------+
+| Opis     | JETNYCG        | Jet 54 Grade NY Harbor Cargo           |
++----------+----------------+----------------------------------------+
+| Opis     | JETPNWBG       | Jet 54 Grade Pacific Northwest         |
++----------+----------------+----------------------------------------+
+| Opis     | JETSFPL        | Jet 54 Grade San Francisco             |
++----------+----------------+----------------------------------------+
+
 
 --------------
 
