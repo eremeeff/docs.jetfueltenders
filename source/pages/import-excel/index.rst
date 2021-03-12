@@ -11,36 +11,7 @@ The process requires a one-time configuration and a strong knowledge of excel.  
 
 **In this video, I will show you how to upload your offers via an excel file.**
 
-Before you begin:
-
-#. Go to the tender invitation page
-#. Click on Export and select Export Tender Information
-   JetFuelTenders will generate a customised template with tender
-   information
-#. Open the downloaded Excel file
-   This file contains multiple sheets. Bids are entered in the following
-   three sheets:
-
-   -  Locations
-   -  Volume Base Fees & Taxes
-   -  Per Usage Base Fees & Taxes
-
-#. Go to the Locations sheet
-   Complete all mandatory fields in this sheet. Use the below
-   information to reference the input format.
-#. Go to the Volume Base Fees & Taxes
-   Input any related fees and taxes for each specific location. One fee
-   or tax per row
-#. Go to the Per Usage Base Fees & Taxes
-   Input any related fees and taxes for each specific location. One fee
-   or tax per row
-#. When ready, save the Excel document and upload it to
-   JetFuelTenders.com by clicking on the Import button on the tender page
-   or send this document to the airline via emails.
-
 This document is based on IATA XML Tender / Bid Fuel Data Standard.
-
-Here is a `sample Excel document <https://www.jetfueltenders.com/documents/4/Test_Import-tender-information.xlsx>`_ which you can use as reference.
 
 .. raw:: html
 

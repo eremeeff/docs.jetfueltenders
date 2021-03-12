@@ -32,8 +32,13 @@ locations (do not edit columns A - J)
 
 This document is based on IATA XML Tender / Bid Fuel Data Standard.
 
-NOTE: The bid importer is not case sensitive, so values can be input in
-lowercase or uppercase.
+Here is a `sample Excel document <https://www.jetfueltenders.com/documents/4/Test_Import-tender-information.xlsx>`_ which you can use as reference.
+
+.. note::
+    The bid importer is not case sensitive, so values can be input in
+    lowercase or uppercase.
+
+    You can delete row with the locations which you will not be submitting and only leave the row with the bids. Do not remove any row headers.
 
 Location Sheet - Field Details
 ==============================
