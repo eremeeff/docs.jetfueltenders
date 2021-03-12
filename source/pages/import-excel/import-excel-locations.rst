@@ -4,7 +4,7 @@ Before you begin:
 
 #. Go to the tender invitation page
 #. Click on Export and select Export Tender Information
-   JetFuelTenders will generate a customised template with tender
+   JetFuelTenders will generate a customized template with tender
    information
 #. Open the downloaded Excel file
    This file contains multiple sheets. Bids are entered in the following
@@ -18,14 +18,17 @@ Before you begin:
    Complete all mandatory fields in this sheet. Use the below
    information to reference the input format.
 #. Go to the Volume Base Fees & Taxes
-   Input any related fees and taxes for each specific locaiton. One fee
+   Input any related fees and taxes for each specific location. One fee
    or tax per row
 #. Go to the Per Usage Base Fees & Taxes
-   Input any related fees and taxes for each specific locaiton. One fee
+   Input any related fees and taxes for each specific location. One fee
    or tax per row
 #. When ready, save the Excel document and upload it to
-   JetFuelTenders.com by clickin on the Import button on the tender page
+   JetFuelTenders.com by clicking on the Import button on the tender page
    or send this document to the airline via emails.
+
+.. warning::
+    Please use the exported Excel file named "Tender Information" for importing bids. Not the "Tender Bids" file, as this file is used to export the bids which have already been input, this document serves are a report after the tender has been completed.
 
 The first 10 columns display the tender requirements for specified
 locations (do not edit columns A - J)
