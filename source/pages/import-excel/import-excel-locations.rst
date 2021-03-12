@@ -511,7 +511,6 @@ codes.
 ==== ================================================
 Code Description
 ==== ================================================
-Code Description
 WC   Weekly calendar days
 WT   Weekly trading days
 SC   Semimonthly calendar days
@@ -524,6 +523,8 @@ NC   1st-25th calendar days
 NT   1st-25th traded days
 FC   Fortnight (11th-25th)/(26th-10th) calendar days
 FT   Fortnight (11th-25th)/(26th-10th) traded days
+FCB  Fortnight (1st-25th)/(16th-31st) calendar days
+FTB  Fortnight (1st-25th)/(16th-31st) traded days
 XC   Semimonthly calendar days with deviating average
 XT   Semimonthly trading days with deviating average
 QC   Quarterly calendar days
@@ -1269,6 +1270,8 @@ NC   1st-25th calendar days
 NT   1st-25th traded days
 FC   Fortnight (11th-25th)/(26th-10th) calendar days
 FT   Fortnight (11th-25th)/(26th-10th) traded days
+FCB  Fortnight (1st-25th)/(16th-31st) calendar days
+FTB  Fortnight (1st-25th)/(16th-31st) traded days
 XC   Semimonthly calendar days with deviating average
 XT   Semimonthly trading days with deviating average
 QC   Quarterly calendar days
