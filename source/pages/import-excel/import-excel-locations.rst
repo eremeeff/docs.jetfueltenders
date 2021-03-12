@@ -28,7 +28,9 @@ Before you begin:
    or send this document to the airline via emails.
 
 .. warning::
-    Please use the exported Excel file named "Tender Information" for importing bids. Not the "Tender Bids" file, as this file is used to export the bids which have already been input, this document serves are a report after the tender has been completed.
+    Please use the exported Excel file named "Tender Information" for importing bids.
+
+    The "Tender Bids" file should not be used for importing bids, as this file is used to export bids which have already been input, this document serves are a report after the tender has been completed.
 
 The first 10 columns display the tender requirements for specified
 locations (do not edit columns A - J)
