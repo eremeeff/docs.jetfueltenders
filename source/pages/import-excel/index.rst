@@ -40,6 +40,8 @@ Before you begin:
 
 This document is based on IATA XML Tender / Bid Fuel Data Standard.
 
+Here is a `sample Excel document <https://www.jetfueltenders.com/documents/4/Test_Import-tender-information.xlsx>`_ which you can use as reference.
+
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; margin-bottom: 3em;">
