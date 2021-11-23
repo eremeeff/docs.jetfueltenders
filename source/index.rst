@@ -17,3 +17,4 @@ This section is intended to provide detailed information to JetFuelTenders.com u
     Export Tenders Information to Excel <pages/export-excel/index.rst>
     Import Tender Bids from Excel <pages/import-excel/index.rst>
     User Management <pages/user-management/index.rst>
+    Term Specifications <pages/term-specificaitons/index.rst>
