@@ -409,10 +409,10 @@ codes.
 =========== ===========
 Code        Description
 =========== ===========
-ach         ACH
-bank_wire   Bankwire
-check       Check
-credit_card Credit Card
+CA          Cash
+CC          Credit Card
+CN          Carnet
+CO          Contract
 =========== ===========
 
 --------------
