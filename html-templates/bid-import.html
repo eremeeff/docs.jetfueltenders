@@ -1,0 +1,12030 @@
+<p>This tutorial explains how to prepare the Excel file for Import.</p>
+
+<p>Before you begin:</p>
+<ol>
+    <li class="my-2">Go to the tender invitation page</li>
+    <li class="my-2">Click on Export and select Export Tender Information<br>JetFuelTenders will generate a customised template with tender information</li>
+	<li class="my-2">Open the downloaded Excel file<br>This file contains multiple sheets. Bids are entered in the following three sheets:<br><ul>
+        <li>Locations</li>
+        <li>Volume Base Fees & Taxes</li>
+        <li>Per Usage Base Fees & Taxes</li>
+    </ul></li>
+	<li class="my-2">Go to the Locations sheet<br>Complete all mandatory fields in this sheet. Use the below information to reference the input format.</li>
+    <li class="my-2">Go to the Volume Base Fees & Taxes<br>Input any related fees and taxes for each specific location. One fee or tax per row</li>
+    <li class="my-2">Go to the Per Usage Base Fees & Taxes<br>Input any related fees and taxes for each specific location. One fee or tax per row</li>
+    <li class="my-2">When ready, save the Excel document and upload it to JetFuelTenders.com by clickin on the Import button on the tender page or send this document to the airline via emails.</li>
+</ol>
+<p>The first 10 columns display the tender requirements for specified locations (do not edit columns A - J)</p>
+
+<p>This document is based on IATA XML Tender / Bid Fuel Data Standard.</p>
+
+<p>NOTE: The bid importer is not case sensitive, so values can be input in lower case or uppercase.</p>
+
+<h3 class="my-5 font-weight-bold">Location Sheet - Field Details</h3>
+<h4 class="font-weight-bold">Bid Round*</h4>
+<p>Example value: 1</p>
+<p>Description: Numerical identifier of the bid round</p>
+
+<hr>
+
+<h4 class="font-weight-bold">Open Invoice - Payment Terms</h4>
+<p>Conditional field: Only applicable and mandatory for "Open Invoice" payments, leave empty if prepayment is required.</p>
+<p>Example value: 3</p>
+<p>Description: Number of days between payment reference date and payment</p>
+<hr>
+<h4 class="font-weight-bold">Open Invoice - Payment Reference Date</h4>
+<p>Conditional field: Only applicable and mandatory for "Open Invoice" payments, leave empty if prepayment is required.</p>
+<p>Example value: LD</p>
+<p>Description: this field should be populated with one of the following codes</p>
+<table class="table">
+	<colgroup>
+	<col/>
+	<col/>
+</colgroup>
+<thead>
+	<tr>
+		<th>
+			Code
+		</th>
+		<th>
+			Description
+		</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>
+			FD
+		</td>
+		<td>
+			First Delivery Date
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ID
+		</td>
+		<td>
+			Invoice Date
+		</td>
+	</tr>
+	<tr>
+		<td>
+			LD
+		</td>
+		<td>
+			Last Delivery Date
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MD
+		</td>
+		<td>
+			Midpoint Delivery Date
+		</td>
+	</tr>
+	<tr>
+		<td>
+			IR
+		</td>
+		<td>
+			Invoice receiving date
+		</td>
+	</tr>
+</tbody>
+</table>
+
+<hr>
+<h4 class="font-weight-bold">Open Invoice - Invoice Frequency</h4>
+<p>Conditional field: Only applicable and mandatory for "Open Invoice" payments, leave empty if prepayment is required.</p>
+<p>Example value: D/1</p>
+<p>Description: this field should be populated with one of the following codes</p>
+<table class="table">
+	<colgroup>
+	<col/>
+	<col/>
+</colgroup>
+<thead>
+	<tr>
+		<th>
+			Code
+		</th>
+		<th>
+			Description
+		</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>
+			B/0
+		</td>
+		<td>
+			Per delivery (B/L)
+		</td>
+	</tr>
+	<tr>
+		<td>
+			D/1
+		</td>
+		<td>
+			Daily
+		</td>
+	</tr>
+	<tr>
+		<td>
+			D/3
+		</td>
+		<td>
+			Every 3 days
+		</td>
+	</tr>
+	<tr>
+		<td>
+			M30
+		</td>
+		<td>
+			Monthly
+		</td>
+	</tr>
+	<tr>
+		<td>
+			S/15
+		</td>
+		<td>
+			Semimonthly
+		</td>
+	</tr>
+	<tr>
+		<td>
+			T/10
+		</td>
+		<td>
+			Every 10 days
+		</td>
+	</tr>
+	<tr>
+		<td>
+			W/7
+		</td>
+		<td>
+			Weekly
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Q/4
+		</td>
+		<td>
+			Quarterly
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Q/2
+		</td>
+		<td>
+			Semiannually
+		</td>
+	</tr>
+	<tr>
+		<td>
+			A/1
+		</td>
+		<td>
+			Annually
+		</td>
+	</tr>
+</tbody>
+</table>
+
+<hr>
+
+<h4 class="font-weight-bold">Invoice Type</h4>
+<p>Example value: PDF</p>
+<p>Description: What format is used for sending invoices?<br>This field should be populated with one of the following codes.</p>
+<table class="table">
+	<colgroup>
+	<col/>
+	<col/>
+</colgroup>
+<thead>
+	<tr>
+		<th>
+			Code
+		</th>
+		<th>
+			Description
+		</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>
+			XML_3_2_1
+		</td>
+		<td>
+			XML_3_2_1
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XML_3_2_0
+		</td>
+		<td>
+			XML_3_2_0
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XML_3_1_0
+		</td>
+		<td>
+			XML_3_1_0
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XML_3_0_1
+		</td>
+		<td>
+			XML_3_0_1
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XML_3_0_0
+		</td>
+		<td>
+			XML_3_0_0
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XML_2_0_2
+		</td>
+		<td>
+			XML_2_0_2
+		</td>
+	</tr>
+	<tr>
+		<td>
+			EDI
+		</td>
+		<td>
+			EDI
+		</td>
+	</tr>
+	<tr>
+		<td>
+			PPR
+		</td>
+		<td>
+			Paper
+		</td>
+	</tr>
+	<tr>
+		<td>
+			PDF
+		</td>
+		<td>
+			PDF Format
+		</td>
+	</tr>
+	<tr>
+		<td>
+			EXC
+		</td>
+		<td>
+			Excel
+		</td>
+	</tr>
+</tbody>
+</table>
+<hr>
+
+
+
+
+<h4 class="font-weight-bold">Prepayment - Number Of Days Prepaid</h4>
+<p>Conditional field: Only applicable and mandatory for "Prepayment", leave empty if "Open Invoice" is used.</p>
+<p>Example value: 3</p>
+<p>Description: How many days of deliveries must prepayment cover?</p>
+<hr>
+
+<h4 class="font-weight-bold">Prepayment - Payment First Delivery Date</h4>
+<p>Conditional field: Only applicable and mandatory for "Prepayment", leave empty if "Open Invoice" is used.</p>
+<p>Example value: 3</p>
+<p>Description: Number of days prior to first delivery that payment is due</p>
+<hr>
+
+<h4 class="font-weight-bold">Prepayment - Payment Frequency</h4>
+<p>Conditional field: Only applicable and mandatory for "Prepayment", leave empty if "Open Invoice" is used.</p>
+<p>Example value: D/1</p>
+<p>Description: How often is the prepayment required. This field should be populated with one of the following codes.</p>
+<table class="table">
+	<colgroup>
+	<col/>
+	<col/>
+</colgroup>
+<thead>
+	<tr>
+		<th>
+			Code
+		</th>
+		<th>
+			Description
+		</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>
+			B/0
+		</td>
+		<td>
+			Per delivery (B/L)
+		</td>
+	</tr>
+	<tr>
+		<td>
+			D/1
+		</td>
+		<td>
+			Daily
+		</td>
+	</tr>
+	<tr>
+		<td>
+			D/3
+		</td>
+		<td>
+			Every 3 days
+		</td>
+	</tr>
+	<tr>
+		<td>
+			M30
+		</td>
+		<td>
+			Monthly
+		</td>
+	</tr>
+	<tr>
+		<td>
+			S/15
+		</td>
+		<td>
+			Semimonthly
+		</td>
+	</tr>
+	<tr>
+		<td>
+			T/10
+		</td>
+		<td>
+			Every 10 days
+		</td>
+	</tr>
+	<tr>
+		<td>
+			W/7
+		</td>
+		<td>
+			Weekly
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Q/4
+		</td>
+		<td>
+			Quarterly
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Q/2
+		</td>
+		<td>
+			Semiannually
+		</td>
+	</tr>
+	<tr>
+		<td>
+			A/1
+		</td>
+		<td>
+			Annually
+		</td>
+	</tr>
+</tbody>
+</table>
+<hr>
+
+<h4 class="font-weight-bold">Prepayment - Amount</h4>
+<p>Conditional field: Only applicable and mandatory for "Prepayment", leave empty if "Open Invoice" is used.</p>
+<p>Example value: 500</p>
+<p>Description: Specify the prepayment amount due in payment currency</p>
+<hr>
+
+<h4 class="font-weight-bold">Payment Currency*</h4>
+<p>Example value: USD</p>
+<p>Description: This field should be populated with one of the following codes.</p>
+<table class="table">
+	<colgroup>
+	<col/>
+	<col/>
+</colgroup>
+<thead>
+	<tr>
+		<th>
+			Code
+		</th>
+		<th>
+			Description
+		</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>
+			AED
+		</td>
+		<td>
+			United Arab Emirates, Dirhams
+		</td>
+	</tr>
+	<tr>
+		<td>
+			AFN
+		</td>
+		<td>
+			Afghanistan, Afghanis
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ALL
+		</td>
+		<td>
+			Albania, Leke
+		</td>
+	</tr>
+	<tr>
+		<td>
+			AMD
+		</td>
+		<td>
+			Armenia, Drams
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ANG
+		</td>
+		<td>
+			Netherlands Antilles, Guilders (also called Florins)
+		</td>
+	</tr>
+	<tr>
+		<td>
+			AOA
+		</td>
+		<td>
+			Angola, Kwanza
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ARS
+		</td>
+		<td>
+			Argentina, Pesos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			AUD
+		</td>
+		<td>
+			Australia, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			AWG
+		</td>
+		<td>
+			Aruba, Guilders (also called Florins)
+		</td>
+	</tr>
+	<tr>
+		<td>
+			AZM
+		</td>
+		<td>
+			Azerbaijan, Manats [obsolete]
+		</td>
+	</tr>
+	<tr>
+		<td>
+			AZN
+		</td>
+		<td>
+			Azerbaijan, New Manats
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BAM
+		</td>
+		<td>
+			Bosnia and Herzegovina, Convertible Marka
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BBD
+		</td>
+		<td>
+			Barbados, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BDT
+		</td>
+		<td>
+			Bangladesh, Taka
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BGN
+		</td>
+		<td>
+			Bulgaria, Leva
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BHD
+		</td>
+		<td>
+			Bahrain, Dinars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BIF
+		</td>
+		<td>
+			Burundi, Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BMD
+		</td>
+		<td>
+			Bermuda, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BND
+		</td>
+		<td>
+			Brunei Darussalam, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BOB
+		</td>
+		<td>
+			Bolivia, Bolivianos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BRL
+		</td>
+		<td>
+			Brazil, Brazil Real
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BSD
+		</td>
+		<td>
+			Bahamas, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BTN
+		</td>
+		<td>
+			Bhutan, Ngultrum
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BWP
+		</td>
+		<td>
+			Botswana, Pulas
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BYR
+		</td>
+		<td>
+			Belarus, Rubles
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BZD
+		</td>
+		<td>
+			Belize, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CAD
+		</td>
+		<td>
+			Canada, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CDF
+		</td>
+		<td>
+			Congo/Kinshasa, Congolese Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CHF
+		</td>
+		<td>
+			Switzerland, Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CLP
+		</td>
+		<td>
+			Chile, Pesos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CNY
+		</td>
+		<td>
+			China, Yuan Renminbi
+		</td>
+	</tr>
+	<tr>
+		<td>
+			COP
+		</td>
+		<td>
+			Colombia, Pesos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CRC
+		</td>
+		<td>
+			Costa Rica, Colones
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CUP
+		</td>
+		<td>
+			Cuba, Pesos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CVE
+		</td>
+		<td>
+			Cape Verde, Escudos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CYP
+		</td>
+		<td>
+			Cyprus, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CZK
+		</td>
+		<td>
+			Czech Republic, Koruny
+		</td>
+	</tr>
+	<tr>
+		<td>
+			DJF
+		</td>
+		<td>
+			Djibouti, Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			DKK
+		</td>
+		<td>
+			Denmark, Kroner
+		</td>
+	</tr>
+	<tr>
+		<td>
+			DOP
+		</td>
+		<td>
+			Dominican Republic, Pesos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			DZD
+		</td>
+		<td>
+			Algeria, Algeria Dinars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			EEK
+		</td>
+		<td>
+			Estonia, Krooni
+		</td>
+	</tr>
+	<tr>
+		<td>
+			EGP
+		</td>
+		<td>
+			Egypt, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ERN
+		</td>
+		<td>
+			Eritrea, Nakfa
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ETB
+		</td>
+		<td>
+			Ethiopia, Birr
+		</td>
+	</tr>
+	<tr>
+		<td>
+			EUR
+		</td>
+		<td>
+			Euro Member Countries, Euro
+		</td>
+	</tr>
+	<tr>
+		<td>
+			FJD
+		</td>
+		<td>
+			Fiji, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			FKP
+		</td>
+		<td>
+			Falkland Islands (Malvinas), Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GBP
+		</td>
+		<td>
+			United Kingdom, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GEL
+		</td>
+		<td>
+			Georgia, Lari
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GGP
+		</td>
+		<td>
+			Guernsey, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GHC
+		</td>
+		<td>
+			Ghana, Cedis
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GHS
+		</td>
+		<td>
+			Ghana, Cedis
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GIP
+		</td>
+		<td>
+			Gibraltar, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GMD
+		</td>
+		<td>
+			Gambia, Dalasi
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GNF
+		</td>
+		<td>
+			Guinea, Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GTQ
+		</td>
+		<td>
+			Guatemala, Quetzales
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GWP
+		</td>
+		<td>
+			Guinea-Bissau, Guinea-Bissau Peso&nbsp;
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GYD
+		</td>
+		<td>
+			Guyana, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			HKD
+		</td>
+		<td>
+			Hong Kong, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			HNL
+		</td>
+		<td>
+			Honduras, Lempiras
+		</td>
+	</tr>
+	<tr>
+		<td>
+			HRK
+		</td>
+		<td>
+			Croatia, Kuna
+		</td>
+	</tr>
+	<tr>
+		<td>
+			HTG
+		</td>
+		<td>
+			Haiti, Gourdes
+		</td>
+	</tr>
+	<tr>
+		<td>
+			HUF
+		</td>
+		<td>
+			Hungary, Forint
+		</td>
+	</tr>
+	<tr>
+		<td>
+			IDR
+		</td>
+		<td>
+			Indonesia, Rupiahs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ILS
+		</td>
+		<td>
+			Israel, New Shekels
+		</td>
+	</tr>
+	<tr>
+		<td>
+			IMP
+		</td>
+		<td>
+			Isle of Man, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			INR
+		</td>
+		<td>
+			India, Rupees
+		</td>
+	</tr>
+	<tr>
+		<td>
+			IQD
+		</td>
+		<td>
+			Iraq, Dinars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			IRR
+		</td>
+		<td>
+			Iran, Rials
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ISK
+		</td>
+		<td>
+			Iceland, Kronur
+		</td>
+	</tr>
+	<tr>
+		<td>
+			JEP
+		</td>
+		<td>
+			Jersey, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			JMD
+		</td>
+		<td>
+			Jamaica, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			JOD
+		</td>
+		<td>
+			Jordan, Dinars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			JPY
+		</td>
+		<td>
+			Japan, Yen
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KES
+		</td>
+		<td>
+			Kenya, Shillings
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KGS
+		</td>
+		<td>
+			Kyrgyzstan, Soms
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KHR
+		</td>
+		<td>
+			Cambodia, Riels
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KMF
+		</td>
+		<td>
+			Comoros, Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KPW
+		</td>
+		<td>
+			Korea (North), Won
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KRW
+		</td>
+		<td>
+			Korea (South), Won
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KWD
+		</td>
+		<td>
+			Kuwait, Dinars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KYD
+		</td>
+		<td>
+			Cayman Islands, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KZT
+		</td>
+		<td>
+			Kazakhstan, Tenge
+		</td>
+	</tr>
+	<tr>
+		<td>
+			LAK
+		</td>
+		<td>
+			Laos, Kips
+		</td>
+	</tr>
+	<tr>
+		<td>
+			LBP
+		</td>
+		<td>
+			Lebanon, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			LKR
+		</td>
+		<td>
+			Sri Lanka, Rupees
+		</td>
+	</tr>
+	<tr>
+		<td>
+			LRD
+		</td>
+		<td>
+			Liberia, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			LSL
+		</td>
+		<td>
+			Lesotho, Maloti
+		</td>
+	</tr>
+	<tr>
+		<td>
+			LTL
+		</td>
+		<td>
+			Lithuania, Litai
+		</td>
+	</tr>
+	<tr>
+		<td>
+			LVL
+		</td>
+		<td>
+			Latvia, Lati
+		</td>
+	</tr>
+	<tr>
+		<td>
+			LYD
+		</td>
+		<td>
+			Libya, Dinars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MAD
+		</td>
+		<td>
+			Morocco, Dirhams
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MDL
+		</td>
+		<td>
+			Moldova, Lei
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MGA
+		</td>
+		<td>
+			Madagascar, Ariary
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MKD
+		</td>
+		<td>
+			Macedonia, Denars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MMK
+		</td>
+		<td>
+			Myanmar (Burma), Kyats
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MNT
+		</td>
+		<td>
+			Mongolia, Tugriks
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MOP
+		</td>
+		<td>
+			Macau, Patacas
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MRO
+		</td>
+		<td>
+			Mauritania, Ouguiyas
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MTL
+		</td>
+		<td>
+			Malta, Liri
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MUR
+		</td>
+		<td>
+			Mauritius, Rupees
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MVR
+		</td>
+		<td>
+			Maldives (Maldive Islands), Rufiyaa
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MWK
+		</td>
+		<td>
+			Malawi, Kwachas
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MXN
+		</td>
+		<td>
+			Mexico, Pesos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MYR
+		</td>
+		<td>
+			Malaysia, Ringgits
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MZM
+		</td>
+		<td>
+			Mozambique, Meticais [obsolete]
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MZN
+		</td>
+		<td>
+			Mozambique, Meticais [newer unit, same name]
+		</td>
+	</tr>
+	<tr>
+		<td>
+			NAD
+		</td>
+		<td>
+			Namibia, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			NGN
+		</td>
+		<td>
+			Nigeria, Nairas
+		</td>
+	</tr>
+	<tr>
+		<td>
+			NIO
+		</td>
+		<td>
+			Nicaragua, Cordobas
+		</td>
+	</tr>
+	<tr>
+		<td>
+			NOK
+		</td>
+		<td>
+			Norway, Krone
+		</td>
+	</tr>
+	<tr>
+		<td>
+			NPR
+		</td>
+		<td>
+			Nepal, Nepal Rupees
+		</td>
+	</tr>
+	<tr>
+		<td>
+			NZD
+		</td>
+		<td>
+			New Zealand, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			OMR
+		</td>
+		<td>
+			Oman, Rials
+		</td>
+	</tr>
+	<tr>
+		<td>
+			PAB
+		</td>
+		<td>
+			Panama, Balboa
+		</td>
+	</tr>
+	<tr>
+		<td>
+			PEN
+		</td>
+		<td>
+			Peru, Nuevos Soles
+		</td>
+	</tr>
+	<tr>
+		<td>
+			PGK
+		</td>
+		<td>
+			Papua New Guinea, Kina
+		</td>
+	</tr>
+	<tr>
+		<td>
+			PHP
+		</td>
+		<td>
+			Philippines, Pesos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			PKR
+		</td>
+		<td>
+			Pakistan, Rupees
+		</td>
+	</tr>
+	<tr>
+		<td>
+			PLN
+		</td>
+		<td>
+			Poland, Zlotych
+		</td>
+	</tr>
+	<tr>
+		<td>
+			PYG
+		</td>
+		<td>
+			Paraguay, Guarani
+		</td>
+	</tr>
+	<tr>
+		<td>
+			QAR
+		</td>
+		<td>
+			Qatar, Rials
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ROL
+		</td>
+		<td>
+			Romania, Lei [obsolete]
+		</td>
+	</tr>
+	<tr>
+		<td>
+			RON
+		</td>
+		<td>
+			Romania, New Lei
+		</td>
+	</tr>
+	<tr>
+		<td>
+			RSD
+		</td>
+		<td>
+			Serbia, Dinars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			RUB
+		</td>
+		<td>
+			Russia, Rubles
+		</td>
+	</tr>
+	<tr>
+		<td>
+			RWF
+		</td>
+		<td>
+			Rwanda, Rwanda Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SAR
+		</td>
+		<td>
+			Saudi Arabia, Riyals
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SBD
+		</td>
+		<td>
+			Solomon Islands, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SCR
+		</td>
+		<td>
+			Seychelles, Rupees
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SDD
+		</td>
+		<td>
+			Sudan, Dinars [obsolete]
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SDG
+		</td>
+		<td>
+			Sudan, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SEK
+		</td>
+		<td>
+			Sweden, Kronor
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SGD
+		</td>
+		<td>
+			Singapore, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SHP
+		</td>
+		<td>
+			Saint Helena, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SIT
+		</td>
+		<td>
+			Slovenia, Tolars [obsolete]
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SKK
+		</td>
+		<td>
+			Slovakia, Koruny
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SLL
+		</td>
+		<td>
+			Sierra Leone, Leones
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SOS
+		</td>
+		<td>
+			Somalia, Shillings
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SPL
+		</td>
+		<td>
+			Seborga, Luigini
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SRD
+		</td>
+		<td>
+			Suriname, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			STD
+		</td>
+		<td>
+			S&atilde;o Tome and Principe, Dobras
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SVC
+		</td>
+		<td>
+			El Salvador, Colones
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SYP
+		</td>
+		<td>
+			Syria, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SZL
+		</td>
+		<td>
+			Swaziland, Emalangeni
+		</td>
+	</tr>
+	<tr>
+		<td>
+			THB
+		</td>
+		<td>
+			Thailand, Baht
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TJS
+		</td>
+		<td>
+			Tajikistan, Somoni
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TMM
+		</td>
+		<td>
+			Turkmenistan, Manats
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TND
+		</td>
+		<td>
+			Tunisia, Dinars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TOP
+		</td>
+		<td>
+			Tonga, Pa'anga
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TRY
+		</td>
+		<td>
+			Turkey, New Lira
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TTD
+		</td>
+		<td>
+			Trinidad and Tobago, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TVD
+		</td>
+		<td>
+			Tuvalu, Tuvalu Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TWD
+		</td>
+		<td>
+			Taiwan, New Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TZS
+		</td>
+		<td>
+			Tanzania, Shillings
+		</td>
+	</tr>
+	<tr>
+		<td>
+			UAH
+		</td>
+		<td>
+			Ukraine, Hryvnia
+		</td>
+	</tr>
+	<tr>
+		<td>
+			UGX
+		</td>
+		<td>
+			Uganda, Shillings
+		</td>
+	</tr>
+	<tr>
+		<td>
+			USD
+		</td>
+		<td>
+			United States of America, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			UYU
+		</td>
+		<td>
+			Uruguay, Pesos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			UZS
+		</td>
+		<td>
+			Uzbekistan, Sums
+		</td>
+	</tr>
+	<tr>
+		<td>
+			VEB
+		</td>
+		<td>
+			Venezuela, Bolivares
+		</td>
+	</tr>
+	<tr>
+		<td>
+			VND
+		</td>
+		<td>
+			Viet Nam, Dong
+		</td>
+	</tr>
+	<tr>
+		<td>
+			VUV
+		</td>
+		<td>
+			Vanuatu, Vatu
+		</td>
+	</tr>
+	<tr>
+		<td>
+			WST
+		</td>
+		<td>
+			Samoa, Tala
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XAF
+		</td>
+		<td>
+			Communaut&eacute; Financi&egrave;re Africaine BEAC, Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XAG
+		</td>
+		<td>
+			Silver, Ounces
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XAU
+		</td>
+		<td>
+			Gold, Ounces
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XCD
+		</td>
+		<td>
+			East Caribbean Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XDR
+		</td>
+		<td>
+			International Monetary Fund (IMF) Special Drawing Rights
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XOF
+		</td>
+		<td>
+			Communaut&eacute; Financi&egrave;re Africaine BCEAO, Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XPD
+		</td>
+		<td>
+			Palladium Ounces
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XPF
+		</td>
+		<td>
+			Comptoirs Fran&ccedil;ais du Pacifique Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XPT
+		</td>
+		<td>
+			Platinum, Ounces
+		</td>
+	</tr>
+	<tr>
+		<td>
+			YER
+		</td>
+		<td>
+			Yemen, Rials
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ZAR
+		</td>
+		<td>
+			South Africa, Rand
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ZMK
+		</td>
+		<td>
+			Zambia, Kwacha
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ZWD
+		</td>
+		<td>
+			Zimbabwe, Zimbabwe Dollars
+		</td>
+	</tr>
+</tbody>
+</table>
+
+<hr>
+
+<h4 class="font-weight-bold">Payment Unit*</h4>
+<p>Example value: USG</p>
+<p>Description: This field should be populated with one of the following codes.</p>
+<table class="table">
+	<colgroup>
+	<col/>
+	<col/>
+	</colgroup>
+	<thead>
+		<tr>
+			<th>
+				Code
+			</th>
+			<th>
+				Description
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				USG
+			</td>
+			<td>
+				US Gallons
+			</td>
+		</tr>
+		<tr>
+			<td>
+				KG
+			</td>
+			<td>
+				Kilograms
+			</td>
+		</tr>
+		<tr>
+			<td>
+				LBS
+			</td>
+			<td>
+				Pounds
+			</td>
+		</tr>
+		<tr>
+			<td>
+				LT
+			</td>
+			<td>
+				Liters
+			</td>
+		</tr>
+		<tr>
+			<td>
+				MT
+			</td>
+			<td>
+				Metric Ton
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BBL
+			</td>
+			<td>
+				Barrels
+			</td>
+		</tr>
+		<tr>
+			<td>
+				CBM
+			</td>
+			<td>
+				Cubic Metre
+			</td>
+		</tr>
+	</tbody>
+</table>
+<hr>
+
+<h4 class="font-weight-bold">Method Of Payment</h4>
+<p>Example value: bank_wire</p>
+<p>Description: This field should be populated with one of the following codes.</p>
+<table class="table">
+	<colgroup>
+		<col/>
+		<col/>
+	</colgroup>
+	<thead>
+		<tr>
+			<th>
+				Code
+			</th>
+			<th>
+				Description
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				ach
+			</td>
+			<td>
+				ACH
+			</td>
+		</tr>
+		<tr>
+			<td>
+				bank_wire
+			</td>
+			<td>
+				Bankwire
+			</td>
+		</tr>
+		<tr>
+			<td>
+				check
+			</td>
+			<td>
+				Check
+			</td>
+		</tr>
+		<tr>
+			<td>
+				credit_card
+			</td>
+			<td>
+				Credit Card
+			</td>
+		</tr>
+	</tbody>
+</table>
+<hr>
+
+<h4 class="font-weight-bold">Guarantees Deposits Required</h4>
+<p>Example value: Y</p>
+<p>Description: Indicate if any bank guarantees or money deposits are reqired. This field should be populated with one of the following codes.</p>
+<table class="table">
+	<colgroup>
+		<col/>
+		<col/>
+	</colgroup>
+	<thead>
+		<tr>
+			<th>
+				Code
+			</th>
+			<th>
+				Description
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				Y
+			</td>
+			<td>
+				Yes
+			</td>
+		</tr>
+		<tr>
+			<td>
+				N
+			</td>
+			<td>
+				No
+			</td>
+		</tr>
+	</tbody>
+</table>
+<hr>
+
+<h4 class="font-weight-bold">Payment - Exchange Financial Source</h4>
+<p>Example: ARGUS</p>
+<p>Description: This field should be populated with one of the following codes.</p>
+<table class="table">
+	<colgroup>
+		<col/>
+		<col/>
+	</colgroup>
+	<thead>
+		<tr>
+			<th>
+				Code
+			</th>
+			<th>
+				Description
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				ARGUS
+			</td>
+			<td>
+				ARGUS
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BOCD
+			</td>
+			<td>
+				Royal Bank of Canada
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BOCN
+			</td>
+			<td>
+				Bank of China
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BOJPN
+			</td>
+			<td>
+				Bank of Japan
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BOKO
+			</td>
+			<td>
+				Bank of Korea
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BONG
+			</td>
+			<td>
+				Central Bank of Nigeria
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BORUS
+			</td>
+			<td>
+				Central Bank of the Russian Federation
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BOSA
+			</td>
+			<td>
+				Bank of South Africa
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BOSAR
+			</td>
+			<td>
+				South African Reserve Bank
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BOTOK
+			</td>
+			<td>
+				Bank of Tokyo
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BOTRK
+			</td>
+			<td>
+				Central Bank of the Republic of Turkey
+			</td>
+		</tr>
+		<tr>
+			<td>
+				CSH
+			</td>
+			<td>
+				CS Holding
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BODN
+			</td>
+			<td>
+				Danish National Bank
+			</td>
+		</tr>
+		<tr>
+			<td>
+				DLH
+			</td>
+			<td>
+				Deutsch Lufthansa
+			</td>
+		</tr>
+		<tr>
+			<td>
+				ECB
+			</td>
+			<td>
+				European Central Bank
+			</td>
+		</tr>
+		<tr>
+			<td>
+				EGPC
+			</td>
+			<td>
+				EGPC
+			</td>
+		</tr>
+		<tr>
+			<td>
+				FEOP
+			</td>
+			<td>
+				Far East Oil Price
+			</td>
+		</tr>
+		<tr>
+			<td>
+				FT
+			</td>
+			<td>
+				Financial Times
+			</td>
+		</tr>
+		<tr>
+			<td>
+				GER CB
+			</td>
+			<td>
+				Deutsche Bundesbank
+			</td>
+		</tr>
+		<tr>
+			<td>
+				GLS
+			</td>
+			<td>
+				Global Insight, Daily Press
+			</td>
+		</tr>
+		<tr>
+			<td>
+				INDIAREFBANK
+			</td>
+			<td>
+				Reserve Bank of India
+			</td>
+		</tr>
+		<tr>
+			<td>
+				INT
+			</td>
+			<td>
+				Internal Department
+			</td>
+		</tr>
+		<tr>
+			<td>
+				IPE
+			</td>
+			<td>
+				International Petroleum Exchange
+			</td>
+		</tr>
+		<tr>
+			<td>
+				MSCI
+			</td>
+			<td>
+				Morgan Stanley Capital International
+			</td>
+		</tr>
+		<tr>
+			<td>
+				NATREF
+			</td>
+			<td>
+				National Petroleum Refiners of SA (Pty) Ltd
+			</td>
+		</tr>
+		<tr>
+			<td>
+				NYMEX
+			</td>
+			<td>
+				New York Mercantile Exchange
+			</td>
+		</tr>
+		<tr>
+			<td>
+				OPIS
+			</td>
+			<td>
+				Oil Price Information Service
+			</td>
+		</tr>
+		<tr>
+			<td>
+				PLATTS
+			</td>
+			<td>
+				PLATTS
+			</td>
+		</tr>
+		<tr>
+			<td>
+				SAP/IATA
+			</td>
+			<td>
+				SAP/IATA (internal)
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BAMAG
+			</td>
+			<td>
+				Bank Al Maghreb
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BOA
+			</td>
+			<td>
+				Bank of Africa Group
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BOEN
+			</td>
+			<td>
+				Bank of England
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BOPH
+			</td>
+			<td>
+				Bank of Philippine
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BOPOL
+			</td>
+			<td>
+				Bank of Poland
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BOTHA
+			</td>
+			<td>
+				Bank of Thailand
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BLOOMBERG
+			</td>
+			<td>
+				Bloomberg
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BOGIN
+			</td>
+			<td>
+				Central Bank of Guinea
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BOJOR
+			</td>
+			<td>
+				Central Bank of Jordan
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BOMYS
+			</td>
+			<td>
+				Central Bank of Malaysia
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BOSAU
+			</td>
+			<td>
+				Central Bank of Saudi Arabia
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BOTUN
+			</td>
+			<td>
+				Central Bank of Tunesia
+			</td>
+		</tr>
+		<tr>
+			<td>
+				CITI
+			</td>
+			<td>
+				Citi Bank
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BOETH
+			</td>
+			<td>
+				Comercial Bank of Ethiopia
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BOSSD
+			</td>
+			<td>
+				Comercial Bank of South Sudan
+			</td>
+		</tr>
+		<tr>
+			<td>
+				FMDQ
+			</td>
+			<td>
+				Financial Markets Dealers Association
+			</td>
+		</tr>
+		<tr>
+			<td>
+				FT
+			</td>
+			<td>
+				Financial Times
+			</td>
+		</tr>
+		<tr>
+			<td>
+				GLS
+			</td>
+			<td>
+				Global Insight
+			</td>
+		</tr>
+		<tr>
+			<td>
+				MORNINGSTAR
+			</td>
+			<td>
+				Morningstar
+			</td>
+		</tr>
+		<tr>
+			<td>
+				RCAA
+			</td>
+			<td>
+				RCAA
+			</td>
+		</tr>
+		<tr>
+			<td>
+				REUTERS
+			</td>
+			<td>
+				Reuters
+			</td>
+		</tr>
+		<tr>
+			<td>
+				WACFA
+			</td>
+			<td>
+				West African CFA franc
+			</td>
+		</tr>
+	</tbody>
+</table>
+<hr>
+
+<h4 class="font-weight-bold">Payment - Exchange Averaging Method</h4>
+<p>Example value: WT</p>
+<p>Description: This field should be populated with one of the following codes.</p>
+<table class="table">
+	<colgroup>
+		<col/>
+		<col/>
+	</colgroup>
+	<thead>
+		<tr>
+			<th>
+				Code
+			</th>
+			<th>
+				Description
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				Code
+			</td>
+			<td>
+				Description
+			</td>
+		</tr>
+		<tr>
+			<td>
+				WC
+			</td>
+			<td>
+				Weekly calendar days
+			</td>
+		</tr>
+		<tr>
+			<td>
+				WT
+			</td>
+			<td>
+				Weekly trading days
+			</td>
+		</tr>
+		<tr>
+			<td>
+				SC
+			</td>
+			<td>
+				Semimonthly calendar days
+			</td>
+		</tr>
+		<tr>
+			<td>
+				ST
+			</td>
+			<td>
+				Semimonthly trading days
+			</td>
+		</tr>
+		<tr>
+			<td>
+				MC
+			</td>
+			<td>
+				Monthly calendar days
+			</td>
+		</tr>
+		<tr>
+			<td>
+				MT
+			</td>
+			<td>
+				Monthly trading days
+			</td>
+		</tr>
+		<tr>
+			<td>
+				DC
+			</td>
+			<td>
+				Daily calendar days
+			</td>
+		</tr>
+		<tr>
+			<td>
+				IR
+			</td>
+			<td>
+				Irregular
+			</td>
+		</tr>
+		<tr>
+			<td>
+				NC
+			</td>
+			<td>
+				1st-25th calendar days
+			</td>
+		</tr>
+		<tr>
+			<td>
+				NT
+			</td>
+			<td>
+				1st-25th traded days
+			</td>
+		</tr>
+		<tr>
+			<td>
+				FC
+			</td>
+			<td>
+				Fortnight (11th-25th)/(26th-10th) calendar days
+			</td>
+		</tr>
+		<tr>
+			<td>
+				FT
+			</td>
+			<td>
+				Fortnight (11th-25th)/(26th-10th) traded days
+			</td>
+		</tr>
+		<tr>
+			<td>
+				XC
+			</td>
+			<td>
+				Semimonthly calendar days with deviating average
+			</td>
+		</tr>
+		<tr>
+			<td>
+				XT
+			</td>
+			<td>
+				Semimonthly trading days with deviating average
+			</td>
+		</tr>
+		<tr>
+			<td>
+				QC
+			</td>
+			<td>
+				Quarterly calendar days
+			</td>
+		</tr>
+		<tr>
+			<td>
+				QT
+			</td>
+			<td>
+				Quarterly traded days
+			</td>
+		</tr>
+		<tr>
+			<td>
+				M20C
+			</td>
+			<td>
+				Monthly [20] calendar
+			</td>
+		</tr>
+		<tr>
+			<td>
+				M20T
+			</td>
+			<td>
+				Monthly [20] traded
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<hr>
+
+<h4 class="font-weight-bold">Payment - Exchange Averaging Offset</h4>
+<p>Example value: N-1</p>
+<p>Description: This field should be populated with one of the following codes.</p>
+<table class="table">
+	<colgroup>
+		<col/>
+		<col/>
+	</colgroup>
+	<thead>
+		<tr>
+			<th>
+				Code
+			</th>
+			<th>
+				Description
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				N+0
+			</td>
+			<td>
+				Current period
+			</td>
+		</tr>
+		<tr>
+			<td>
+				N-1
+			</td>
+			<td>
+				Previous period
+			</td>
+		</tr>
+		<tr>
+			<td>
+				N-2
+			</td>
+			<td>
+				Period before previous period
+			</td>
+		</tr>
+		<tr>
+			<td>
+				N+1
+			</td>
+			<td>
+				Next period
+			</td>
+		</tr>
+	</tbody>
+</table>
+<hr>
+
+<h4 class="font-weight-bold">Supply Conditions Comments</h4>
+<p>Description: Provide any comments related to the supply conditions</p>
+<hr>
+
+<h4 class="font-weight-bold">Delivery Point*</h4>
+<p>Example value: Ex-hydrant</p>
+<p>Description: This field should be populated with one of the following codes.</p>
+<table class="table">
+	<colgroup>
+		<col/>
+		<col/>
+	</colgroup>
+	<thead>
+		<tr>
+			<th>
+				Code
+			</th>
+			<th>
+				Description
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				Ex-hydrant
+			</td>
+			<td>
+				EX-hydrant
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Ex-Rack
+			</td>
+			<td>
+				Ex-Rack
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Into wing
+			</td>
+			<td>
+				Into wing
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Into storage
+			</td>
+			<td>
+				Into storage
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Into pipeline
+			</td>
+			<td>
+				Into pipeline
+			</td>
+		</tr>
+	</tbody>
+</table>
+<hr>
+
+<h4 class="font-weight-bold">Index - Provider</h4>
+<p>Conditional field: Only applicable and mandatory for Index based prices, leave empty if this location uses market price base.</p>
+<p>Example value: Platts</p>
+<p>Description: This field should be populated with one of the following codes.</p>
+<table class="table">
+	<colgroup>
+		<col/>
+		<col/>
+	</colgroup>
+	<thead>
+		<tr>
+			<th>
+				Code
+			</th>
+			<th>
+				Description
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				Platts
+			</td>
+			<td>
+				Platts
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Argus
+			</td>
+			<td>
+				Argus
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Opis
+			</td>
+			<td>
+				Opis
+			</td>
+		</tr>
+		<tr>
+			<td>
+				DDS
+			</td>
+			<td>
+				DDS
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Other
+			</td>
+			<td>
+				Other
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<hr>
+
+<h4 class="font-weight-bold">Index - Code</h4>
+<p>Example value: AAFIY00h</p>
+<p>Description: None that the index bate is specified as the last later of the code. There are 2 options available h for high and l for low. This field should be populated with one of the following codes.</p>
+<table class="table">
+	<colgroup>
+		<col/>
+		<col/>
+	</colgroup>
+	<thead>
+		<tr>
+			<th>
+				Provider
+			</th>
+			<th>
+				Code
+			</th>
+			<th>
+				Description
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			AAFIY00h
+		</td>
+		<td>
+			Jet Kero C+F Australia Cargo High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			AAIDL00h
+		</td>
+		<td>
+			Jet FOB Med Cargo High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			AAIDN00h
+		</td>
+		<td>
+			Jet FOB Med Premium Cargo High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			AAJNL00h
+		</td>
+		<td>
+			Jet Kero New Jersey Buckeye Pipeline High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			AAKNZ00h
+		</td>
+		<td>
+			Jet Kero LR2 FOB Arab Gulf Cargo High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			AAQWL00h
+		</td>
+		<td>
+			Jet Kero MOP West India $/bbl High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			AAQWM00h
+		</td>
+		<td>
+			Jet Kero MOP West India $/mt High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			AAVTH00h
+		</td>
+		<td>
+			Jet Kero ULS New York Harbor Cargo High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			AAVTI00h
+		</td>
+		<td>
+			Jet Kero ULS New York Harbor Barge High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			AAVTJ00h
+		</td>
+		<td>
+			Jet Kero ULS Boston Cargo High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			AAVTK00h
+		</td>
+		<td>
+			Jet Kero ULS USGC Waterborne High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			AAVTL00h
+		</td>
+		<td>
+			Jet Kero ULS USGC Prompt Pipeline High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			AAXPV00h
+		</td>
+		<td>
+			Jet Kero 54 USAC Linden Pipeline prompt cycle assessment High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			AAZBN00h
+		</td>
+		<td>
+			Jet CIF Med Cargo High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJAAA00h
+		</td>
+		<td>
+			Jet Kero FOB Arab Gulf Cargo High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJAAD00h
+		</td>
+		<td>
+			Jet Kero Caribbean Cargo $/mt High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJAAD10h
+		</td>
+		<td>
+			Jet Kero Caribbean Cargo cts/gal High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJAAF00h
+		</td>
+		<td>
+			Jet Kero FOB Chicago Pipe High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJAAI00h
+		</td>
+		<td>
+			Jet Kero Group 3 Pipeline High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJAAN00h
+		</td>
+		<td>
+			Jet Kero C+F Japan Cargo High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJAAP00h
+		</td>
+		<td>
+			Jet Kero Los Angeles CA Pipeline High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJAAU00h
+		</td>
+		<td>
+			Jet CIF NWE Cargo High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJAAV00h
+		</td>
+		<td>
+			Jet FOB NWE Cargo High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJAAW00h
+		</td>
+		<td>
+			Jet Kero New York Harbor Barge High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJAAX00h
+		</td>
+		<td>
+			Jet Kero New York Harbor Cargo High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJABA00h
+		</td>
+		<td>
+			Jet FOB Rdam Barge High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJABC00h
+		</td>
+		<td>
+			Jet Kero San Francisco CA Pipeline High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJABF00h
+		</td>
+		<td>
+			Jet Kero FOB Spore Cargo High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJABI00h
+		</td>
+		<td>
+			Jet Kero USWC Waterborne High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJABJ00h
+		</td>
+		<td>
+			Jet Kero LS New York Harbor Barge High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJABK00h
+		</td>
+		<td>
+			Jet Kero LS New York Harbor Cargo High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJABL00h
+		</td>
+		<td>
+			Jet Kero LS Boston Cargo High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJABM00h
+		</td>
+		<td>
+			Jet Kero 54 USGC Waterborne High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJABN00h
+		</td>
+		<td>
+			Jet Kero 55 USGC Waterborne High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJABO00h
+		</td>
+		<td>
+			Jet Kero 54 USGC Prompt Pipeline High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJABP00h
+		</td>
+		<td>
+			Jet Kero 55 USGC Prompt Pipeline High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJABQ00h
+		</td>
+		<td>
+			Jet Kero C+F South China Cargo High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJACB00h
+		</td>
+		<td>
+			Jet Kero ULS No1 Group 3 Pipeline High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJACD00h
+		</td>
+		<td>
+			Jet Kero ULS No1 FOB Chicago Pipe High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJADG00h
+		</td>
+		<td>
+			Jet Kero FOB Korea Cargo High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PTAEO09h
+		</td>
+		<td>
+			Jet Carib Shell W High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			AAFIY00l
+		</td>
+		<td>
+			Jet Kero C+F Australia Cargo Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			AAIDL00l
+		</td>
+		<td>
+			Jet FOB Med Cargo Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			AAIDN00l
+		</td>
+		<td>
+			Jet FOB Med Premium Cargo Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			AAJNL00l
+		</td>
+		<td>
+			Jet Kero New Jersey Buckeye Pipeline Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			AAKNZ00l
+		</td>
+		<td>
+			Jet Kero LR2 FOB Arab Gulf Cargo Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			AAQWL00l
+		</td>
+		<td>
+			Jet Kero MOP West India $/bbl Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			AAQWM00l
+		</td>
+		<td>
+			Jet Kero MOP West India $/mt Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			AAVTH00l
+		</td>
+		<td>
+			Jet Kero ULS New York Harbor Cargo Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			AAVTI00l
+		</td>
+		<td>
+			Jet Kero ULS New York Harbor Barge Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			AAVTJ00l
+		</td>
+		<td>
+			Jet Kero ULS Boston Cargo Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			AAVTK00l
+		</td>
+		<td>
+			Jet Kero ULS USGC Waterborne Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			AAVTL00l
+		</td>
+		<td>
+			Jet Kero ULS USGC Prompt Pipeline Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			AAXPV00l
+		</td>
+		<td>
+			Jet Kero 54 USAC Linden Pipeline prompt cycle assessment Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			AAZBN00l
+		</td>
+		<td>
+			Jet CIF Med Cargo Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJAAA00l
+		</td>
+		<td>
+			Jet Kero FOB Arab Gulf Cargo Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJAAD00l
+		</td>
+		<td>
+			Jet Kero Caribbean Cargo $/mt Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJAAD10l
+		</td>
+		<td>
+			Jet Kero Caribbean Cargo cts/gal Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJAAF00l
+		</td>
+		<td>
+			Jet Kero FOB Chicago Pipe Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJAAI00l
+		</td>
+		<td>
+			Jet Kero Group 3 Pipeline Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJAAN00l
+		</td>
+		<td>
+			Jet Kero C+F Japan Cargo Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJAAP00l
+		</td>
+		<td>
+			Jet Kero Los Angeles CA Pipeline Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJAAU00l
+		</td>
+		<td>
+			Jet CIF NWE Cargo Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJAAV00l
+		</td>
+		<td>
+			Jet FOB NWE Cargo Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJAAW00l
+		</td>
+		<td>
+			Jet Kero New York Harbor Barge Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJAAX00l
+		</td>
+		<td>
+			Jet Kero New York Harbor Cargo Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJABA00l
+		</td>
+		<td>
+			Jet FOB Rdam Barge Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJABC00l
+		</td>
+		<td>
+			Jet Kero San Francisco CA Pipeline Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJABF00l
+		</td>
+		<td>
+			Jet Kero FOB Spore Cargo Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJABI00l
+		</td>
+		<td>
+			Jet Kero USWC Waterborne Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJABJ00l
+		</td>
+		<td>
+			Jet Kero LS New York Harbor Barge Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJABK00l
+		</td>
+		<td>
+			Jet Kero LS New York Harbor Cargo Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJABL00l
+		</td>
+		<td>
+			Jet Kero LS Boston Cargo Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJABM00l
+		</td>
+		<td>
+			Jet Kero 54 USGC Waterborne Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJABN00l
+		</td>
+		<td>
+			Jet Kero 55 USGC Waterborne Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJABO00l
+		</td>
+		<td>
+			Jet Kero 54 USGC Prompt Pipeline Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJABP00l
+		</td>
+		<td>
+			Jet Kero 55 USGC Prompt Pipeline Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJABQ00l
+		</td>
+		<td>
+			Jet Kero C+F South China Cargo Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJACB00l
+		</td>
+		<td>
+			Jet Kero ULS No1 Group 3 Pipeline Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJACD00l
+		</td>
+		<td>
+			Jet Kero ULS No1 FOB Chicago Pipe Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PJADG00l
+		</td>
+		<td>
+			Jet Kero FOB Korea Cargo Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Platts
+		</td>
+		<td>
+			PTAEO09l
+		</td>
+		<td>
+			Jet Carib Shell W Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0003951-2
+		</td>
+		<td>
+			Jet fuel Buckeye pipe fob High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0002901-2
+		</td>
+		<td>
+			Jet fuel Chicago pipe fob cycle High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0002760-2
+		</td>
+		<td>
+			Jet fuel Colonial 54 pipe fob cycle High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0004245-2
+		</td>
+		<td>
+			Jet fuel Colonial 54 pipe fob wtd avg cycle High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0003948-2
+		</td>
+		<td>
+			Jet fuel Group 3 Magellan Q pipe fob High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0001024-2
+		</td>
+		<td>
+			Jet fuel LA pipe fob month High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0018544-2
+		</td>
+		<td>
+			Jet fuel LA pipe fob wtd avg month High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0003953-2
+		</td>
+		<td>
+			Jet fuel Laurel pipe fob High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0001011-2
+		</td>
+		<td>
+			Jet fuel NYH barge fob 10 days fwd High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0001012-2
+		</td>
+		<td>
+			Jet fuel NYH barge fob 15 days fwd High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0002147-2
+		</td>
+		<td>
+			Jet fuel NYH barge fob 20 days fwd High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0001010-2
+		</td>
+		<td>
+			Jet fuel NYH barge fob prompt High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0005171-2
+		</td>
+		<td>
+			Jet fuel NYH cargo del High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0014711-2
+		</td>
+		<td>
+			Jet fuel NYH offline Colonial 54 pipe del cycle
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0001027-2
+		</td>
+		<td>
+			Jet fuel SF pipe fob month
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0003945-2
+		</td>
+		<td>
+			Jet fuel USGC waterborne fob
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0015003-2
+		</td>
+		<td>
+			Jet Orsk - Kazakhstan (Aktobe) del price index High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0015002-2
+		</td>
+		<td>
+			Jet Orsk - Kazakhstan (Alma-Ata) del price index High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0015001-2
+		</td>
+		<td>
+			Jet Orsk - Kazakhstan (Astana) del price index High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0015004-2
+		</td>
+		<td>
+			Jet Orsk - Kazakhstan (Atyrau) del price index High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0015005-2
+		</td>
+		<td>
+			Jet Orsk - Kazakhstan (Karaganda) del price index High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0015006-2
+		</td>
+		<td>
+			Jet Orsk - Kazakhstan (Uralsk) del price index High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0015007-2
+		</td>
+		<td>
+			Jet Orsk - Kazakhstan (Ust-Kamenogorsk) del price index High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0018005-2
+		</td>
+		<td>
+			Jet/kerosine c+f Durban High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0005630-2
+		</td>
+		<td>
+			Jet/Kerosine Chimkent High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0018507-2
+		</td>
+		<td>
+			Jet/kerosine delivered west Africa $/t High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0015000-2
+		</td>
+		<td>
+			Jet/Kerosine fca Orsk High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0009049-2
+		</td>
+		<td>
+			Jet/Kerosine fit Moscow spot ex. VAT High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0009048-2
+		</td>
+		<td>
+			Jet/Kerosine fit Moscow spot incl. VAT High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0001016-2
+		</td>
+		<td>
+			Jet/kerosine Japan c+f High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0001017-2
+		</td>
+		<td>
+			Jet/kerosine Mideast Gulf fob High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0007734-2
+		</td>
+		<td>
+			Jet/Kerosine Moscow formula ex. VAT High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0007733-2
+		</td>
+		<td>
+			Jet/Kerosine Moscow formula incl. VAT High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0001025-2
+		</td>
+		<td>
+			Jet/kerosine NWE barge High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0001018-2
+		</td>
+		<td>
+			Jet/kerosine NWE cif High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0001026-2
+		</td>
+		<td>
+			Jet/kerosine NWE fob High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0005631-2
+		</td>
+		<td>
+			Jet/Kerosine Pavlodar High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0005336-2
+		</td>
+		<td>
+			Jet/kerosine S Korea High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0001019-2
+		</td>
+		<td>
+			Jet/kerosine Singapore High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0010050-2
+		</td>
+		<td>
+			Jet/Kerosine SPIMEX Index High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0009545-2
+		</td>
+		<td>
+			Jet/kerosine W Med cif High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0009549-2
+		</td>
+		<td>
+			Jet/kerosine W Med cif diff to Jet fob W Med High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0001021-2
+		</td>
+		<td>
+			Jet/kerosine W Med fob High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0003952-2
+		</td>
+		<td>
+			Kerosine Buckeye pipe fob High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0016541-2
+		</td>
+		<td>
+			Kerosine Buckeye pipe fob (AST) High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0016533-2
+		</td>
+		<td>
+			Kerosine Colonial 55 pipe fob (AST) cycle High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0002762-2
+		</td>
+		<td>
+			Kerosine Colonial 55 pipe fob cycle High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0001014-2
+		</td>
+		<td>
+			Kerosine NYH barge fob 10 days fwd High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0002148-2
+		</td>
+		<td>
+			Kerosine NYH barge fob 15 days fwd High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0002149-2
+		</td>
+		<td>
+			Kerosine NYH barge fob 20 days fwd High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0001015-2
+		</td>
+		<td>
+			Kerosine NYH barge fob prompt High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0016523-2
+		</td>
+		<td>
+			Kerosine NYH barge fob prompt (AST) High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0001022-2
+		</td>
+		<td>
+			Kerosine NYH cargo del High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0016567-2
+		</td>
+		<td>
+			Kerosine ULSK Chicago pipe fob (AST) cycle High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0004980-2
+		</td>
+		<td>
+			Kerosine ULSK Chicago pipe fob cycle High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0004979-2
+		</td>
+		<td>
+			Kerosine ULSK Group 3 Magellan Y pipe fob prompt High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0016566-2
+		</td>
+		<td>
+			Kerosine ULSK Group 3 Magellan Y pipe fob prompt (AST) High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0004977-2
+		</td>
+		<td>
+			Kerosine ULSK NYH barge fob High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0016565-2
+		</td>
+		<td>
+			Kerosine ULSK NYH barge fob (AST) High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0004978-2
+		</td>
+		<td>
+			Kerosine ULSK NYH cargo del High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0001020-2
+		</td>
+		<td>
+			Kerosine USGC waterborne fob High
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0003951-1
+		</td>
+		<td>
+			Jet fuel Buckeye pipe fob Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0002901-1
+		</td>
+		<td>
+			Jet fuel Chicago pipe fob cycle Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0002760-1
+		</td>
+		<td>
+			Jet fuel Colonial 54 pipe fob cycle Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0004245-1
+		</td>
+		<td>
+			Jet fuel Colonial 54 pipe fob wtd avg cycle Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0003948-1
+		</td>
+		<td>
+			Jet fuel Group 3 Magellan Q pipe fob Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0001024-1
+		</td>
+		<td>
+			Jet fuel LA pipe fob month Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0018544-1
+		</td>
+		<td>
+			Jet fuel LA pipe fob wtd avg month Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0003953-1
+		</td>
+		<td>
+			Jet fuel Laurel pipe fob Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0001011-1
+		</td>
+		<td>
+			Jet fuel NYH barge fob 10 days fwd Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0001012-1
+		</td>
+		<td>
+			Jet fuel NYH barge fob 15 days fwd Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0002147-1
+		</td>
+		<td>
+			Jet fuel NYH barge fob 20 days fwd Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0001010-1
+		</td>
+		<td>
+			Jet fuel NYH barge fob prompt Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0005171-1
+		</td>
+		<td>
+			Jet fuel NYH cargo del Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0014711-1
+		</td>
+		<td>
+			Jet fuel NYH offline Colonial 54 pipe del cycle Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0001027-1
+		</td>
+		<td>
+			Jet fuel SF pipe fob month Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0003945-1
+		</td>
+		<td>
+			Jet fuel USGC waterborne fob Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0015003-1
+		</td>
+		<td>
+			Jet Orsk - Kazakhstan (Aktobe) del price index Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0015002-1
+		</td>
+		<td>
+			Jet Orsk - Kazakhstan (Alma-Ata) del price index Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0015001-1
+		</td>
+		<td>
+			Jet Orsk - Kazakhstan (Astana) del price index Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0015004-1
+		</td>
+		<td>
+			Jet Orsk - Kazakhstan (Atyrau) del price index Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0015005-1
+		</td>
+		<td>
+			Jet Orsk - Kazakhstan (Karaganda) del price index Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0015006-1
+		</td>
+		<td>
+			Jet Orsk - Kazakhstan (Uralsk) del price index Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0015007-1
+		</td>
+		<td>
+			Jet Orsk - Kazakhstan (Ust-Kamenogorsk) del price index Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0018005-1
+		</td>
+		<td>
+			Jet/kerosine c+f Durban Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0005630-1
+		</td>
+		<td>
+			Jet/Kerosine Chimkent Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0018507-1
+		</td>
+		<td>
+			Jet/kerosine delivered west Africa $/t Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0015000-1
+		</td>
+		<td>
+			Jet/Kerosine fca Orsk Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0009049-1
+		</td>
+		<td>
+			Jet/Kerosine fit Moscow spot ex. VAT Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0009048-1
+		</td>
+		<td>
+			Jet/Kerosine fit Moscow spot incl. VAT Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0001016-1
+		</td>
+		<td>
+			Jet/kerosine Japan c+f Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0001017-1
+		</td>
+		<td>
+			Jet/kerosine Mideast Gulf fob Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0007734-1
+		</td>
+		<td>
+			Jet/Kerosine Moscow formula ex. VAT Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0007733-1
+		</td>
+		<td>
+			Jet/Kerosine Moscow formula incl. VAT Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0001025-1
+		</td>
+		<td>
+			Jet/kerosine NWE barge Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0001018-1
+		</td>
+		<td>
+			Jet/kerosine NWE cif Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0001026-1
+		</td>
+		<td>
+			Jet/kerosine NWE fob Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0005631-1
+		</td>
+		<td>
+			Jet/Kerosine Pavlodar Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0005336-1
+		</td>
+		<td>
+			Jet/kerosine S Korea Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0001019-1
+		</td>
+		<td>
+			Jet/kerosine Singapore Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0010050-1
+		</td>
+		<td>
+			Jet/Kerosine SPIMEX Index Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0009545-1
+		</td>
+		<td>
+			Jet/kerosine W Med cif Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0009549-1
+		</td>
+		<td>
+			Jet/kerosine W Med cif diff to Jet fob W Med Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0001021-1
+		</td>
+		<td>
+			Jet/kerosine W Med fob Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0003952-1
+		</td>
+		<td>
+			Kerosine Buckeye pipe fob Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0016541-1
+		</td>
+		<td>
+			Kerosine Buckeye pipe fob (AST) Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0016533-1
+		</td>
+		<td>
+			Kerosine Colonial 55 pipe fob (AST) cycle Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0002762-1
+		</td>
+		<td>
+			Kerosine Colonial 55 pipe fob cycle Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0001014-1
+		</td>
+		<td>
+			Kerosine NYH barge fob 10 days fwd Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0002148-1
+		</td>
+		<td>
+			Kerosine NYH barge fob 15 days fwd Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0002149-1
+		</td>
+		<td>
+			Kerosine NYH barge fob 20 days fwd Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0001015-1
+		</td>
+		<td>
+			Kerosine NYH barge fob prompt Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0016523-1
+		</td>
+		<td>
+			Kerosine NYH barge fob prompt (AST) Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0001022-1
+		</td>
+		<td>
+			Kerosine NYH cargo del Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0016567-1
+		</td>
+		<td>
+			Kerosine ULSK Chicago pipe fob (AST) cycle Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0004980-1
+		</td>
+		<td>
+			Kerosine ULSK Chicago pipe fob cycle Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0004979-1
+		</td>
+		<td>
+			Kerosine ULSK Group 3 Magellan Y pipe fob prompt Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0016566-1
+		</td>
+		<td>
+			Kerosine ULSK Group 3 Magellan Y pipe fob prompt (AST) Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0004977-1
+		</td>
+		<td>
+			Kerosine ULSK NYH barge fob Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0016565-1
+		</td>
+		<td>
+			Kerosine ULSK NYH barge fob (AST) Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0004978-1
+		</td>
+		<td>
+			Kerosine ULSK NYH cargo del Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Argus
+		</td>
+		<td>
+			PA0001020-1
+		</td>
+		<td>
+			Kerosine USGC waterborne fob Low
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Opis
+		</td>
+		<td>
+			JETKEROAGLR1
+		</td>
+		<td>
+			Jet Kerosene FOB Arab Gulf LR1
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Opis
+		</td>
+		<td>
+			JETKEROAGLR2
+		</td>
+		<td>
+			Jet Kerosene FOB Arab Gulf LR2
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Opis
+		</td>
+		<td>
+			JETKEROKOR
+		</td>
+		<td>
+			Jet Kerosene FOB Korea
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Opis
+		</td>
+		<td>
+			JETTAIW
+		</td>
+		<td>
+			Jet Kerosene FOB Taiwan
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Opis
+		</td>
+		<td>
+			JETKEROSING
+		</td>
+		<td>
+			Jet Kerosene Singapore
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Opis
+		</td>
+		<td>
+			JETNWECGCIF
+		</td>
+		<td>
+			Jet Fuel Northwest Europe Cargo Cif
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Opis
+		</td>
+		<td>
+			JETNWECGFOB
+		</td>
+		<td>
+			Jet Fuel Northwest Europe Cargo FOB
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Opis
+		</td>
+		<td>
+			JETRTDBG
+		</td>
+		<td>
+			Jet Fuel Rotterdam Barge FOB
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Opis
+		</td>
+		<td>
+			JETMEDCG
+		</td>
+		<td>
+			Jet Fuel Mediterranean Cargo FOB
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Opis
+		</td>
+		<td>
+			JET450RTDBG
+		</td>
+		<td>
+			Jet Fuel OPIS450 Rdam Barge
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Opis
+		</td>
+		<td>
+			JET450DFSRTDBG
+		</td>
+		<td>
+			Jet Fuel OPIS450 Rdam Barge Diff+Settle
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Opis
+		</td>
+		<td>
+			KEROBUCPL
+		</td>
+		<td>
+			55 Grade Kerosene Buckeye Pipeline (NY)
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Opis
+		</td>
+		<td>
+			JETBUCPL
+		</td>
+		<td>
+			Jet 54 Grade Buckeye Pipeline (NY)
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Opis
+		</td>
+		<td>
+			JETCHIPL
+		</td>
+		<td>
+			Jet 54 Grade Chicago
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Opis
+		</td>
+		<td>
+			JETGR3PL
+		</td>
+		<td>
+			Jet 54 Grade Group 3
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Opis
+		</td>
+		<td>
+			KEROUSGPL
+		</td>
+		<td>
+			55 Grade Kerosene Gulf Coast
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Opis
+		</td>
+		<td>
+			JETUSGPL
+		</td>
+		<td>
+			Jet 54 Grade Gulf Coast
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Opis
+		</td>
+		<td>
+			ULSKUSGPL
+		</td>
+		<td>
+			Ultra Low Sulfur Kerosene Gulf Coast
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Opis
+		</td>
+		<td>
+			KEROUSGBG
+		</td>
+		<td>
+			55 Grade Kerosene Gulf Coast Waterborne
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Opis
+		</td>
+		<td>
+			JETUSGBG
+		</td>
+		<td>
+			Jet 54 Grade Gulf Coast Waterborne
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Opis
+		</td>
+		<td>
+			JETLAUPL
+		</td>
+		<td>
+			Jet 54 Grade Laurel Pipeline
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Opis
+		</td>
+		<td>
+			JETLINPL
+		</td>
+		<td>
+			Jet 54 Grade Linden Junction
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Opis
+		</td>
+		<td>
+			JETLAXPL
+		</td>
+		<td>
+			Jet LAX Los Angeles
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Opis
+		</td>
+		<td>
+			JETNYBG
+		</td>
+		<td>
+			Jet 54 Grade NY Harbor Barge
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Opis
+		</td>
+		<td>
+			KERONYBG
+		</td>
+		<td>
+			55 Grade Kerosene NY Harbor Barge
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Opis
+		</td>
+		<td>
+			ULSKNYBG
+		</td>
+		<td>
+			Ultra Low Sulfur Kerosene NY Harbor Barge
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Opis
+		</td>
+		<td>
+			JETNYCG
+		</td>
+		<td>
+			Jet 54 Grade NY Harbor Cargo
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Opis
+		</td>
+		<td>
+			JETPNWBG
+		</td>
+		<td>
+			Jet 54 Grade Pacific Northwest
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Opis
+		</td>
+		<td>
+			JETSFPL
+		</td>
+		<td>
+			Jet 54 Grade San Francisco
+		</td>
+	</tr>
+</tbody>
+</table>
+
+<hr>
+
+<h4 class="font-weight-bold">Index - Averaging Method</h4>
+<p>Conditional field: Only applicable and mandatory for Index based prices, leave empty if this location uses market price base.</p>
+<p>Example value: WT</p>
+<p>Description: This field should be populated with one of the following codes.</p>
+<table class="table">
+	<colgroup>
+		<col/>
+		<col/>
+	</colgroup>
+	<thead>
+		<tr>
+			<th>
+				Code
+			</th>
+			<th>
+				Description
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				WC
+			</td>
+			<td>
+				Weekly calendar days
+			</td>
+		</tr>
+		<tr>
+			<td>
+				WT
+			</td>
+			<td>
+				Weekly trading days
+			</td>
+		</tr>
+		<tr>
+			<td>
+				SC
+			</td>
+			<td>
+				Semimonthly calendar days
+			</td>
+		</tr>
+		<tr>
+			<td>
+				ST
+			</td>
+			<td>
+				Semimonthly trading days
+			</td>
+		</tr>
+		<tr>
+			<td>
+				MC
+			</td>
+			<td>
+				Monthly calendar days
+			</td>
+		</tr>
+		<tr>
+			<td>
+				MT
+			</td>
+			<td>
+				Monthly trading days
+			</td>
+		</tr>
+		<tr>
+			<td>
+				DC
+			</td>
+			<td>
+				Daily calendar days
+			</td>
+		</tr>
+		<tr>
+			<td>
+				IR
+			</td>
+			<td>
+				Irregular
+			</td>
+		</tr>
+		<tr>
+			<td>
+				NC
+			</td>
+			<td>
+				1st-25th calendar days
+			</td>
+		</tr>
+		<tr>
+			<td>
+				NT
+			</td>
+			<td>
+				1st-25th traded days
+			</td>
+		</tr>
+		<tr>
+			<td>
+				FC
+			</td>
+			<td>
+				Fortnight (11th-25th)/(26th-10th) calendar days
+			</td>
+		</tr>
+		<tr>
+			<td>
+				FT
+			</td>
+			<td>
+				Fortnight (11th-25th)/(26th-10th) traded days
+			</td>
+		</tr>
+		<tr>
+			<td>
+				XC
+			</td>
+			<td>
+				Semimonthly calendar days with deviating average
+			</td>
+		</tr>
+		<tr>
+			<td>
+				XT
+			</td>
+			<td>
+				Semimonthly trading days with deviating average
+			</td>
+		</tr>
+		<tr>
+			<td>
+				QC
+			</td>
+			<td>
+				Quarterly calendar days
+			</td>
+		</tr>
+		<tr>
+			<td>
+				QT
+			</td>
+			<td>
+				Quarterly traded days
+			</td>
+		</tr>
+		<tr>
+			<td>
+				M20C
+			</td>
+			<td>
+				Monthly [20] calendar
+			</td>
+		</tr>
+		<tr>
+			<td>
+				M20T
+			</td>
+			<td>
+				Monthly [20] traded
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<hr>
+
+<h4 class="font-weight-bold">Index - Averaging Offset</h4>
+<p>Conditional field: Only applicable and mandatory for Index based prices, leave empty if this location uses market price base.</p>
+<p>Example value: N-1</p>
+<p>Description: This field should be populated with one of the following codes.</p>
+<table class="table">
+	<colgroup>
+		<col/>
+		<col/>
+	</colgroup>
+	<thead>
+		<tr>
+			<th>
+				Code
+			</th>
+			<th>
+				Description
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				N+0
+			</td>
+			<td>
+				Current period
+			</td>
+		</tr>
+		<tr>
+			<td>
+				N-1
+			</td>
+			<td>
+				Previous period
+			</td>
+		</tr>
+		<tr>
+			<td>
+				N-2
+			</td>
+			<td>
+				Period before previous period
+			</td>
+		</tr>
+		<tr>
+			<td>
+				N+1
+			</td>
+			<td>
+				Next period
+			</td>
+		</tr>
+	</tbody>
+</table>
+<hr>
+
+<h4 class="font-weight-bold">Market Price - Amount</h4>
+<p>Conditional field: Only applicable and mandatory for market based prices, leave empty if this location uses index price base.</p>
+<p>Example value: 3.1234</p>
+<p>Description: Value of the market price.</p>
+<hr>
+
+<h4 class="font-weight-bold">Market Price - Currency</h4>
+<p>Example value: USD</p>
+<p>Description: This field should be populated with one of the following codes.</p>
+<table class="table">
+	<colgroup>
+	<col/>
+	<col/>
+</colgroup>
+<thead>
+	<tr>
+		<th>
+			Code
+		</th>
+		<th>
+			Description
+		</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>
+			AED
+		</td>
+		<td>
+			United Arab Emirates, Dirhams
+		</td>
+	</tr>
+	<tr>
+		<td>
+			AFN
+		</td>
+		<td>
+			Afghanistan, Afghanis
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ALL
+		</td>
+		<td>
+			Albania, Leke
+		</td>
+	</tr>
+	<tr>
+		<td>
+			AMD
+		</td>
+		<td>
+			Armenia, Drams
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ANG
+		</td>
+		<td>
+			Netherlands Antilles, Guilders (also called Florins)
+		</td>
+	</tr>
+	<tr>
+		<td>
+			AOA
+		</td>
+		<td>
+			Angola, Kwanza
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ARS
+		</td>
+		<td>
+			Argentina, Pesos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			AUD
+		</td>
+		<td>
+			Australia, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			AWG
+		</td>
+		<td>
+			Aruba, Guilders (also called Florins)
+		</td>
+	</tr>
+	<tr>
+		<td>
+			AZM
+		</td>
+		<td>
+			Azerbaijan, Manats [obsolete]
+		</td>
+	</tr>
+	<tr>
+		<td>
+			AZN
+		</td>
+		<td>
+			Azerbaijan, New Manats
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BAM
+		</td>
+		<td>
+			Bosnia and Herzegovina, Convertible Marka
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BBD
+		</td>
+		<td>
+			Barbados, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BDT
+		</td>
+		<td>
+			Bangladesh, Taka
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BGN
+		</td>
+		<td>
+			Bulgaria, Leva
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BHD
+		</td>
+		<td>
+			Bahrain, Dinars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BIF
+		</td>
+		<td>
+			Burundi, Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BMD
+		</td>
+		<td>
+			Bermuda, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BND
+		</td>
+		<td>
+			Brunei Darussalam, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BOB
+		</td>
+		<td>
+			Bolivia, Bolivianos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BRL
+		</td>
+		<td>
+			Brazil, Brazil Real
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BSD
+		</td>
+		<td>
+			Bahamas, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BTN
+		</td>
+		<td>
+			Bhutan, Ngultrum
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BWP
+		</td>
+		<td>
+			Botswana, Pulas
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BYR
+		</td>
+		<td>
+			Belarus, Rubles
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BZD
+		</td>
+		<td>
+			Belize, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CAD
+		</td>
+		<td>
+			Canada, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CDF
+		</td>
+		<td>
+			Congo/Kinshasa, Congolese Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CHF
+		</td>
+		<td>
+			Switzerland, Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CLP
+		</td>
+		<td>
+			Chile, Pesos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CNY
+		</td>
+		<td>
+			China, Yuan Renminbi
+		</td>
+	</tr>
+	<tr>
+		<td>
+			COP
+		</td>
+		<td>
+			Colombia, Pesos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CRC
+		</td>
+		<td>
+			Costa Rica, Colones
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CUP
+		</td>
+		<td>
+			Cuba, Pesos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CVE
+		</td>
+		<td>
+			Cape Verde, Escudos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CYP
+		</td>
+		<td>
+			Cyprus, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CZK
+		</td>
+		<td>
+			Czech Republic, Koruny
+		</td>
+	</tr>
+	<tr>
+		<td>
+			DJF
+		</td>
+		<td>
+			Djibouti, Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			DKK
+		</td>
+		<td>
+			Denmark, Kroner
+		</td>
+	</tr>
+	<tr>
+		<td>
+			DOP
+		</td>
+		<td>
+			Dominican Republic, Pesos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			DZD
+		</td>
+		<td>
+			Algeria, Algeria Dinars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			EEK
+		</td>
+		<td>
+			Estonia, Krooni
+		</td>
+	</tr>
+	<tr>
+		<td>
+			EGP
+		</td>
+		<td>
+			Egypt, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ERN
+		</td>
+		<td>
+			Eritrea, Nakfa
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ETB
+		</td>
+		<td>
+			Ethiopia, Birr
+		</td>
+	</tr>
+	<tr>
+		<td>
+			EUR
+		</td>
+		<td>
+			Euro Member Countries, Euro
+		</td>
+	</tr>
+	<tr>
+		<td>
+			FJD
+		</td>
+		<td>
+			Fiji, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			FKP
+		</td>
+		<td>
+			Falkland Islands (Malvinas), Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GBP
+		</td>
+		<td>
+			United Kingdom, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GEL
+		</td>
+		<td>
+			Georgia, Lari
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GGP
+		</td>
+		<td>
+			Guernsey, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GHC
+		</td>
+		<td>
+			Ghana, Cedis
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GHS
+		</td>
+		<td>
+			Ghana, Cedis
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GIP
+		</td>
+		<td>
+			Gibraltar, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GMD
+		</td>
+		<td>
+			Gambia, Dalasi
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GNF
+		</td>
+		<td>
+			Guinea, Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GTQ
+		</td>
+		<td>
+			Guatemala, Quetzales
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GWP
+		</td>
+		<td>
+			Guinea-Bissau, Guinea-Bissau Peso&nbsp;
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GYD
+		</td>
+		<td>
+			Guyana, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			HKD
+		</td>
+		<td>
+			Hong Kong, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			HNL
+		</td>
+		<td>
+			Honduras, Lempiras
+		</td>
+	</tr>
+	<tr>
+		<td>
+			HRK
+		</td>
+		<td>
+			Croatia, Kuna
+		</td>
+	</tr>
+	<tr>
+		<td>
+			HTG
+		</td>
+		<td>
+			Haiti, Gourdes
+		</td>
+	</tr>
+	<tr>
+		<td>
+			HUF
+		</td>
+		<td>
+			Hungary, Forint
+		</td>
+	</tr>
+	<tr>
+		<td>
+			IDR
+		</td>
+		<td>
+			Indonesia, Rupiahs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ILS
+		</td>
+		<td>
+			Israel, New Shekels
+		</td>
+	</tr>
+	<tr>
+		<td>
+			IMP
+		</td>
+		<td>
+			Isle of Man, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			INR
+		</td>
+		<td>
+			India, Rupees
+		</td>
+	</tr>
+	<tr>
+		<td>
+			IQD
+		</td>
+		<td>
+			Iraq, Dinars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			IRR
+		</td>
+		<td>
+			Iran, Rials
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ISK
+		</td>
+		<td>
+			Iceland, Kronur
+		</td>
+	</tr>
+	<tr>
+		<td>
+			JEP
+		</td>
+		<td>
+			Jersey, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			JMD
+		</td>
+		<td>
+			Jamaica, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			JOD
+		</td>
+		<td>
+			Jordan, Dinars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			JPY
+		</td>
+		<td>
+			Japan, Yen
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KES
+		</td>
+		<td>
+			Kenya, Shillings
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KGS
+		</td>
+		<td>
+			Kyrgyzstan, Soms
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KHR
+		</td>
+		<td>
+			Cambodia, Riels
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KMF
+		</td>
+		<td>
+			Comoros, Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KPW
+		</td>
+		<td>
+			Korea (North), Won
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KRW
+		</td>
+		<td>
+			Korea (South), Won
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KWD
+		</td>
+		<td>
+			Kuwait, Dinars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KYD
+		</td>
+		<td>
+			Cayman Islands, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KZT
+		</td>
+		<td>
+			Kazakhstan, Tenge
+		</td>
+	</tr>
+	<tr>
+		<td>
+			LAK
+		</td>
+		<td>
+			Laos, Kips
+		</td>
+	</tr>
+	<tr>
+		<td>
+			LBP
+		</td>
+		<td>
+			Lebanon, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			LKR
+		</td>
+		<td>
+			Sri Lanka, Rupees
+		</td>
+	</tr>
+	<tr>
+		<td>
+			LRD
+		</td>
+		<td>
+			Liberia, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			LSL
+		</td>
+		<td>
+			Lesotho, Maloti
+		</td>
+	</tr>
+	<tr>
+		<td>
+			LTL
+		</td>
+		<td>
+			Lithuania, Litai
+		</td>
+	</tr>
+	<tr>
+		<td>
+			LVL
+		</td>
+		<td>
+			Latvia, Lati
+		</td>
+	</tr>
+	<tr>
+		<td>
+			LYD
+		</td>
+		<td>
+			Libya, Dinars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MAD
+		</td>
+		<td>
+			Morocco, Dirhams
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MDL
+		</td>
+		<td>
+			Moldova, Lei
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MGA
+		</td>
+		<td>
+			Madagascar, Ariary
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MKD
+		</td>
+		<td>
+			Macedonia, Denars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MMK
+		</td>
+		<td>
+			Myanmar (Burma), Kyats
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MNT
+		</td>
+		<td>
+			Mongolia, Tugriks
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MOP
+		</td>
+		<td>
+			Macau, Patacas
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MRO
+		</td>
+		<td>
+			Mauritania, Ouguiyas
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MTL
+		</td>
+		<td>
+			Malta, Liri
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MUR
+		</td>
+		<td>
+			Mauritius, Rupees
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MVR
+		</td>
+		<td>
+			Maldives (Maldive Islands), Rufiyaa
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MWK
+		</td>
+		<td>
+			Malawi, Kwachas
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MXN
+		</td>
+		<td>
+			Mexico, Pesos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MYR
+		</td>
+		<td>
+			Malaysia, Ringgits
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MZM
+		</td>
+		<td>
+			Mozambique, Meticais [obsolete]
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MZN
+		</td>
+		<td>
+			Mozambique, Meticais [newer unit, same name]
+		</td>
+	</tr>
+	<tr>
+		<td>
+			NAD
+		</td>
+		<td>
+			Namibia, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			NGN
+		</td>
+		<td>
+			Nigeria, Nairas
+		</td>
+	</tr>
+	<tr>
+		<td>
+			NIO
+		</td>
+		<td>
+			Nicaragua, Cordobas
+		</td>
+	</tr>
+	<tr>
+		<td>
+			NOK
+		</td>
+		<td>
+			Norway, Krone
+		</td>
+	</tr>
+	<tr>
+		<td>
+			NPR
+		</td>
+		<td>
+			Nepal, Nepal Rupees
+		</td>
+	</tr>
+	<tr>
+		<td>
+			NZD
+		</td>
+		<td>
+			New Zealand, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			OMR
+		</td>
+		<td>
+			Oman, Rials
+		</td>
+	</tr>
+	<tr>
+		<td>
+			PAB
+		</td>
+		<td>
+			Panama, Balboa
+		</td>
+	</tr>
+	<tr>
+		<td>
+			PEN
+		</td>
+		<td>
+			Peru, Nuevos Soles
+		</td>
+	</tr>
+	<tr>
+		<td>
+			PGK
+		</td>
+		<td>
+			Papua New Guinea, Kina
+		</td>
+	</tr>
+	<tr>
+		<td>
+			PHP
+		</td>
+		<td>
+			Philippines, Pesos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			PKR
+		</td>
+		<td>
+			Pakistan, Rupees
+		</td>
+	</tr>
+	<tr>
+		<td>
+			PLN
+		</td>
+		<td>
+			Poland, Zlotych
+		</td>
+	</tr>
+	<tr>
+		<td>
+			PYG
+		</td>
+		<td>
+			Paraguay, Guarani
+		</td>
+	</tr>
+	<tr>
+		<td>
+			QAR
+		</td>
+		<td>
+			Qatar, Rials
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ROL
+		</td>
+		<td>
+			Romania, Lei [obsolete]
+		</td>
+	</tr>
+	<tr>
+		<td>
+			RON
+		</td>
+		<td>
+			Romania, New Lei
+		</td>
+	</tr>
+	<tr>
+		<td>
+			RSD
+		</td>
+		<td>
+			Serbia, Dinars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			RUB
+		</td>
+		<td>
+			Russia, Rubles
+		</td>
+	</tr>
+	<tr>
+		<td>
+			RWF
+		</td>
+		<td>
+			Rwanda, Rwanda Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SAR
+		</td>
+		<td>
+			Saudi Arabia, Riyals
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SBD
+		</td>
+		<td>
+			Solomon Islands, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SCR
+		</td>
+		<td>
+			Seychelles, Rupees
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SDD
+		</td>
+		<td>
+			Sudan, Dinars [obsolete]
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SDG
+		</td>
+		<td>
+			Sudan, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SEK
+		</td>
+		<td>
+			Sweden, Kronor
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SGD
+		</td>
+		<td>
+			Singapore, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SHP
+		</td>
+		<td>
+			Saint Helena, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SIT
+		</td>
+		<td>
+			Slovenia, Tolars [obsolete]
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SKK
+		</td>
+		<td>
+			Slovakia, Koruny
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SLL
+		</td>
+		<td>
+			Sierra Leone, Leones
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SOS
+		</td>
+		<td>
+			Somalia, Shillings
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SPL
+		</td>
+		<td>
+			Seborga, Luigini
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SRD
+		</td>
+		<td>
+			Suriname, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			STD
+		</td>
+		<td>
+			S&atilde;o Tome and Principe, Dobras
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SVC
+		</td>
+		<td>
+			El Salvador, Colones
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SYP
+		</td>
+		<td>
+			Syria, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SZL
+		</td>
+		<td>
+			Swaziland, Emalangeni
+		</td>
+	</tr>
+	<tr>
+		<td>
+			THB
+		</td>
+		<td>
+			Thailand, Baht
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TJS
+		</td>
+		<td>
+			Tajikistan, Somoni
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TMM
+		</td>
+		<td>
+			Turkmenistan, Manats
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TND
+		</td>
+		<td>
+			Tunisia, Dinars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TOP
+		</td>
+		<td>
+			Tonga, Pa'anga
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TRY
+		</td>
+		<td>
+			Turkey, New Lira
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TTD
+		</td>
+		<td>
+			Trinidad and Tobago, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TVD
+		</td>
+		<td>
+			Tuvalu, Tuvalu Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TWD
+		</td>
+		<td>
+			Taiwan, New Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TZS
+		</td>
+		<td>
+			Tanzania, Shillings
+		</td>
+	</tr>
+	<tr>
+		<td>
+			UAH
+		</td>
+		<td>
+			Ukraine, Hryvnia
+		</td>
+	</tr>
+	<tr>
+		<td>
+			UGX
+		</td>
+		<td>
+			Uganda, Shillings
+		</td>
+	</tr>
+	<tr>
+		<td>
+			USD
+		</td>
+		<td>
+			United States of America, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			UYU
+		</td>
+		<td>
+			Uruguay, Pesos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			UZS
+		</td>
+		<td>
+			Uzbekistan, Sums
+		</td>
+	</tr>
+	<tr>
+		<td>
+			VEB
+		</td>
+		<td>
+			Venezuela, Bolivares
+		</td>
+	</tr>
+	<tr>
+		<td>
+			VND
+		</td>
+		<td>
+			Viet Nam, Dong
+		</td>
+	</tr>
+	<tr>
+		<td>
+			VUV
+		</td>
+		<td>
+			Vanuatu, Vatu
+		</td>
+	</tr>
+	<tr>
+		<td>
+			WST
+		</td>
+		<td>
+			Samoa, Tala
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XAF
+		</td>
+		<td>
+			Communaut&eacute; Financi&egrave;re Africaine BEAC, Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XAG
+		</td>
+		<td>
+			Silver, Ounces
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XAU
+		</td>
+		<td>
+			Gold, Ounces
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XCD
+		</td>
+		<td>
+			East Caribbean Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XDR
+		</td>
+		<td>
+			International Monetary Fund (IMF) Special Drawing Rights
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XOF
+		</td>
+		<td>
+			Communaut&eacute; Financi&egrave;re Africaine BCEAO, Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XPD
+		</td>
+		<td>
+			Palladium Ounces
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XPF
+		</td>
+		<td>
+			Comptoirs Fran&ccedil;ais du Pacifique Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XPT
+		</td>
+		<td>
+			Platinum, Ounces
+		</td>
+	</tr>
+	<tr>
+		<td>
+			YER
+		</td>
+		<td>
+			Yemen, Rials
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ZAR
+		</td>
+		<td>
+			South Africa, Rand
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ZMK
+		</td>
+		<td>
+			Zambia, Kwacha
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ZWD
+		</td>
+		<td>
+			Zimbabwe, Zimbabwe Dollars
+		</td>
+	</tr>
+</tbody>
+</table>
+
+<hr>
+
+<h4 class="font-weight-bold">Market Price - Unit</h4>
+<p>Conditional field: Only applicable and mandatory for market based prices, leave empty if this location uses index price base.</p>
+<p>Example value: USG</p>
+<p>Description: This field should be populated with one of the following codes.</p>
+<table class="table">
+	<colgroup>
+	<col/>
+	<col/>
+	</colgroup>
+	<thead>
+		<tr>
+			<th>
+				Code
+			</th>
+			<th>
+				Description
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				USG
+			</td>
+			<td>
+				USG
+			</td>
+		</tr>
+		<tr>
+			<td>
+				KG
+			</td>
+			<td>
+				KG
+			</td>
+		</tr>
+		<tr>
+			<td>
+				LBS
+			</td>
+			<td>
+				LBS
+			</td>
+		</tr>
+		<tr>
+			<td>
+				LT
+			</td>
+			<td>
+				LT
+			</td>
+		</tr>
+		<tr>
+			<td>
+				MT
+			</td>
+			<td>
+				MT
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BBL
+			</td>
+			<td>
+				BBL
+			</td>
+		</tr>
+		<tr>
+			<td>
+				CBM
+			</td>
+			<td>
+				CBM
+			</td>
+		</tr>
+	</tbody>
+</table>
+<hr>
+
+<h4 class="font-weight-bold">Market Price - Source Type</h4>
+<p>Conditional field: Only applicable and mandatory for market based prices, leave empty if this location uses index price base.</p>
+<p>Example value: G</p>
+<p>Description: This field should be populated with one of the following codes.</p>
+<table class="table">
+	<colgroup>
+		<col/>
+		<col/>
+	</colgroup>
+	<thead>
+		<tr>
+			<th>
+				Code
+			</th>
+			<th>
+				Description
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				E
+			</td>
+			<td>
+				Ex refinery
+			</td>
+		</tr>
+		<tr>
+			<td>
+				G
+			</td>
+			<td>
+				Government
+			</td>
+		</tr>
+		<tr>
+			<td>
+				M
+			</td>
+			<td>
+				Market
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<hr>
+
+<h4 class="font-weight-bold">Market Price - Source Name</h4>
+<p>Conditional field: Only applicable for market based prices, leave empty if this location uses index price base.</p>
+<p>Example value: Government of Kazakhstan</p>
+<hr>
+
+
+<h4 class="font-weight-bold">Differential Amount*</h4>
+<p>Example value: 0.123</p>
+<p>Description: Value of the deffirential.</p>
+<hr>
+
+<h4 class="font-weight-bold">Differential Currency*</h4>
+<p>Example value: USD</p>
+<p>Description: This field should be populated with one of the following codes.</p>
+<table class="table">
+	<colgroup>
+		<col/>
+		<col/>
+	</colgroup>
+	<thead>
+		<tr>
+			<th>
+				Code
+			</th>
+			<th>
+				Description
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				AED
+			</td>
+			<td>
+				United Arab Emirates, Dirhams
+			</td>
+		</tr>
+		<tr>
+			<td>
+				AFN
+			</td>
+			<td>
+				Afghanistan, Afghanis
+			</td>
+		</tr>
+		<tr>
+			<td>
+				ALL
+			</td>
+			<td>
+				Albania, Leke
+			</td>
+		</tr>
+		<tr>
+			<td>
+				AMD
+			</td>
+			<td>
+				Armenia, Drams
+			</td>
+		</tr>
+		<tr>
+			<td>
+				ANG
+			</td>
+			<td>
+				Netherlands Antilles, Guilders (also called Florins)
+			</td>
+		</tr>
+		<tr>
+			<td>
+				AOA
+			</td>
+			<td>
+				Angola, Kwanza
+			</td>
+		</tr>
+		<tr>
+			<td>
+				ARS
+			</td>
+			<td>
+				Argentina, Pesos
+			</td>
+		</tr>
+		<tr>
+			<td>
+				AUD
+			</td>
+			<td>
+				Australia, Dollars
+			</td>
+		</tr>
+		<tr>
+			<td>
+				AWG
+			</td>
+			<td>
+				Aruba, Guilders (also called Florins)
+			</td>
+		</tr>
+		<tr>
+			<td>
+				AZM
+			</td>
+			<td>
+				Azerbaijan, Manats [obsolete]
+			</td>
+		</tr>
+		<tr>
+			<td>
+				AZN
+			</td>
+			<td>
+				Azerbaijan, New Manats
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BAM
+			</td>
+			<td>
+				Bosnia and Herzegovina, Convertible Marka
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BBD
+			</td>
+			<td>
+				Barbados, Dollars
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BDT
+			</td>
+			<td>
+				Bangladesh, Taka
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BGN
+			</td>
+			<td>
+				Bulgaria, Leva
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BHD
+			</td>
+			<td>
+				Bahrain, Dinars
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BIF
+			</td>
+			<td>
+				Burundi, Francs
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BMD
+			</td>
+			<td>
+				Bermuda, Dollars
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BND
+			</td>
+			<td>
+				Brunei Darussalam, Dollars
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BOB
+			</td>
+			<td>
+				Bolivia, Bolivianos
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BRL
+			</td>
+			<td>
+				Brazil, Brazil Real
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BSD
+			</td>
+			<td>
+				Bahamas, Dollars
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BTN
+			</td>
+			<td>
+				Bhutan, Ngultrum
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BWP
+			</td>
+			<td>
+				Botswana, Pulas
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BYR
+			</td>
+			<td>
+				Belarus, Rubles
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BZD
+			</td>
+			<td>
+				Belize, Dollars
+			</td>
+		</tr>
+		<tr>
+			<td>
+				CAD
+			</td>
+			<td>
+				Canada, Dollars
+			</td>
+		</tr>
+		<tr>
+			<td>
+				CDF
+			</td>
+			<td>
+				Congo/Kinshasa, Congolese Francs
+			</td>
+		</tr>
+		<tr>
+			<td>
+				CHF
+			</td>
+			<td>
+				Switzerland, Francs
+			</td>
+		</tr>
+		<tr>
+			<td>
+				CLP
+			</td>
+			<td>
+				Chile, Pesos
+			</td>
+		</tr>
+		<tr>
+			<td>
+				CNY
+			</td>
+			<td>
+				China, Yuan Renminbi
+			</td>
+		</tr>
+		<tr>
+			<td>
+				COP
+			</td>
+			<td>
+				Colombia, Pesos
+			</td>
+		</tr>
+		<tr>
+			<td>
+				CRC
+			</td>
+			<td>
+				Costa Rica, Colones
+			</td>
+		</tr>
+		<tr>
+			<td>
+				CUP
+			</td>
+			<td>
+				Cuba, Pesos
+			</td>
+		</tr>
+		<tr>
+			<td>
+				CVE
+			</td>
+			<td>
+				Cape Verde, Escudos
+			</td>
+		</tr>
+		<tr>
+			<td>
+				CYP
+			</td>
+			<td>
+				Cyprus, Pounds
+			</td>
+		</tr>
+		<tr>
+			<td>
+				CZK
+			</td>
+			<td>
+				Czech Republic, Koruny
+			</td>
+		</tr>
+		<tr>
+			<td>
+				DJF
+			</td>
+			<td>
+				Djibouti, Francs
+			</td>
+		</tr>
+		<tr>
+			<td>
+				DKK
+			</td>
+			<td>
+				Denmark, Kroner
+			</td>
+		</tr>
+		<tr>
+			<td>
+				DOP
+			</td>
+			<td>
+				Dominican Republic, Pesos
+			</td>
+		</tr>
+		<tr>
+			<td>
+				DZD
+			</td>
+			<td>
+				Algeria, Algeria Dinars
+			</td>
+		</tr>
+		<tr>
+			<td>
+				EEK
+			</td>
+			<td>
+				Estonia, Krooni
+			</td>
+		</tr>
+		<tr>
+			<td>
+				EGP
+			</td>
+			<td>
+				Egypt, Pounds
+			</td>
+		</tr>
+		<tr>
+			<td>
+				ERN
+			</td>
+			<td>
+				Eritrea, Nakfa
+			</td>
+		</tr>
+		<tr>
+			<td>
+				ETB
+			</td>
+			<td>
+				Ethiopia, Birr
+			</td>
+		</tr>
+		<tr>
+			<td>
+				EUR
+			</td>
+			<td>
+				Euro Member Countries, Euro
+			</td>
+		</tr>
+		<tr>
+			<td>
+				FJD
+			</td>
+			<td>
+				Fiji, Dollars
+			</td>
+		</tr>
+		<tr>
+			<td>
+				FKP
+			</td>
+			<td>
+				Falkland Islands (Malvinas), Pounds
+			</td>
+		</tr>
+		<tr>
+			<td>
+				GBP
+			</td>
+			<td>
+				United Kingdom, Pounds
+			</td>
+		</tr>
+		<tr>
+			<td>
+				GEL
+			</td>
+			<td>
+				Georgia, Lari
+			</td>
+		</tr>
+		<tr>
+			<td>
+				GGP
+			</td>
+			<td>
+				Guernsey, Pounds
+			</td>
+		</tr>
+		<tr>
+			<td>
+				GHC
+			</td>
+			<td>
+				Ghana, Cedis
+			</td>
+		</tr>
+		<tr>
+			<td>
+				GHS
+			</td>
+			<td>
+				Ghana, Cedis
+			</td>
+		</tr>
+		<tr>
+			<td>
+				GIP
+			</td>
+			<td>
+				Gibraltar, Pounds
+			</td>
+		</tr>
+		<tr>
+			<td>
+				GMD
+			</td>
+			<td>
+				Gambia, Dalasi
+			</td>
+		</tr>
+		<tr>
+			<td>
+				GNF
+			</td>
+			<td>
+				Guinea, Francs
+			</td>
+		</tr>
+		<tr>
+			<td>
+				GTQ
+			</td>
+			<td>
+				Guatemala, Quetzales
+			</td>
+		</tr>
+		<tr>
+			<td>
+				GWP
+			</td>
+			<td>
+				Guinea-Bissau, Guinea-Bissau Peso&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<td>
+				GYD
+			</td>
+			<td>
+				Guyana, Dollars
+			</td>
+		</tr>
+		<tr>
+			<td>
+				HKD
+			</td>
+			<td>
+				Hong Kong, Dollars
+			</td>
+		</tr>
+		<tr>
+			<td>
+				HNL
+			</td>
+			<td>
+				Honduras, Lempiras
+			</td>
+		</tr>
+		<tr>
+			<td>
+				HRK
+			</td>
+			<td>
+				Croatia, Kuna
+			</td>
+		</tr>
+		<tr>
+			<td>
+				HTG
+			</td>
+			<td>
+				Haiti, Gourdes
+			</td>
+		</tr>
+		<tr>
+			<td>
+				HUF
+			</td>
+			<td>
+				Hungary, Forint
+			</td>
+		</tr>
+		<tr>
+			<td>
+				IDR
+			</td>
+			<td>
+				Indonesia, Rupiahs
+			</td>
+		</tr>
+		<tr>
+			<td>
+				ILS
+			</td>
+			<td>
+				Israel, New Shekels
+			</td>
+		</tr>
+		<tr>
+			<td>
+				IMP
+			</td>
+			<td>
+				Isle of Man, Pounds
+			</td>
+		</tr>
+		<tr>
+			<td>
+				INR
+			</td>
+			<td>
+				India, Rupees
+			</td>
+		</tr>
+		<tr>
+			<td>
+				IQD
+			</td>
+			<td>
+				Iraq, Dinars
+			</td>
+		</tr>
+		<tr>
+			<td>
+				IRR
+			</td>
+			<td>
+				Iran, Rials
+			</td>
+		</tr>
+		<tr>
+			<td>
+				ISK
+			</td>
+			<td>
+				Iceland, Kronur
+			</td>
+		</tr>
+		<tr>
+			<td>
+				JEP
+			</td>
+			<td>
+				Jersey, Pounds
+			</td>
+		</tr>
+		<tr>
+			<td>
+				JMD
+			</td>
+			<td>
+				Jamaica, Dollars
+			</td>
+		</tr>
+		<tr>
+			<td>
+				JOD
+			</td>
+			<td>
+				Jordan, Dinars
+			</td>
+		</tr>
+		<tr>
+			<td>
+				JPY
+			</td>
+			<td>
+				Japan, Yen
+			</td>
+		</tr>
+		<tr>
+			<td>
+				KES
+			</td>
+			<td>
+				Kenya, Shillings
+			</td>
+		</tr>
+		<tr>
+			<td>
+				KGS
+			</td>
+			<td>
+				Kyrgyzstan, Soms
+			</td>
+		</tr>
+		<tr>
+			<td>
+				KHR
+			</td>
+			<td>
+				Cambodia, Riels
+			</td>
+		</tr>
+		<tr>
+			<td>
+				KMF
+			</td>
+			<td>
+				Comoros, Francs
+			</td>
+		</tr>
+		<tr>
+			<td>
+				KPW
+			</td>
+			<td>
+				Korea (North), Won
+			</td>
+		</tr>
+		<tr>
+			<td>
+				KRW
+			</td>
+			<td>
+				Korea (South), Won
+			</td>
+		</tr>
+		<tr>
+			<td>
+				KWD
+			</td>
+			<td>
+				Kuwait, Dinars
+			</td>
+		</tr>
+		<tr>
+			<td>
+				KYD
+			</td>
+			<td>
+				Cayman Islands, Dollars
+			</td>
+		</tr>
+		<tr>
+			<td>
+				KZT
+			</td>
+			<td>
+				Kazakhstan, Tenge
+			</td>
+		</tr>
+		<tr>
+			<td>
+				LAK
+			</td>
+			<td>
+				Laos, Kips
+			</td>
+		</tr>
+		<tr>
+			<td>
+				LBP
+			</td>
+			<td>
+				Lebanon, Pounds
+			</td>
+		</tr>
+		<tr>
+			<td>
+				LKR
+			</td>
+			<td>
+				Sri Lanka, Rupees
+			</td>
+		</tr>
+		<tr>
+			<td>
+				LRD
+			</td>
+			<td>
+				Liberia, Dollars
+			</td>
+		</tr>
+		<tr>
+			<td>
+				LSL
+			</td>
+			<td>
+				Lesotho, Maloti
+			</td>
+		</tr>
+		<tr>
+			<td>
+				LTL
+			</td>
+			<td>
+				Lithuania, Litai
+			</td>
+		</tr>
+		<tr>
+			<td>
+				LVL
+			</td>
+			<td>
+				Latvia, Lati
+			</td>
+		</tr>
+		<tr>
+			<td>
+				LYD
+			</td>
+			<td>
+				Libya, Dinars
+			</td>
+		</tr>
+		<tr>
+			<td>
+				MAD
+			</td>
+			<td>
+				Morocco, Dirhams
+			</td>
+		</tr>
+		<tr>
+			<td>
+				MDL
+			</td>
+			<td>
+				Moldova, Lei
+			</td>
+		</tr>
+		<tr>
+			<td>
+				MGA
+			</td>
+			<td>
+				Madagascar, Ariary
+			</td>
+		</tr>
+		<tr>
+			<td>
+				MKD
+			</td>
+			<td>
+				Macedonia, Denars
+			</td>
+		</tr>
+		<tr>
+			<td>
+				MMK
+			</td>
+			<td>
+				Myanmar (Burma), Kyats
+			</td>
+		</tr>
+		<tr>
+			<td>
+				MNT
+			</td>
+			<td>
+				Mongolia, Tugriks
+			</td>
+		</tr>
+		<tr>
+			<td>
+				MOP
+			</td>
+			<td>
+				Macau, Patacas
+			</td>
+		</tr>
+		<tr>
+			<td>
+				MRO
+			</td>
+			<td>
+				Mauritania, Ouguiyas
+			</td>
+		</tr>
+		<tr>
+			<td>
+				MTL
+			</td>
+			<td>
+				Malta, Liri
+			</td>
+		</tr>
+		<tr>
+			<td>
+				MUR
+			</td>
+			<td>
+				Mauritius, Rupees
+			</td>
+		</tr>
+		<tr>
+			<td>
+				MVR
+			</td>
+			<td>
+				Maldives (Maldive Islands), Rufiyaa
+			</td>
+		</tr>
+		<tr>
+			<td>
+				MWK
+			</td>
+			<td>
+				Malawi, Kwachas
+			</td>
+		</tr>
+		<tr>
+			<td>
+				MXN
+			</td>
+			<td>
+				Mexico, Pesos
+			</td>
+		</tr>
+		<tr>
+			<td>
+				MYR
+			</td>
+			<td>
+				Malaysia, Ringgits
+			</td>
+		</tr>
+		<tr>
+			<td>
+				MZM
+			</td>
+			<td>
+				Mozambique, Meticais [obsolete]
+			</td>
+		</tr>
+		<tr>
+			<td>
+				MZN
+			</td>
+			<td>
+				Mozambique, Meticais [newer unit, same name]
+			</td>
+		</tr>
+		<tr>
+			<td>
+				NAD
+			</td>
+			<td>
+				Namibia, Dollars
+			</td>
+		</tr>
+		<tr>
+			<td>
+				NGN
+			</td>
+			<td>
+				Nigeria, Nairas
+			</td>
+		</tr>
+		<tr>
+			<td>
+				NIO
+			</td>
+			<td>
+				Nicaragua, Cordobas
+			</td>
+		</tr>
+		<tr>
+			<td>
+				NOK
+			</td>
+			<td>
+				Norway, Krone
+			</td>
+		</tr>
+		<tr>
+			<td>
+				NPR
+			</td>
+			<td>
+				Nepal, Nepal Rupees
+			</td>
+		</tr>
+		<tr>
+			<td>
+				NZD
+			</td>
+			<td>
+				New Zealand, Dollars
+			</td>
+		</tr>
+		<tr>
+			<td>
+				OMR
+			</td>
+			<td>
+				Oman, Rials
+			</td>
+		</tr>
+		<tr>
+			<td>
+				PAB
+			</td>
+			<td>
+				Panama, Balboa
+			</td>
+		</tr>
+		<tr>
+			<td>
+				PEN
+			</td>
+			<td>
+				Peru, Nuevos Soles
+			</td>
+		</tr>
+		<tr>
+			<td>
+				PGK
+			</td>
+			<td>
+				Papua New Guinea, Kina
+			</td>
+		</tr>
+		<tr>
+			<td>
+				PHP
+			</td>
+			<td>
+				Philippines, Pesos
+			</td>
+		</tr>
+		<tr>
+			<td>
+				PKR
+			</td>
+			<td>
+				Pakistan, Rupees
+			</td>
+		</tr>
+		<tr>
+			<td>
+				PLN
+			</td>
+			<td>
+				Poland, Zlotych
+			</td>
+		</tr>
+		<tr>
+			<td>
+				PYG
+			</td>
+			<td>
+				Paraguay, Guarani
+			</td>
+		</tr>
+		<tr>
+			<td>
+				QAR
+			</td>
+			<td>
+				Qatar, Rials
+			</td>
+		</tr>
+		<tr>
+			<td>
+				ROL
+			</td>
+			<td>
+				Romania, Lei [obsolete]
+			</td>
+		</tr>
+		<tr>
+			<td>
+				RON
+			</td>
+			<td>
+				Romania, New Lei
+			</td>
+		</tr>
+		<tr>
+			<td>
+				RSD
+			</td>
+			<td>
+				Serbia, Dinars
+			</td>
+		</tr>
+		<tr>
+			<td>
+				RUB
+			</td>
+			<td>
+				Russia, Rubles
+			</td>
+		</tr>
+		<tr>
+			<td>
+				RWF
+			</td>
+			<td>
+				Rwanda, Rwanda Francs
+			</td>
+		</tr>
+		<tr>
+			<td>
+				SAR
+			</td>
+			<td>
+				Saudi Arabia, Riyals
+			</td>
+		</tr>
+		<tr>
+			<td>
+				SBD
+			</td>
+			<td>
+				Solomon Islands, Dollars
+			</td>
+		</tr>
+		<tr>
+			<td>
+				SCR
+			</td>
+			<td>
+				Seychelles, Rupees
+			</td>
+		</tr>
+		<tr>
+			<td>
+				SDD
+			</td>
+			<td>
+				Sudan, Dinars [obsolete]
+			</td>
+		</tr>
+		<tr>
+			<td>
+				SDG
+			</td>
+			<td>
+				Sudan, Pounds
+			</td>
+		</tr>
+		<tr>
+			<td>
+				SEK
+			</td>
+			<td>
+				Sweden, Kronor
+			</td>
+		</tr>
+		<tr>
+			<td>
+				SGD
+			</td>
+			<td>
+				Singapore, Dollars
+			</td>
+		</tr>
+		<tr>
+			<td>
+				SHP
+			</td>
+			<td>
+				Saint Helena, Pounds
+			</td>
+		</tr>
+		<tr>
+			<td>
+				SIT
+			</td>
+			<td>
+				Slovenia, Tolars [obsolete]
+			</td>
+		</tr>
+		<tr>
+			<td>
+				SKK
+			</td>
+			<td>
+				Slovakia, Koruny
+			</td>
+		</tr>
+		<tr>
+			<td>
+				SLL
+			</td>
+			<td>
+				Sierra Leone, Leones
+			</td>
+		</tr>
+		<tr>
+			<td>
+				SOS
+			</td>
+			<td>
+				Somalia, Shillings
+			</td>
+		</tr>
+		<tr>
+			<td>
+				SPL
+			</td>
+			<td>
+				Seborga, Luigini
+			</td>
+		</tr>
+		<tr>
+			<td>
+				SRD
+			</td>
+			<td>
+				Suriname, Dollars
+			</td>
+		</tr>
+		<tr>
+			<td>
+				STD
+			</td>
+			<td>
+				S&atilde;o Tome and Principe, Dobras
+			</td>
+		</tr>
+		<tr>
+			<td>
+				SVC
+			</td>
+			<td>
+				El Salvador, Colones
+			</td>
+		</tr>
+		<tr>
+			<td>
+				SYP
+			</td>
+			<td>
+				Syria, Pounds
+			</td>
+		</tr>
+		<tr>
+			<td>
+				SZL
+			</td>
+			<td>
+				Swaziland, Emalangeni
+			</td>
+		</tr>
+		<tr>
+			<td>
+				THB
+			</td>
+			<td>
+				Thailand, Baht
+			</td>
+		</tr>
+		<tr>
+			<td>
+				TJS
+			</td>
+			<td>
+				Tajikistan, Somoni
+			</td>
+		</tr>
+		<tr>
+			<td>
+				TMM
+			</td>
+			<td>
+				Turkmenistan, Manats
+			</td>
+		</tr>
+		<tr>
+			<td>
+				TND
+			</td>
+			<td>
+				Tunisia, Dinars
+			</td>
+		</tr>
+		<tr>
+			<td>
+				TOP
+			</td>
+			<td>
+				Tonga, Pa'anga
+			</td>
+		</tr>
+		<tr>
+			<td>
+				TRY
+			</td>
+			<td>
+				Turkey, New Lira
+			</td>
+		</tr>
+		<tr>
+			<td>
+				TTD
+			</td>
+			<td>
+				Trinidad and Tobago, Dollars
+			</td>
+		</tr>
+		<tr>
+			<td>
+				TVD
+			</td>
+			<td>
+				Tuvalu, Tuvalu Dollars
+			</td>
+		</tr>
+		<tr>
+			<td>
+				TWD
+			</td>
+			<td>
+				Taiwan, New Dollars
+			</td>
+		</tr>
+		<tr>
+			<td>
+				TZS
+			</td>
+			<td>
+				Tanzania, Shillings
+			</td>
+		</tr>
+		<tr>
+			<td>
+				UAH
+			</td>
+			<td>
+				Ukraine, Hryvnia
+			</td>
+		</tr>
+		<tr>
+			<td>
+				UGX
+			</td>
+			<td>
+				Uganda, Shillings
+			</td>
+		</tr>
+		<tr>
+			<td>
+				USD
+			</td>
+			<td>
+				United States of America, Dollars
+			</td>
+		</tr>
+		<tr>
+			<td>
+				UYU
+			</td>
+			<td>
+				Uruguay, Pesos
+			</td>
+		</tr>
+		<tr>
+			<td>
+				UZS
+			</td>
+			<td>
+				Uzbekistan, Sums
+			</td>
+		</tr>
+		<tr>
+			<td>
+				VEB
+			</td>
+			<td>
+				Venezuela, Bolivares
+			</td>
+		</tr>
+		<tr>
+			<td>
+				VND
+			</td>
+			<td>
+				Viet Nam, Dong
+			</td>
+		</tr>
+		<tr>
+			<td>
+				VUV
+			</td>
+			<td>
+				Vanuatu, Vatu
+			</td>
+		</tr>
+		<tr>
+			<td>
+				WST
+			</td>
+			<td>
+				Samoa, Tala
+			</td>
+		</tr>
+		<tr>
+			<td>
+				XAF
+			</td>
+			<td>
+				Communaut&eacute; Financi&egrave;re Africaine BEAC, Francs
+			</td>
+		</tr>
+		<tr>
+			<td>
+				XAG
+			</td>
+			<td>
+				Silver, Ounces
+			</td>
+		</tr>
+		<tr>
+			<td>
+				XAU
+			</td>
+			<td>
+				Gold, Ounces
+			</td>
+		</tr>
+		<tr>
+			<td>
+				XCD
+			</td>
+			<td>
+				East Caribbean Dollars
+			</td>
+		</tr>
+		<tr>
+			<td>
+				XDR
+			</td>
+			<td>
+				International Monetary Fund (IMF) Special Drawing Rights
+			</td>
+		</tr>
+		<tr>
+			<td>
+				XOF
+			</td>
+			<td>
+				Communaut&eacute; Financi&egrave;re Africaine BCEAO, Francs
+			</td>
+		</tr>
+		<tr>
+			<td>
+				XPD
+			</td>
+			<td>
+				Palladium Ounces
+			</td>
+		</tr>
+		<tr>
+			<td>
+				XPF
+			</td>
+			<td>
+				Comptoirs Fran&ccedil;ais du Pacifique Francs
+			</td>
+		</tr>
+		<tr>
+			<td>
+				XPT
+			</td>
+			<td>
+				Platinum, Ounces
+			</td>
+		</tr>
+		<tr>
+			<td>
+				YER
+			</td>
+			<td>
+				Yemen, Rials
+			</td>
+		</tr>
+		<tr>
+			<td>
+				ZAR
+			</td>
+			<td>
+				South Africa, Rand
+			</td>
+		</tr>
+		<tr>
+			<td>
+				ZMK
+			</td>
+			<td>
+				Zambia, Kwacha
+			</td>
+		</tr>
+		<tr>
+			<td>
+				ZWD
+			</td>
+			<td>
+				Zimbabwe, Zimbabwe Dollars
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<hr>
+
+<h4 class="font-weight-bold">Differential Unit*</h4>
+<p>Example value: USG</p>
+<p>Description: This field should be populated with one of the following codes.</p>
+<table class="table">
+	<colgroup>
+	<col/>
+	<col/>
+	</colgroup>
+	<thead>
+		<tr>
+			<th>
+				Code
+			</th>
+			<th>
+				Description
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				USG
+			</td>
+			<td>
+				USG
+			</td>
+		</tr>
+		<tr>
+			<td>
+				KG
+			</td>
+			<td>
+				KG
+			</td>
+		</tr>
+		<tr>
+			<td>
+				LBS
+			</td>
+			<td>
+				LBS
+			</td>
+		</tr>
+		<tr>
+			<td>
+				LT
+			</td>
+			<td>
+				LT
+			</td>
+		</tr>
+		<tr>
+			<td>
+				MT
+			</td>
+			<td>
+				MT
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BBL
+			</td>
+			<td>
+				BBL
+			</td>
+		</tr>
+		<tr>
+			<td>
+				CBM
+			</td>
+			<td>
+				CBM
+			</td>
+		</tr>
+	</tbody>
+</table>
+<hr>
+
+<h4 class="font-weight-bold">Non-mandatory Fees</h4>
+<p>Example value: Low volume fee 120 EUR for uplifts under 1500 USG</p>
+<p>Description: List any non-mandatory fees.</p>
+<hr>
+
+<h4 class="font-weight-bold">Into-plane Service Provider</h4>
+<p>Example value: Skytanking LLC</p>
+<hr>
+
+<h4 class="font-weight-bold">Available Volume Percentage</h4>
+<p>Example value: 100</p>
+<p>Description: Speify how many percent of the total requested volume are you bidding for.</p>
+<hr>
+
+<h4 class="font-weight-bold">Gross or Net Billing</h4>
+<p>Example value: gross</p>
+<p>Description: This field should be populated with one of the following codes.</p>
+<table class="table">
+	<colgroup>
+	<col/>
+	<col/>
+	</colgroup>
+	<thead>
+		<tr>
+			<th>
+				Code
+			</th>
+			<th>
+				Description
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				gross
+			</td>
+			<td>
+				Gross Billing
+			</td>
+		</tr>
+		<tr>
+			<td>
+				net
+			</td>
+			<td>
+				Net Billing
+			</td>
+		</tr>
+	</tbody>
+</table>
+<hr>
+
+<h4 class="font-weight-bold">Open Fuel Release</h4>
+<p>Example value: Y</p>
+<p>Description: This field should be populated with one of the following codes.</p>
+<table class="table">
+	<colgroup>
+		<col/>
+		<col/>
+	</colgroup>
+	<thead>
+		<tr>
+			<th>
+				Code
+			</th>
+			<th>
+				Description
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				Y
+			</td>
+			<td>
+				Yes
+			</td>
+		</tr>
+		<tr>
+			<td>
+				N
+			</td>
+			<td>
+				No
+			</td>
+		</tr>
+	</tbody>
+</table>
+<hr>
+
+<h4 class="font-weight-bold">Pre-flight Notification Hours</h4>
+<p>Example value: 16</p>
+<p>Description: If pre-flight notification is required, specify how many hours advance notice should be given</p>
+<hr>
+
+<h4 class="font-weight-bold">Pre-flight Notification Notes</h4>
+<p>Description: Provide pre-flight notification notes if available</p>
+<hr>
+
+<h4 class="font-weight-bold">Ramp Limitations Notes</h4>
+<p>Description: Provide ramp limitation notes if available</p>
+<hr>
+
+<h4 class="font-weight-bold">Fuel Availability</h4>
+<p>Description: Provide fuel availability notes if restrictions apply</p>
+<hr>
+
+<h4 class="font-weight-bold">Delivery Method to Airport 1</h4>
+<p>Example value: pipeline</p>
+<p>Description: If the airline requests information on delivery methods to the airport list them in the order of priority, where the primary method is listed in the "Delivery Method to Airport 1" field.</p>
+<p>This field should be populated with one of the following codes.</p>
+<table class="table">
+	<colgroup>
+        <col/>
+        <col/>
+    </colgroup>
+    <thead>
+        <tr>
+            <th>
+                Code
+            </th>
+            <th>
+                Description
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                pipeline
+            </td>
+            <td>
+                Pipeline
+            </td>
+        </tr>
+        <tr>
+            <td>
+                truck
+            </td>
+            <td>
+                Truck
+            </td>
+        </tr>
+        <tr>
+            <td>
+                rail
+            </td>
+            <td>
+                Rail
+            </td>
+        </tr>
+        <tr>
+            <td>
+                barge
+            </td>
+            <td>
+                Barge
+            </td>
+        </tr>
+    </tbody>
+</table>
+<hr>
+
+<h4 class="font-weight-bold">Delivery Method to Airport 1 Percentage</h4>
+<p>Example value: 80</p>
+<p>Description: What percentage of the total fuel delivery methods is Delivery Method to Airport 1 covering?</p>
+<hr>
+
+<h4 class="font-weight-bold">Delivery Method to Airport 2</h4>
+<hr>
+
+<h4 class="font-weight-bold">Delivery Method to Airport 2 Percentage</h4>
+<hr>
+
+<h4 class="font-weight-bold">Delivery Method to Airport 3</h4>
+<hr>
+
+<h4 class="font-weight-bold">Delivery Method to Airport 3 Percentage</h4>
+<hr>
+
+<h4 class="font-weight-bold">Delivery Method to Airport 4</h4>
+<hr>
+
+<h4 class="font-weight-bold">Delivery Method to Airport 4 Percentage</h4>
+<hr>
+
+<h4 class="font-weight-bold">Delivery Method to Aircraft</h4>
+<p>Example value: both</p>
+<p>Description: This field should be populated with one of the following codes.</p>
+<table class="table">
+	<colgroup>
+        <col/>
+        <col/>
+    </colgroup>
+    <thead>
+        <tr>
+            <th>
+                Code
+            </th>
+            <th>
+                Description
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                hydrant
+            </td>
+            <td>
+                Hydrant
+            </td>
+        </tr>
+        <tr>
+            <td>
+                truck
+            </td>
+            <td>
+                Truck
+            </td>
+        </tr>
+        <tr>
+            <td>
+                both
+            </td>
+            <td>
+                Both hydrant & truck
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<hr>
+
+<h4 class="font-weight-bold">Notes</h4>
+<p>Description: Provide any notes related to this bid</p>
+
+<h3 class="my-5 font-weight-bold">Volume Base Fees & Taxes Sheet - Field Details</h3>
+
+<h4 class="font-weight-bold">IATA Location</h4>
+<p>Example value: LKPR</p>
+<p>Description: This location needs to correcpond to atleast one location listed in the Locaitons sheet. The entered fees or taxes will be added to the corresponding bid.</p>
+
+<hr>
+
+<h4 class="font-weight-bold">Fee or Tax Name</h4>
+<p>Example value: Throughput fee</p>
+
+<hr>
+
+<h4 class="font-weight-bold">Amount</h4>
+<p>Example value: 0.05</p>
+
+<hr>
+
+<h4 class="font-weight-bold">Currency</h4>
+<p>Example value: USD</p>
+<p>Description: This field should be populated with one of the following codes.</p>
+<table class="table">
+	<colgroup>
+	<col/>
+	<col/>
+</colgroup>
+<thead>
+	<tr>
+		<th>
+			Code
+		</th>
+		<th>
+			Description
+		</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>
+			AED
+		</td>
+		<td>
+			United Arab Emirates, Dirhams
+		</td>
+	</tr>
+	<tr>
+		<td>
+			AFN
+		</td>
+		<td>
+			Afghanistan, Afghanis
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ALL
+		</td>
+		<td>
+			Albania, Leke
+		</td>
+	</tr>
+	<tr>
+		<td>
+			AMD
+		</td>
+		<td>
+			Armenia, Drams
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ANG
+		</td>
+		<td>
+			Netherlands Antilles, Guilders (also called Florins)
+		</td>
+	</tr>
+	<tr>
+		<td>
+			AOA
+		</td>
+		<td>
+			Angola, Kwanza
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ARS
+		</td>
+		<td>
+			Argentina, Pesos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			AUD
+		</td>
+		<td>
+			Australia, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			AWG
+		</td>
+		<td>
+			Aruba, Guilders (also called Florins)
+		</td>
+	</tr>
+	<tr>
+		<td>
+			AZM
+		</td>
+		<td>
+			Azerbaijan, Manats [obsolete]
+		</td>
+	</tr>
+	<tr>
+		<td>
+			AZN
+		</td>
+		<td>
+			Azerbaijan, New Manats
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BAM
+		</td>
+		<td>
+			Bosnia and Herzegovina, Convertible Marka
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BBD
+		</td>
+		<td>
+			Barbados, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BDT
+		</td>
+		<td>
+			Bangladesh, Taka
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BGN
+		</td>
+		<td>
+			Bulgaria, Leva
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BHD
+		</td>
+		<td>
+			Bahrain, Dinars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BIF
+		</td>
+		<td>
+			Burundi, Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BMD
+		</td>
+		<td>
+			Bermuda, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BND
+		</td>
+		<td>
+			Brunei Darussalam, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BOB
+		</td>
+		<td>
+			Bolivia, Bolivianos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BRL
+		</td>
+		<td>
+			Brazil, Brazil Real
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BSD
+		</td>
+		<td>
+			Bahamas, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BTN
+		</td>
+		<td>
+			Bhutan, Ngultrum
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BWP
+		</td>
+		<td>
+			Botswana, Pulas
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BYR
+		</td>
+		<td>
+			Belarus, Rubles
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BZD
+		</td>
+		<td>
+			Belize, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CAD
+		</td>
+		<td>
+			Canada, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CDF
+		</td>
+		<td>
+			Congo/Kinshasa, Congolese Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CHF
+		</td>
+		<td>
+			Switzerland, Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CLP
+		</td>
+		<td>
+			Chile, Pesos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CNY
+		</td>
+		<td>
+			China, Yuan Renminbi
+		</td>
+	</tr>
+	<tr>
+		<td>
+			COP
+		</td>
+		<td>
+			Colombia, Pesos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CRC
+		</td>
+		<td>
+			Costa Rica, Colones
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CUP
+		</td>
+		<td>
+			Cuba, Pesos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CVE
+		</td>
+		<td>
+			Cape Verde, Escudos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CYP
+		</td>
+		<td>
+			Cyprus, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CZK
+		</td>
+		<td>
+			Czech Republic, Koruny
+		</td>
+	</tr>
+	<tr>
+		<td>
+			DJF
+		</td>
+		<td>
+			Djibouti, Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			DKK
+		</td>
+		<td>
+			Denmark, Kroner
+		</td>
+	</tr>
+	<tr>
+		<td>
+			DOP
+		</td>
+		<td>
+			Dominican Republic, Pesos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			DZD
+		</td>
+		<td>
+			Algeria, Algeria Dinars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			EEK
+		</td>
+		<td>
+			Estonia, Krooni
+		</td>
+	</tr>
+	<tr>
+		<td>
+			EGP
+		</td>
+		<td>
+			Egypt, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ERN
+		</td>
+		<td>
+			Eritrea, Nakfa
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ETB
+		</td>
+		<td>
+			Ethiopia, Birr
+		</td>
+	</tr>
+	<tr>
+		<td>
+			EUR
+		</td>
+		<td>
+			Euro Member Countries, Euro
+		</td>
+	</tr>
+	<tr>
+		<td>
+			FJD
+		</td>
+		<td>
+			Fiji, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			FKP
+		</td>
+		<td>
+			Falkland Islands (Malvinas), Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GBP
+		</td>
+		<td>
+			United Kingdom, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GEL
+		</td>
+		<td>
+			Georgia, Lari
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GGP
+		</td>
+		<td>
+			Guernsey, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GHC
+		</td>
+		<td>
+			Ghana, Cedis
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GHS
+		</td>
+		<td>
+			Ghana, Cedis
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GIP
+		</td>
+		<td>
+			Gibraltar, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GMD
+		</td>
+		<td>
+			Gambia, Dalasi
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GNF
+		</td>
+		<td>
+			Guinea, Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GTQ
+		</td>
+		<td>
+			Guatemala, Quetzales
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GWP
+		</td>
+		<td>
+			Guinea-Bissau, Guinea-Bissau Peso&nbsp;
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GYD
+		</td>
+		<td>
+			Guyana, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			HKD
+		</td>
+		<td>
+			Hong Kong, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			HNL
+		</td>
+		<td>
+			Honduras, Lempiras
+		</td>
+	</tr>
+	<tr>
+		<td>
+			HRK
+		</td>
+		<td>
+			Croatia, Kuna
+		</td>
+	</tr>
+	<tr>
+		<td>
+			HTG
+		</td>
+		<td>
+			Haiti, Gourdes
+		</td>
+	</tr>
+	<tr>
+		<td>
+			HUF
+		</td>
+		<td>
+			Hungary, Forint
+		</td>
+	</tr>
+	<tr>
+		<td>
+			IDR
+		</td>
+		<td>
+			Indonesia, Rupiahs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ILS
+		</td>
+		<td>
+			Israel, New Shekels
+		</td>
+	</tr>
+	<tr>
+		<td>
+			IMP
+		</td>
+		<td>
+			Isle of Man, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			INR
+		</td>
+		<td>
+			India, Rupees
+		</td>
+	</tr>
+	<tr>
+		<td>
+			IQD
+		</td>
+		<td>
+			Iraq, Dinars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			IRR
+		</td>
+		<td>
+			Iran, Rials
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ISK
+		</td>
+		<td>
+			Iceland, Kronur
+		</td>
+	</tr>
+	<tr>
+		<td>
+			JEP
+		</td>
+		<td>
+			Jersey, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			JMD
+		</td>
+		<td>
+			Jamaica, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			JOD
+		</td>
+		<td>
+			Jordan, Dinars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			JPY
+		</td>
+		<td>
+			Japan, Yen
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KES
+		</td>
+		<td>
+			Kenya, Shillings
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KGS
+		</td>
+		<td>
+			Kyrgyzstan, Soms
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KHR
+		</td>
+		<td>
+			Cambodia, Riels
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KMF
+		</td>
+		<td>
+			Comoros, Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KPW
+		</td>
+		<td>
+			Korea (North), Won
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KRW
+		</td>
+		<td>
+			Korea (South), Won
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KWD
+		</td>
+		<td>
+			Kuwait, Dinars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KYD
+		</td>
+		<td>
+			Cayman Islands, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KZT
+		</td>
+		<td>
+			Kazakhstan, Tenge
+		</td>
+	</tr>
+	<tr>
+		<td>
+			LAK
+		</td>
+		<td>
+			Laos, Kips
+		</td>
+	</tr>
+	<tr>
+		<td>
+			LBP
+		</td>
+		<td>
+			Lebanon, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			LKR
+		</td>
+		<td>
+			Sri Lanka, Rupees
+		</td>
+	</tr>
+	<tr>
+		<td>
+			LRD
+		</td>
+		<td>
+			Liberia, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			LSL
+		</td>
+		<td>
+			Lesotho, Maloti
+		</td>
+	</tr>
+	<tr>
+		<td>
+			LTL
+		</td>
+		<td>
+			Lithuania, Litai
+		</td>
+	</tr>
+	<tr>
+		<td>
+			LVL
+		</td>
+		<td>
+			Latvia, Lati
+		</td>
+	</tr>
+	<tr>
+		<td>
+			LYD
+		</td>
+		<td>
+			Libya, Dinars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MAD
+		</td>
+		<td>
+			Morocco, Dirhams
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MDL
+		</td>
+		<td>
+			Moldova, Lei
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MGA
+		</td>
+		<td>
+			Madagascar, Ariary
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MKD
+		</td>
+		<td>
+			Macedonia, Denars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MMK
+		</td>
+		<td>
+			Myanmar (Burma), Kyats
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MNT
+		</td>
+		<td>
+			Mongolia, Tugriks
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MOP
+		</td>
+		<td>
+			Macau, Patacas
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MRO
+		</td>
+		<td>
+			Mauritania, Ouguiyas
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MTL
+		</td>
+		<td>
+			Malta, Liri
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MUR
+		</td>
+		<td>
+			Mauritius, Rupees
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MVR
+		</td>
+		<td>
+			Maldives (Maldive Islands), Rufiyaa
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MWK
+		</td>
+		<td>
+			Malawi, Kwachas
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MXN
+		</td>
+		<td>
+			Mexico, Pesos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MYR
+		</td>
+		<td>
+			Malaysia, Ringgits
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MZM
+		</td>
+		<td>
+			Mozambique, Meticais [obsolete]
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MZN
+		</td>
+		<td>
+			Mozambique, Meticais [newer unit, same name]
+		</td>
+	</tr>
+	<tr>
+		<td>
+			NAD
+		</td>
+		<td>
+			Namibia, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			NGN
+		</td>
+		<td>
+			Nigeria, Nairas
+		</td>
+	</tr>
+	<tr>
+		<td>
+			NIO
+		</td>
+		<td>
+			Nicaragua, Cordobas
+		</td>
+	</tr>
+	<tr>
+		<td>
+			NOK
+		</td>
+		<td>
+			Norway, Krone
+		</td>
+	</tr>
+	<tr>
+		<td>
+			NPR
+		</td>
+		<td>
+			Nepal, Nepal Rupees
+		</td>
+	</tr>
+	<tr>
+		<td>
+			NZD
+		</td>
+		<td>
+			New Zealand, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			OMR
+		</td>
+		<td>
+			Oman, Rials
+		</td>
+	</tr>
+	<tr>
+		<td>
+			PAB
+		</td>
+		<td>
+			Panama, Balboa
+		</td>
+	</tr>
+	<tr>
+		<td>
+			PEN
+		</td>
+		<td>
+			Peru, Nuevos Soles
+		</td>
+	</tr>
+	<tr>
+		<td>
+			PGK
+		</td>
+		<td>
+			Papua New Guinea, Kina
+		</td>
+	</tr>
+	<tr>
+		<td>
+			PHP
+		</td>
+		<td>
+			Philippines, Pesos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			PKR
+		</td>
+		<td>
+			Pakistan, Rupees
+		</td>
+	</tr>
+	<tr>
+		<td>
+			PLN
+		</td>
+		<td>
+			Poland, Zlotych
+		</td>
+	</tr>
+	<tr>
+		<td>
+			PYG
+		</td>
+		<td>
+			Paraguay, Guarani
+		</td>
+	</tr>
+	<tr>
+		<td>
+			QAR
+		</td>
+		<td>
+			Qatar, Rials
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ROL
+		</td>
+		<td>
+			Romania, Lei [obsolete]
+		</td>
+	</tr>
+	<tr>
+		<td>
+			RON
+		</td>
+		<td>
+			Romania, New Lei
+		</td>
+	</tr>
+	<tr>
+		<td>
+			RSD
+		</td>
+		<td>
+			Serbia, Dinars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			RUB
+		</td>
+		<td>
+			Russia, Rubles
+		</td>
+	</tr>
+	<tr>
+		<td>
+			RWF
+		</td>
+		<td>
+			Rwanda, Rwanda Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SAR
+		</td>
+		<td>
+			Saudi Arabia, Riyals
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SBD
+		</td>
+		<td>
+			Solomon Islands, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SCR
+		</td>
+		<td>
+			Seychelles, Rupees
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SDD
+		</td>
+		<td>
+			Sudan, Dinars [obsolete]
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SDG
+		</td>
+		<td>
+			Sudan, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SEK
+		</td>
+		<td>
+			Sweden, Kronor
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SGD
+		</td>
+		<td>
+			Singapore, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SHP
+		</td>
+		<td>
+			Saint Helena, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SIT
+		</td>
+		<td>
+			Slovenia, Tolars [obsolete]
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SKK
+		</td>
+		<td>
+			Slovakia, Koruny
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SLL
+		</td>
+		<td>
+			Sierra Leone, Leones
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SOS
+		</td>
+		<td>
+			Somalia, Shillings
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SPL
+		</td>
+		<td>
+			Seborga, Luigini
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SRD
+		</td>
+		<td>
+			Suriname, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			STD
+		</td>
+		<td>
+			S&atilde;o Tome and Principe, Dobras
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SVC
+		</td>
+		<td>
+			El Salvador, Colones
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SYP
+		</td>
+		<td>
+			Syria, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SZL
+		</td>
+		<td>
+			Swaziland, Emalangeni
+		</td>
+	</tr>
+	<tr>
+		<td>
+			THB
+		</td>
+		<td>
+			Thailand, Baht
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TJS
+		</td>
+		<td>
+			Tajikistan, Somoni
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TMM
+		</td>
+		<td>
+			Turkmenistan, Manats
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TND
+		</td>
+		<td>
+			Tunisia, Dinars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TOP
+		</td>
+		<td>
+			Tonga, Pa'anga
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TRY
+		</td>
+		<td>
+			Turkey, New Lira
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TTD
+		</td>
+		<td>
+			Trinidad and Tobago, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TVD
+		</td>
+		<td>
+			Tuvalu, Tuvalu Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TWD
+		</td>
+		<td>
+			Taiwan, New Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TZS
+		</td>
+		<td>
+			Tanzania, Shillings
+		</td>
+	</tr>
+	<tr>
+		<td>
+			UAH
+		</td>
+		<td>
+			Ukraine, Hryvnia
+		</td>
+	</tr>
+	<tr>
+		<td>
+			UGX
+		</td>
+		<td>
+			Uganda, Shillings
+		</td>
+	</tr>
+	<tr>
+		<td>
+			USD
+		</td>
+		<td>
+			United States of America, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			UYU
+		</td>
+		<td>
+			Uruguay, Pesos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			UZS
+		</td>
+		<td>
+			Uzbekistan, Sums
+		</td>
+	</tr>
+	<tr>
+		<td>
+			VEB
+		</td>
+		<td>
+			Venezuela, Bolivares
+		</td>
+	</tr>
+	<tr>
+		<td>
+			VND
+		</td>
+		<td>
+			Viet Nam, Dong
+		</td>
+	</tr>
+	<tr>
+		<td>
+			VUV
+		</td>
+		<td>
+			Vanuatu, Vatu
+		</td>
+	</tr>
+	<tr>
+		<td>
+			WST
+		</td>
+		<td>
+			Samoa, Tala
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XAF
+		</td>
+		<td>
+			Communaut&eacute; Financi&egrave;re Africaine BEAC, Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XAG
+		</td>
+		<td>
+			Silver, Ounces
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XAU
+		</td>
+		<td>
+			Gold, Ounces
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XCD
+		</td>
+		<td>
+			East Caribbean Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XDR
+		</td>
+		<td>
+			International Monetary Fund (IMF) Special Drawing Rights
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XOF
+		</td>
+		<td>
+			Communaut&eacute; Financi&egrave;re Africaine BCEAO, Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XPD
+		</td>
+		<td>
+			Palladium Ounces
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XPF
+		</td>
+		<td>
+			Comptoirs Fran&ccedil;ais du Pacifique Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XPT
+		</td>
+		<td>
+			Platinum, Ounces
+		</td>
+	</tr>
+	<tr>
+		<td>
+			YER
+		</td>
+		<td>
+			Yemen, Rials
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ZAR
+		</td>
+		<td>
+			South Africa, Rand
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ZMK
+		</td>
+		<td>
+			Zambia, Kwacha
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ZWD
+		</td>
+		<td>
+			Zimbabwe, Zimbabwe Dollars
+		</td>
+	</tr>
+</tbody>
+</table>
+<hr>
+
+<h4 class="font-weight-bold">Units</h4>
+<p>Example value: USG</p>
+<p>Description: This field should be populated with one of the following codes.</p>
+<table class="table">
+	<colgroup>
+	<col/>
+	<col/>
+	</colgroup>
+	<thead>
+		<tr>
+			<th>
+				Code
+			</th>
+			<th>
+				Description
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				USG
+			</td>
+			<td>
+				US Gallons
+			</td>
+		</tr>
+		<tr>
+			<td>
+				KG
+			</td>
+			<td>
+				Kilograms
+			</td>
+		</tr>
+		<tr>
+			<td>
+				LBS
+			</td>
+			<td>
+				Pounds
+			</td>
+		</tr>
+		<tr>
+			<td>
+				LT
+			</td>
+			<td>
+				Liters
+			</td>
+		</tr>
+		<tr>
+			<td>
+				MT
+			</td>
+			<td>
+				Metric Ton
+			</td>
+		</tr>
+		<tr>
+			<td>
+				BBL
+			</td>
+			<td>
+				Barrels
+			</td>
+		</tr>
+		<tr>
+			<td>
+				CBM
+			</td>
+			<td>
+				Cubic Metre
+			</td>
+		</tr>
+	</tbody>
+</table>
+<hr>
+
+
+<h3 class="my-5 font-weight-bold">Per Usage Base Fees & Taxes Sheet - Field Details</h3>
+
+<h4 class="font-weight-bold">IATA Location</h4>
+<p>Example value: LKPR</p>
+<p>Description: This location needs to correcpond to atleast one location listed in the Locaitons sheet. The entered fees or taxes will be added to the corresponding bid.</p>
+
+<hr>
+
+<h4 class="font-weight-bold">Fee or Tax Name</h4>
+<p>Example value: </p>
+<p>Description: </p>
+
+<hr>
+
+<h4 class="font-weight-bold">Amount</h4>
+<p>Example value: 25</p>
+
+<hr>
+
+<h4 class="font-weight-bold">Currency</h4>
+<p>Example value: USD</p>
+<p>Description: This field should be populated with one of the following codes.</p>
+<table class="table">
+	<colgroup>
+	<col/>
+	<col/>
+</colgroup>
+<thead>
+	<tr>
+		<th>
+			Code
+		</th>
+		<th>
+			Description
+		</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>
+			AED
+		</td>
+		<td>
+			United Arab Emirates, Dirhams
+		</td>
+	</tr>
+	<tr>
+		<td>
+			AFN
+		</td>
+		<td>
+			Afghanistan, Afghanis
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ALL
+		</td>
+		<td>
+			Albania, Leke
+		</td>
+	</tr>
+	<tr>
+		<td>
+			AMD
+		</td>
+		<td>
+			Armenia, Drams
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ANG
+		</td>
+		<td>
+			Netherlands Antilles, Guilders (also called Florins)
+		</td>
+	</tr>
+	<tr>
+		<td>
+			AOA
+		</td>
+		<td>
+			Angola, Kwanza
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ARS
+		</td>
+		<td>
+			Argentina, Pesos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			AUD
+		</td>
+		<td>
+			Australia, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			AWG
+		</td>
+		<td>
+			Aruba, Guilders (also called Florins)
+		</td>
+	</tr>
+	<tr>
+		<td>
+			AZM
+		</td>
+		<td>
+			Azerbaijan, Manats [obsolete]
+		</td>
+	</tr>
+	<tr>
+		<td>
+			AZN
+		</td>
+		<td>
+			Azerbaijan, New Manats
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BAM
+		</td>
+		<td>
+			Bosnia and Herzegovina, Convertible Marka
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BBD
+		</td>
+		<td>
+			Barbados, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BDT
+		</td>
+		<td>
+			Bangladesh, Taka
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BGN
+		</td>
+		<td>
+			Bulgaria, Leva
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BHD
+		</td>
+		<td>
+			Bahrain, Dinars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BIF
+		</td>
+		<td>
+			Burundi, Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BMD
+		</td>
+		<td>
+			Bermuda, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BND
+		</td>
+		<td>
+			Brunei Darussalam, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BOB
+		</td>
+		<td>
+			Bolivia, Bolivianos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BRL
+		</td>
+		<td>
+			Brazil, Brazil Real
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BSD
+		</td>
+		<td>
+			Bahamas, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BTN
+		</td>
+		<td>
+			Bhutan, Ngultrum
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BWP
+		</td>
+		<td>
+			Botswana, Pulas
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BYR
+		</td>
+		<td>
+			Belarus, Rubles
+		</td>
+	</tr>
+	<tr>
+		<td>
+			BZD
+		</td>
+		<td>
+			Belize, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CAD
+		</td>
+		<td>
+			Canada, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CDF
+		</td>
+		<td>
+			Congo/Kinshasa, Congolese Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CHF
+		</td>
+		<td>
+			Switzerland, Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CLP
+		</td>
+		<td>
+			Chile, Pesos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CNY
+		</td>
+		<td>
+			China, Yuan Renminbi
+		</td>
+	</tr>
+	<tr>
+		<td>
+			COP
+		</td>
+		<td>
+			Colombia, Pesos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CRC
+		</td>
+		<td>
+			Costa Rica, Colones
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CUP
+		</td>
+		<td>
+			Cuba, Pesos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CVE
+		</td>
+		<td>
+			Cape Verde, Escudos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CYP
+		</td>
+		<td>
+			Cyprus, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			CZK
+		</td>
+		<td>
+			Czech Republic, Koruny
+		</td>
+	</tr>
+	<tr>
+		<td>
+			DJF
+		</td>
+		<td>
+			Djibouti, Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			DKK
+		</td>
+		<td>
+			Denmark, Kroner
+		</td>
+	</tr>
+	<tr>
+		<td>
+			DOP
+		</td>
+		<td>
+			Dominican Republic, Pesos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			DZD
+		</td>
+		<td>
+			Algeria, Algeria Dinars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			EEK
+		</td>
+		<td>
+			Estonia, Krooni
+		</td>
+	</tr>
+	<tr>
+		<td>
+			EGP
+		</td>
+		<td>
+			Egypt, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ERN
+		</td>
+		<td>
+			Eritrea, Nakfa
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ETB
+		</td>
+		<td>
+			Ethiopia, Birr
+		</td>
+	</tr>
+	<tr>
+		<td>
+			EUR
+		</td>
+		<td>
+			Euro Member Countries, Euro
+		</td>
+	</tr>
+	<tr>
+		<td>
+			FJD
+		</td>
+		<td>
+			Fiji, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			FKP
+		</td>
+		<td>
+			Falkland Islands (Malvinas), Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GBP
+		</td>
+		<td>
+			United Kingdom, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GEL
+		</td>
+		<td>
+			Georgia, Lari
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GGP
+		</td>
+		<td>
+			Guernsey, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GHC
+		</td>
+		<td>
+			Ghana, Cedis
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GHS
+		</td>
+		<td>
+			Ghana, Cedis
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GIP
+		</td>
+		<td>
+			Gibraltar, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GMD
+		</td>
+		<td>
+			Gambia, Dalasi
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GNF
+		</td>
+		<td>
+			Guinea, Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GTQ
+		</td>
+		<td>
+			Guatemala, Quetzales
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GWP
+		</td>
+		<td>
+			Guinea-Bissau, Guinea-Bissau Peso&nbsp;
+		</td>
+	</tr>
+	<tr>
+		<td>
+			GYD
+		</td>
+		<td>
+			Guyana, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			HKD
+		</td>
+		<td>
+			Hong Kong, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			HNL
+		</td>
+		<td>
+			Honduras, Lempiras
+		</td>
+	</tr>
+	<tr>
+		<td>
+			HRK
+		</td>
+		<td>
+			Croatia, Kuna
+		</td>
+	</tr>
+	<tr>
+		<td>
+			HTG
+		</td>
+		<td>
+			Haiti, Gourdes
+		</td>
+	</tr>
+	<tr>
+		<td>
+			HUF
+		</td>
+		<td>
+			Hungary, Forint
+		</td>
+	</tr>
+	<tr>
+		<td>
+			IDR
+		</td>
+		<td>
+			Indonesia, Rupiahs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ILS
+		</td>
+		<td>
+			Israel, New Shekels
+		</td>
+	</tr>
+	<tr>
+		<td>
+			IMP
+		</td>
+		<td>
+			Isle of Man, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			INR
+		</td>
+		<td>
+			India, Rupees
+		</td>
+	</tr>
+	<tr>
+		<td>
+			IQD
+		</td>
+		<td>
+			Iraq, Dinars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			IRR
+		</td>
+		<td>
+			Iran, Rials
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ISK
+		</td>
+		<td>
+			Iceland, Kronur
+		</td>
+	</tr>
+	<tr>
+		<td>
+			JEP
+		</td>
+		<td>
+			Jersey, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			JMD
+		</td>
+		<td>
+			Jamaica, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			JOD
+		</td>
+		<td>
+			Jordan, Dinars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			JPY
+		</td>
+		<td>
+			Japan, Yen
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KES
+		</td>
+		<td>
+			Kenya, Shillings
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KGS
+		</td>
+		<td>
+			Kyrgyzstan, Soms
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KHR
+		</td>
+		<td>
+			Cambodia, Riels
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KMF
+		</td>
+		<td>
+			Comoros, Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KPW
+		</td>
+		<td>
+			Korea (North), Won
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KRW
+		</td>
+		<td>
+			Korea (South), Won
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KWD
+		</td>
+		<td>
+			Kuwait, Dinars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KYD
+		</td>
+		<td>
+			Cayman Islands, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			KZT
+		</td>
+		<td>
+			Kazakhstan, Tenge
+		</td>
+	</tr>
+	<tr>
+		<td>
+			LAK
+		</td>
+		<td>
+			Laos, Kips
+		</td>
+	</tr>
+	<tr>
+		<td>
+			LBP
+		</td>
+		<td>
+			Lebanon, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			LKR
+		</td>
+		<td>
+			Sri Lanka, Rupees
+		</td>
+	</tr>
+	<tr>
+		<td>
+			LRD
+		</td>
+		<td>
+			Liberia, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			LSL
+		</td>
+		<td>
+			Lesotho, Maloti
+		</td>
+	</tr>
+	<tr>
+		<td>
+			LTL
+		</td>
+		<td>
+			Lithuania, Litai
+		</td>
+	</tr>
+	<tr>
+		<td>
+			LVL
+		</td>
+		<td>
+			Latvia, Lati
+		</td>
+	</tr>
+	<tr>
+		<td>
+			LYD
+		</td>
+		<td>
+			Libya, Dinars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MAD
+		</td>
+		<td>
+			Morocco, Dirhams
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MDL
+		</td>
+		<td>
+			Moldova, Lei
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MGA
+		</td>
+		<td>
+			Madagascar, Ariary
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MKD
+		</td>
+		<td>
+			Macedonia, Denars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MMK
+		</td>
+		<td>
+			Myanmar (Burma), Kyats
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MNT
+		</td>
+		<td>
+			Mongolia, Tugriks
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MOP
+		</td>
+		<td>
+			Macau, Patacas
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MRO
+		</td>
+		<td>
+			Mauritania, Ouguiyas
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MTL
+		</td>
+		<td>
+			Malta, Liri
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MUR
+		</td>
+		<td>
+			Mauritius, Rupees
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MVR
+		</td>
+		<td>
+			Maldives (Maldive Islands), Rufiyaa
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MWK
+		</td>
+		<td>
+			Malawi, Kwachas
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MXN
+		</td>
+		<td>
+			Mexico, Pesos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MYR
+		</td>
+		<td>
+			Malaysia, Ringgits
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MZM
+		</td>
+		<td>
+			Mozambique, Meticais [obsolete]
+		</td>
+	</tr>
+	<tr>
+		<td>
+			MZN
+		</td>
+		<td>
+			Mozambique, Meticais [newer unit, same name]
+		</td>
+	</tr>
+	<tr>
+		<td>
+			NAD
+		</td>
+		<td>
+			Namibia, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			NGN
+		</td>
+		<td>
+			Nigeria, Nairas
+		</td>
+	</tr>
+	<tr>
+		<td>
+			NIO
+		</td>
+		<td>
+			Nicaragua, Cordobas
+		</td>
+	</tr>
+	<tr>
+		<td>
+			NOK
+		</td>
+		<td>
+			Norway, Krone
+		</td>
+	</tr>
+	<tr>
+		<td>
+			NPR
+		</td>
+		<td>
+			Nepal, Nepal Rupees
+		</td>
+	</tr>
+	<tr>
+		<td>
+			NZD
+		</td>
+		<td>
+			New Zealand, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			OMR
+		</td>
+		<td>
+			Oman, Rials
+		</td>
+	</tr>
+	<tr>
+		<td>
+			PAB
+		</td>
+		<td>
+			Panama, Balboa
+		</td>
+	</tr>
+	<tr>
+		<td>
+			PEN
+		</td>
+		<td>
+			Peru, Nuevos Soles
+		</td>
+	</tr>
+	<tr>
+		<td>
+			PGK
+		</td>
+		<td>
+			Papua New Guinea, Kina
+		</td>
+	</tr>
+	<tr>
+		<td>
+			PHP
+		</td>
+		<td>
+			Philippines, Pesos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			PKR
+		</td>
+		<td>
+			Pakistan, Rupees
+		</td>
+	</tr>
+	<tr>
+		<td>
+			PLN
+		</td>
+		<td>
+			Poland, Zlotych
+		</td>
+	</tr>
+	<tr>
+		<td>
+			PYG
+		</td>
+		<td>
+			Paraguay, Guarani
+		</td>
+	</tr>
+	<tr>
+		<td>
+			QAR
+		</td>
+		<td>
+			Qatar, Rials
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ROL
+		</td>
+		<td>
+			Romania, Lei [obsolete]
+		</td>
+	</tr>
+	<tr>
+		<td>
+			RON
+		</td>
+		<td>
+			Romania, New Lei
+		</td>
+	</tr>
+	<tr>
+		<td>
+			RSD
+		</td>
+		<td>
+			Serbia, Dinars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			RUB
+		</td>
+		<td>
+			Russia, Rubles
+		</td>
+	</tr>
+	<tr>
+		<td>
+			RWF
+		</td>
+		<td>
+			Rwanda, Rwanda Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SAR
+		</td>
+		<td>
+			Saudi Arabia, Riyals
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SBD
+		</td>
+		<td>
+			Solomon Islands, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SCR
+		</td>
+		<td>
+			Seychelles, Rupees
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SDD
+		</td>
+		<td>
+			Sudan, Dinars [obsolete]
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SDG
+		</td>
+		<td>
+			Sudan, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SEK
+		</td>
+		<td>
+			Sweden, Kronor
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SGD
+		</td>
+		<td>
+			Singapore, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SHP
+		</td>
+		<td>
+			Saint Helena, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SIT
+		</td>
+		<td>
+			Slovenia, Tolars [obsolete]
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SKK
+		</td>
+		<td>
+			Slovakia, Koruny
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SLL
+		</td>
+		<td>
+			Sierra Leone, Leones
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SOS
+		</td>
+		<td>
+			Somalia, Shillings
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SPL
+		</td>
+		<td>
+			Seborga, Luigini
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SRD
+		</td>
+		<td>
+			Suriname, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			STD
+		</td>
+		<td>
+			S&atilde;o Tome and Principe, Dobras
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SVC
+		</td>
+		<td>
+			El Salvador, Colones
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SYP
+		</td>
+		<td>
+			Syria, Pounds
+		</td>
+	</tr>
+	<tr>
+		<td>
+			SZL
+		</td>
+		<td>
+			Swaziland, Emalangeni
+		</td>
+	</tr>
+	<tr>
+		<td>
+			THB
+		</td>
+		<td>
+			Thailand, Baht
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TJS
+		</td>
+		<td>
+			Tajikistan, Somoni
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TMM
+		</td>
+		<td>
+			Turkmenistan, Manats
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TND
+		</td>
+		<td>
+			Tunisia, Dinars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TOP
+		</td>
+		<td>
+			Tonga, Pa'anga
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TRY
+		</td>
+		<td>
+			Turkey, New Lira
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TTD
+		</td>
+		<td>
+			Trinidad and Tobago, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TVD
+		</td>
+		<td>
+			Tuvalu, Tuvalu Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TWD
+		</td>
+		<td>
+			Taiwan, New Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			TZS
+		</td>
+		<td>
+			Tanzania, Shillings
+		</td>
+	</tr>
+	<tr>
+		<td>
+			UAH
+		</td>
+		<td>
+			Ukraine, Hryvnia
+		</td>
+	</tr>
+	<tr>
+		<td>
+			UGX
+		</td>
+		<td>
+			Uganda, Shillings
+		</td>
+	</tr>
+	<tr>
+		<td>
+			USD
+		</td>
+		<td>
+			United States of America, Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			UYU
+		</td>
+		<td>
+			Uruguay, Pesos
+		</td>
+	</tr>
+	<tr>
+		<td>
+			UZS
+		</td>
+		<td>
+			Uzbekistan, Sums
+		</td>
+	</tr>
+	<tr>
+		<td>
+			VEB
+		</td>
+		<td>
+			Venezuela, Bolivares
+		</td>
+	</tr>
+	<tr>
+		<td>
+			VND
+		</td>
+		<td>
+			Viet Nam, Dong
+		</td>
+	</tr>
+	<tr>
+		<td>
+			VUV
+		</td>
+		<td>
+			Vanuatu, Vatu
+		</td>
+	</tr>
+	<tr>
+		<td>
+			WST
+		</td>
+		<td>
+			Samoa, Tala
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XAF
+		</td>
+		<td>
+			Communaut&eacute; Financi&egrave;re Africaine BEAC, Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XAG
+		</td>
+		<td>
+			Silver, Ounces
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XAU
+		</td>
+		<td>
+			Gold, Ounces
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XCD
+		</td>
+		<td>
+			East Caribbean Dollars
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XDR
+		</td>
+		<td>
+			International Monetary Fund (IMF) Special Drawing Rights
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XOF
+		</td>
+		<td>
+			Communaut&eacute; Financi&egrave;re Africaine BCEAO, Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XPD
+		</td>
+		<td>
+			Palladium Ounces
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XPF
+		</td>
+		<td>
+			Comptoirs Fran&ccedil;ais du Pacifique Francs
+		</td>
+	</tr>
+	<tr>
+		<td>
+			XPT
+		</td>
+		<td>
+			Platinum, Ounces
+		</td>
+	</tr>
+	<tr>
+		<td>
+			YER
+		</td>
+		<td>
+			Yemen, Rials
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ZAR
+		</td>
+		<td>
+			South Africa, Rand
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ZMK
+		</td>
+		<td>
+			Zambia, Kwacha
+		</td>
+	</tr>
+	<tr>
+		<td>
+			ZWD
+		</td>
+		<td>
+			Zimbabwe, Zimbabwe Dollars
+		</td>
+	</tr>
+</tbody>
+</table>
