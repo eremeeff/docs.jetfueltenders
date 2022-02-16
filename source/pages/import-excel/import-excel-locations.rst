@@ -616,268 +616,268 @@ field should be populated with one of the following codes.
 +----------+----------------+----------------------------------------+
 | Provider | Provider code  | Description                            |
 +----------+----------------+----------------------------------------+
-| Platts   | AAFIY00       | Jet Kero C+F Australia Cargo Close     |
+| Platts   | AAFIY00        | Jet Kero C+F Australia Cargo Close     |
 +----------+----------------+----------------------------------------+
-| Platts   | AAIDL00       | Jet FOB Med Cargo Close                |
+| Platts   | AAIDL00        | Jet FOB Med Cargo Close                |
 +----------+----------------+----------------------------------------+
-| Platts   | AAIDN00       | Jet FOB Med Premium Cargo Close        |
+| Platts   | AAIDN00        | Jet FOB Med Premium Cargo Close        |
 +----------+----------------+----------------------------------------+
-| Platts   | AAJNL00       | Jet Kero New Jersey Buckeye Pipeline   |
+| Platts   | AAJNL00        | Jet Kero New Jersey Buckeye Pipeline   |
 |          |                | Close                                  |
 +----------+----------------+----------------------------------------+
-| Platts   | AAKNZ00       | Jet Kero LR2 FOB Arab Gulf Cargo Close |
+| Platts   | AAKNZ00        | Jet Kero LR2 FOB Arab Gulf Cargo Close |
 +----------+----------------+----------------------------------------+
-| Platts   | AAQWL00       | Jet Kero MOP West India $/bbl Close    |
+| Platts   | AAQWL00        | Jet Kero MOP West India $/bbl Close    |
 +----------+----------------+----------------------------------------+
-| Platts   | AAQWM00       | Jet Kero MOP West India $/mt Close     |
+| Platts   | AAQWM00        | Jet Kero MOP West India $/mt Close     |
 +----------+----------------+----------------------------------------+
-| Platts   | AAVTH00       | Jet Kero ULS New York Harbor Cargo     |
+| Platts   | AAVTH00        | Jet Kero ULS New York Harbor Cargo     |
 |          |                | Close                                  |
 +----------+----------------+----------------------------------------+
-| Platts   | AAVTI00       | Jet Kero ULS New York Harbor Barge     |
+| Platts   | AAVTI00        | Jet Kero ULS New York Harbor Barge     |
 |          |                | Close                                  |
 +----------+----------------+----------------------------------------+
-| Platts   | AAVTJ00       | Jet Kero ULS Boston Cargo Close        |
+| Platts   | AAVTJ00        | Jet Kero ULS Boston Cargo Close        |
 +----------+----------------+----------------------------------------+
-| Platts   | AAVTK00       | Jet Kero ULS USGC Waterborne Close     |
+| Platts   | AAVTK00        | Jet Kero ULS USGC Waterborne Close     |
 +----------+----------------+----------------------------------------+
-| Platts   | AAVTL00       | Jet Kero ULS USGC Prompt Pipeline      |
+| Platts   | AAVTL00        | Jet Kero ULS USGC Prompt Pipeline      |
 |          |                | Close                                  |
 +----------+----------------+----------------------------------------+
-| Platts   | AAXPV00       | Jet Kero 54 USAC Linden Pipeline       |
+| Platts   | AAXPV00        | Jet Kero 54 USAC Linden Pipeline       |
 |          |                | prompt cycle assessment Close          |
 +----------+----------------+----------------------------------------+
-| Platts   | AAZBN00       | Jet CIF Med Cargo Close                |
+| Platts   | AAZBN00        | Jet CIF Med Cargo Close                |
 +----------+----------------+----------------------------------------+
-| Platts   | PJAAA00       | Jet Kero FOB Arab Gulf Cargo Close     |
+| Platts   | PJAAA00        | Jet Kero FOB Arab Gulf Cargo Close     |
 +----------+----------------+----------------------------------------+
-| Platts   | PJAAD00       | Jet Kero Caribbean Cargo $/mt Close    |
+| Platts   | PJAAD00        | Jet Kero Caribbean Cargo $/mt Close    |
 +----------+----------------+----------------------------------------+
-| Platts   | PJAAD10       | Jet Kero Caribbean Cargo cts/gal Close |
+| Platts   | PJAAD10        | Jet Kero Caribbean Cargo cts/gal Close |
 +----------+----------------+----------------------------------------+
-| Platts   | PJAAF00       | Jet Kero FOB Chicago Pipe Close        |
+| Platts   | PJAAF00        | Jet Kero FOB Chicago Pipe Close        |
 +----------+----------------+----------------------------------------+
-| Platts   | PJAAI00       | Jet Kero Group 3 Pipeline Close        |
+| Platts   | PJAAI00        | Jet Kero Group 3 Pipeline Close        |
 +----------+----------------+----------------------------------------+
-| Platts   | PJAAN00       | Jet Kero C+F Japan Cargo Close         |
+| Platts   | PJAAN00        | Jet Kero C+F Japan Cargo Close         |
 +----------+----------------+----------------------------------------+
-| Platts   | PJAAP00       | Jet Kero Los Angeles CA Pipeline Close |
+| Platts   | PJAAP00        | Jet Kero Los Angeles CA Pipeline Close |
 +----------+----------------+----------------------------------------+
-| Platts   | PJAAU00       | Jet CIF NWE Cargo Close                |
+| Platts   | PJAAU00        | Jet CIF NWE Cargo Close                |
 +----------+----------------+----------------------------------------+
-| Platts   | PJAAV00       | Jet FOB NWE Cargo Close                |
+| Platts   | PJAAV00        | Jet FOB NWE Cargo Close                |
 +----------+----------------+----------------------------------------+
-| Platts   | PJAAW00       | Jet Kero New York Harbor Barge Close   |
+| Platts   | PJAAW00        | Jet Kero New York Harbor Barge Close   |
 +----------+----------------+----------------------------------------+
-| Platts   | PJAAX00       | Jet Kero New York Harbor Cargo Close   |
+| Platts   | PJAAX00        | Jet Kero New York Harbor Cargo Close   |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABA00       | Jet FOB Rdam Barge Close               |
+| Platts   | PJABA00        | Jet FOB Rdam Barge Close               |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABC00       | Jet Kero San Francisco CA Pipeline     |
+| Platts   | PJABC00        | Jet Kero San Francisco CA Pipeline     |
 |          |                | Close                                  |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABF00       | Jet Kero FOB Spore Cargo Close         |
+| Platts   | PJABF00        | Jet Kero FOB Spore Cargo Close         |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABI00       | Jet Kero USWC Waterborne Close         |
+| Platts   | PJABI00        | Jet Kero USWC Waterborne Close         |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABJ00       | Jet Kero LS New York Harbor Barge      |
+| Platts   | PJABJ00        | Jet Kero LS New York Harbor Barge      |
 |          |                | Close                                  |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABK00       | Jet Kero LS New York Harbor Cargo      |
+| Platts   | PJABK00        | Jet Kero LS New York Harbor Cargo      |
 |          |                | Close                                  |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABL00       | Jet Kero LS Boston Cargo Close         |
+| Platts   | PJABL00        | Jet Kero LS Boston Cargo Close         |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABM00       | Jet Kero 54 USGC Waterborne Close      |
+| Platts   | PJABM00        | Jet Kero 54 USGC Waterborne Close      |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABN00       | Jet Kero 55 USGC Waterborne Close      |
+| Platts   | PJABN00        | Jet Kero 55 USGC Waterborne Close      |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABO00       | Jet Kero 54 USGC Prompt Pipeline Close |
+| Platts   | PJABO00        | Jet Kero 54 USGC Prompt Pipeline Close |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABP00       | Jet Kero 55 USGC Prompt Pipeline Close |
+| Platts   | PJABP00        | Jet Kero 55 USGC Prompt Pipeline Close |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABQ00       | Jet Kero C+F South China Cargo Close   |
+| Platts   | PJABQ00        | Jet Kero C+F South China Cargo Close   |
 +----------+----------------+----------------------------------------+
-| Platts   | PJACB00       | Jet Kero ULS No1 Group 3 Pipeline      |
+| Platts   | PJACB00        | Jet Kero ULS No1 Group 3 Pipeline      |
 |          |                | Close                                  |
 +----------+----------------+----------------------------------------+
-| Platts   | PJACD00       | Jet Kero ULS No1 FOB Chicago Pipe      |
+| Platts   | PJACD00        | Jet Kero ULS No1 FOB Chicago Pipe      |
 |          |                | Close                                  |
 +----------+----------------+----------------------------------------+
-| Platts   | PJADG00       | Jet Kero FOB Korea Cargo Close         |
+| Platts   | PJADG00        | Jet Kero FOB Korea Cargo Close         |
 +----------+----------------+----------------------------------------+
-| Platts   | PTAEO09       | Jet Carib Shell W Close                |
+| Platts   | PTAEO09        | Jet Carib Shell W Close                |
 +----------+----------------+----------------------------------------+
-| Platts   | AAFIY00       | Jet Kero C+F Australia Cargo High      |
+| Platts   | AAFIY00        | Jet Kero C+F Australia Cargo High      |
 +----------+----------------+----------------------------------------+
-| Platts   | AAIDL00       | Jet FOB Med Cargo High                 |
+| Platts   | AAIDL00        | Jet FOB Med Cargo High                 |
 +----------+----------------+----------------------------------------+
-| Platts   | AAIDN00       | Jet FOB Med Premium Cargo High         |
+| Platts   | AAIDN00        | Jet FOB Med Premium Cargo High         |
 +----------+----------------+----------------------------------------+
-| Platts   | AAJNL00       | Jet Kero New Jersey Buckeye Pipeline   |
+| Platts   | AAJNL00        | Jet Kero New Jersey Buckeye Pipeline   |
 |          |                | High                                   |
 +----------+----------------+----------------------------------------+
-| Platts   | AAKNZ00       | Jet Kero LR2 FOB Arab Gulf Cargo High  |
+| Platts   | AAKNZ00        | Jet Kero LR2 FOB Arab Gulf Cargo High  |
 +----------+----------------+----------------------------------------+
-| Platts   | AAQWL00       | Jet Kero MOP West India $/bbl High     |
+| Platts   | AAQWL00        | Jet Kero MOP West India $/bbl High     |
 +----------+----------------+----------------------------------------+
-| Platts   | AAQWM00       | Jet Kero MOP West India $/mt High      |
+| Platts   | AAQWM00        | Jet Kero MOP West India $/mt High      |
 +----------+----------------+----------------------------------------+
-| Platts   | AAVTH00       | Jet Kero ULS New York Harbor Cargo     |
+| Platts   | AAVTH00        | Jet Kero ULS New York Harbor Cargo     |
 |          |                | High                                   |
 +----------+----------------+----------------------------------------+
-| Platts   | AAVTI00       | Jet Kero ULS New York Harbor Barge     |
+| Platts   | AAVTI00        | Jet Kero ULS New York Harbor Barge     |
 |          |                | High                                   |
 +----------+----------------+----------------------------------------+
-| Platts   | AAVTJ00       | Jet Kero ULS Boston Cargo High         |
+| Platts   | AAVTJ00        | Jet Kero ULS Boston Cargo High         |
 +----------+----------------+----------------------------------------+
-| Platts   | AAVTK00       | Jet Kero ULS USGC Waterborne High      |
+| Platts   | AAVTK00        | Jet Kero ULS USGC Waterborne High      |
 +----------+----------------+----------------------------------------+
-| Platts   | AAVTL00       | Jet Kero ULS USGC Prompt Pipeline High |
+| Platts   | AAVTL00        | Jet Kero ULS USGC Prompt Pipeline High |
 +----------+----------------+----------------------------------------+
-| Platts   | AAXPV00       | Jet Kero 54 USAC Linden Pipeline       |
+| Platts   | AAXPV00        | Jet Kero 54 USAC Linden Pipeline       |
 |          |                | prompt cycle assessment High           |
 +----------+----------------+----------------------------------------+
-| Platts   | AAZBN00       | Jet CIF Med Cargo High                 |
+| Platts   | AAZBN00        | Jet CIF Med Cargo High                 |
 +----------+----------------+----------------------------------------+
-| Platts   | PJAAA00       | Jet Kero FOB Arab Gulf Cargo High      |
+| Platts   | PJAAA00        | Jet Kero FOB Arab Gulf Cargo High      |
 +----------+----------------+----------------------------------------+
-| Platts   | PJAAD00       | Jet Kero Caribbean Cargo $/mt High     |
+| Platts   | PJAAD00        | Jet Kero Caribbean Cargo $/mt High     |
 +----------+----------------+----------------------------------------+
-| Platts   | PJAAD10       | Jet Kero Caribbean Cargo cts/gal High  |
+| Platts   | PJAAD10        | Jet Kero Caribbean Cargo cts/gal High  |
 +----------+----------------+----------------------------------------+
-| Platts   | PJAAF00       | Jet Kero FOB Chicago Pipe High         |
+| Platts   | PJAAF00        | Jet Kero FOB Chicago Pipe High         |
 +----------+----------------+----------------------------------------+
-| Platts   | PJAAI00       | Jet Kero Group 3 Pipeline High         |
+| Platts   | PJAAI00        | Jet Kero Group 3 Pipeline High         |
 +----------+----------------+----------------------------------------+
-| Platts   | PJAAN00       | Jet Kero C+F Japan Cargo High          |
+| Platts   | PJAAN00        | Jet Kero C+F Japan Cargo High          |
 +----------+----------------+----------------------------------------+
-| Platts   | PJAAP00       | Jet Kero Los Angeles CA Pipeline High  |
+| Platts   | PJAAP00        | Jet Kero Los Angeles CA Pipeline High  |
 +----------+----------------+----------------------------------------+
-| Platts   | PJAAU00       | Jet CIF NWE Cargo High                 |
+| Platts   | PJAAU00        | Jet CIF NWE Cargo High                 |
 +----------+----------------+----------------------------------------+
-| Platts   | PJAAV00       | Jet FOB NWE Cargo High                 |
+| Platts   | PJAAV00        | Jet FOB NWE Cargo High                 |
 +----------+----------------+----------------------------------------+
-| Platts   | PJAAW00       | Jet Kero New York Harbor Barge High    |
+| Platts   | PJAAW00        | Jet Kero New York Harbor Barge High    |
 +----------+----------------+----------------------------------------+
-| Platts   | PJAAX00       | Jet Kero New York Harbor Cargo High    |
+| Platts   | PJAAX00        | Jet Kero New York Harbor Cargo High    |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABA00       | Jet FOB Rdam Barge High                |
+| Platts   | PJABA00        | Jet FOB Rdam Barge High                |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABC00       | Jet Kero San Francisco CA Pipeline     |
+| Platts   | PJABC00        | Jet Kero San Francisco CA Pipeline     |
 |          |                | High                                   |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABF00       | Jet Kero FOB Spore Cargo High          |
+| Platts   | PJABF00        | Jet Kero FOB Spore Cargo High          |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABI00       | Jet Kero USWC Waterborne High          |
+| Platts   | PJABI00        | Jet Kero USWC Waterborne High          |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABJ00       | Jet Kero LS New York Harbor Barge High |
+| Platts   | PJABJ00        | Jet Kero LS New York Harbor Barge High |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABK00       | Jet Kero LS New York Harbor Cargo High |
+| Platts   | PJABK00        | Jet Kero LS New York Harbor Cargo High |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABL00       | Jet Kero LS Boston Cargo High          |
+| Platts   | PJABL00        | Jet Kero LS Boston Cargo High          |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABM00       | Jet Kero 54 USGC Waterborne High       |
+| Platts   | PJABM00        | Jet Kero 54 USGC Waterborne High       |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABN00       | Jet Kero 55 USGC Waterborne High       |
+| Platts   | PJABN00        | Jet Kero 55 USGC Waterborne High       |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABO00       | Jet Kero 54 USGC Prompt Pipeline High  |
+| Platts   | PJABO00        | Jet Kero 54 USGC Prompt Pipeline High  |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABP00       | Jet Kero 55 USGC Prompt Pipeline High  |
+| Platts   | PJABP00        | Jet Kero 55 USGC Prompt Pipeline High  |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABQ00       | Jet Kero C+F South China Cargo High    |
+| Platts   | PJABQ00        | Jet Kero C+F South China Cargo High    |
 +----------+----------------+----------------------------------------+
-| Platts   | PJACB00       | Jet Kero ULS No1 Group 3 Pipeline High |
+| Platts   | PJACB00        | Jet Kero ULS No1 Group 3 Pipeline High |
 +----------+----------------+----------------------------------------+
-| Platts   | PJACD00       | Jet Kero ULS No1 FOB Chicago Pipe High |
+| Platts   | PJACD00        | Jet Kero ULS No1 FOB Chicago Pipe High |
 +----------+----------------+----------------------------------------+
-| Platts   | PJADG00       | Jet Kero FOB Korea Cargo High          |
+| Platts   | PJADG00        | Jet Kero FOB Korea Cargo High          |
 +----------+----------------+----------------------------------------+
-| Platts   | PTAEO09       | Jet Carib Shell W High                 |
+| Platts   | PTAEO09        | Jet Carib Shell W High                 |
 +----------+----------------+----------------------------------------+
-| Platts   | AAFIY00       | Jet Kero C+F Australia Cargo Low       |
+| Platts   | AAFIY00        | Jet Kero C+F Australia Cargo Low       |
 +----------+----------------+----------------------------------------+
-| Platts   | AAIDL00       | Jet FOB Med Cargo Low                  |
+| Platts   | AAIDL00        | Jet FOB Med Cargo Low                  |
 +----------+----------------+----------------------------------------+
-| Platts   | AAIDN00       | Jet FOB Med Premium Cargo Low          |
+| Platts   | AAIDN00        | Jet FOB Med Premium Cargo Low          |
 +----------+----------------+----------------------------------------+
-| Platts   | AAJNL00       | Jet Kero New Jersey Buckeye Pipeline   |
+| Platts   | AAJNL00        | Jet Kero New Jersey Buckeye Pipeline   |
 |          |                | Low                                    |
 +----------+----------------+----------------------------------------+
-| Platts   | AAKNZ00       | Jet Kero LR2 FOB Arab Gulf Cargo Low   |
+| Platts   | AAKNZ00        | Jet Kero LR2 FOB Arab Gulf Cargo Low   |
 +----------+----------------+----------------------------------------+
-| Platts   | AAQWL00       | Jet Kero MOP West India $/bbl Low      |
+| Platts   | AAQWL00        | Jet Kero MOP West India $/bbl Low      |
 +----------+----------------+----------------------------------------+
-| Platts   | AAQWM00       | Jet Kero MOP West India $/mt Low       |
+| Platts   | AAQWM00        | Jet Kero MOP West India $/mt Low       |
 +----------+----------------+----------------------------------------+
-| Platts   | AAVTH00       | Jet Kero ULS New York Harbor Cargo Low |
+| Platts   | AAVTH00        | Jet Kero ULS New York Harbor Cargo Low |
 +----------+----------------+----------------------------------------+
-| Platts   | AAVTI00       | Jet Kero ULS New York Harbor Barge Low |
+| Platts   | AAVTI00        | Jet Kero ULS New York Harbor Barge Low |
 +----------+----------------+----------------------------------------+
-| Platts   | AAVTJ00       | Jet Kero ULS Boston Cargo Low          |
+| Platts   | AAVTJ00        | Jet Kero ULS Boston Cargo Low          |
 +----------+----------------+----------------------------------------+
-| Platts   | AAVTK00       | Jet Kero ULS USGC Waterborne Low       |
+| Platts   | AAVTK00        | Jet Kero ULS USGC Waterborne Low       |
 +----------+----------------+----------------------------------------+
-| Platts   | AAVTL00       | Jet Kero ULS USGC Prompt Pipeline Low  |
+| Platts   | AAVTL00        | Jet Kero ULS USGC Prompt Pipeline Low  |
 +----------+----------------+----------------------------------------+
-| Platts   | AAXPV00       | Jet Kero 54 USAC Linden Pipeline       |
+| Platts   | AAXPV00        | Jet Kero 54 USAC Linden Pipeline       |
 |          |                | prompt cycle assessment Low            |
 +----------+----------------+----------------------------------------+
-| Platts   | AAZBN00       | Jet CIF Med Cargo Low                  |
+| Platts   | AAZBN00        | Jet CIF Med Cargo Low                  |
 +----------+----------------+----------------------------------------+
-| Platts   | PJAAA00       | Jet Kero FOB Arab Gulf Cargo Low       |
+| Platts   | PJAAA00        | Jet Kero FOB Arab Gulf Cargo Low       |
 +----------+----------------+----------------------------------------+
-| Platts   | PJAAD00       | Jet Kero Caribbean Cargo $/mt Low      |
+| Platts   | PJAAD00        | Jet Kero Caribbean Cargo $/mt Low      |
 +----------+----------------+----------------------------------------+
-| Platts   | PJAAD10       | Jet Kero Caribbean Cargo cts/gal Low   |
+| Platts   | PJAAD10        | Jet Kero Caribbean Cargo cts/gal Low   |
 +----------+----------------+----------------------------------------+
-| Platts   | PJAAF00       | Jet Kero FOB Chicago Pipe Low          |
+| Platts   | PJAAF00        | Jet Kero FOB Chicago Pipe Low          |
 +----------+----------------+----------------------------------------+
-| Platts   | PJAAI00       | Jet Kero Group 3 Pipeline Low          |
+| Platts   | PJAAI00        | Jet Kero Group 3 Pipeline Low          |
 +----------+----------------+----------------------------------------+
-| Platts   | PJAAN00       | Jet Kero C+F Japan Cargo Low           |
+| Platts   | PJAAN00        | Jet Kero C+F Japan Cargo Low           |
 +----------+----------------+----------------------------------------+
-| Platts   | PJAAP00       | Jet Kero Los Angeles CA Pipeline Low   |
+| Platts   | PJAAP00        | Jet Kero Los Angeles CA Pipeline Low   |
 +----------+----------------+----------------------------------------+
-| Platts   | PJAAU00       | Jet CIF NWE Cargo Low                  |
+| Platts   | PJAAU00        | Jet CIF NWE Cargo Low                  |
 +----------+----------------+----------------------------------------+
-| Platts   | PJAAV00       | Jet FOB NWE Cargo Low                  |
+| Platts   | PJAAV00        | Jet FOB NWE Cargo Low                  |
 +----------+----------------+----------------------------------------+
-| Platts   | PJAAW00       | Jet Kero New York Harbor Barge Low     |
+| Platts   | PJAAW00        | Jet Kero New York Harbor Barge Low     |
 +----------+----------------+----------------------------------------+
-| Platts   | PJAAX00       | Jet Kero New York Harbor Cargo Low     |
+| Platts   | PJAAX00        | Jet Kero New York Harbor Cargo Low     |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABA00       | Jet FOB Rdam Barge Low                 |
+| Platts   | PJABA00        | Jet FOB Rdam Barge Low                 |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABC00       | Jet Kero San Francisco CA Pipeline Low |
+| Platts   | PJABC00        | Jet Kero San Francisco CA Pipeline Low |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABF00       | Jet Kero FOB Spore Cargo Low           |
+| Platts   | PJABF00        | Jet Kero FOB Spore Cargo Low           |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABI00       | Jet Kero USWC Waterborne Low           |
+| Platts   | PJABI00        | Jet Kero USWC Waterborne Low           |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABJ00       | Jet Kero LS New York Harbor Barge Low  |
+| Platts   | PJABJ00        | Jet Kero LS New York Harbor Barge Low  |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABK00       | Jet Kero LS New York Harbor Cargo Low  |
+| Platts   | PJABK00        | Jet Kero LS New York Harbor Cargo Low  |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABL00       | Jet Kero LS Boston Cargo Low           |
+| Platts   | PJABL00        | Jet Kero LS Boston Cargo Low           |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABM00       | Jet Kero 54 USGC Waterborne Low        |
+| Platts   | PJABM00        | Jet Kero 54 USGC Waterborne Low        |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABN00       | Jet Kero 55 USGC Waterborne Low        |
+| Platts   | PJABN00        | Jet Kero 55 USGC Waterborne Low        |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABO00       | Jet Kero 54 USGC Prompt Pipeline Low   |
+| Platts   | PJABO00        | Jet Kero 54 USGC Prompt Pipeline Low   |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABP00       | Jet Kero 55 USGC Prompt Pipeline Low   |
+| Platts   | PJABP00        | Jet Kero 55 USGC Prompt Pipeline Low   |
 +----------+----------------+----------------------------------------+
-| Platts   | PJABQ00       | Jet Kero C+F South China Cargo Low     |
+| Platts   | PJABQ00        | Jet Kero C+F South China Cargo Low     |
 +----------+----------------+----------------------------------------+
-| Platts   | PJACB00       | Jet Kero ULS No1 Group 3 Pipeline Low  |
+| Platts   | PJACB00        | Jet Kero ULS No1 Group 3 Pipeline Low  |
 +----------+----------------+----------------------------------------+
-| Platts   | PJACD00       | Jet Kero ULS No1 FOB Chicago Pipe Low  |
+| Platts   | PJACD00        | Jet Kero ULS No1 FOB Chicago Pipe Low  |
 +----------+----------------+----------------------------------------+
-| Platts   | PJADG00       | Jet Kero FOB Korea Cargo Low           |
+| Platts   | PJADG00        | Jet Kero FOB Korea Cargo Low           |
 +----------+----------------+----------------------------------------+
-| Platts   | PTAEO09       | Jet Carib Shell W Low                  |
+| Platts   | PTAEO09        | Jet Carib Shell W Low                  |
 +----------+----------------+----------------------------------------+
 | Argus    | PA0003951-2    | Jet fuel Buckeye pipe fob High         |
 +----------+----------------+----------------------------------------+
@@ -1241,6 +1241,7 @@ field should be populated with one of the following codes.
 | Opis     | JETSFPL        | Jet 54 Grade San Francisco             |
 +----------+----------------+----------------------------------------+
 
+
 --------------
 
 Index - Bate
@@ -1253,13 +1254,13 @@ Example value: h
 Description: This field should be populated with one of the following
 codes.
 
-==== ===========
+==== ============
 Code Description
-==== ===========
-l Low
-c Close / Mean
-h High
-==== ===========
+==== ============
+l    Low
+c    Close / Mean
+h    High
+==== ============
 
 
 --------------
