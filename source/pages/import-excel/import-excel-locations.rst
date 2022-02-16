@@ -598,8 +598,6 @@ Code   Description
 Platts Platts
 Argus  Argus
 Opis   Opis
-DDS    DDS
-Other  Other
 ====== ===========
 
 --------------
