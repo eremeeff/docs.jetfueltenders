@@ -1253,13 +1253,13 @@ Example value: h
 Description: This field should be populated with one of the following
 codes.
 
-==== ================================================
+==== ===========
 Code Description
-= ============
+==== ===========
 l Low
 c Close / Mean
 h High
-= ============
+==== ===========
 
 
 --------------
@@ -1322,9 +1322,9 @@ Example value: 1
 Description: This field should be populated with one of the following
 codes.
 
-==== ================================================
+==== ===========
 Code Description
-= =========
+==== ===========
 1 Monday
 2 Tuesday
 3 Wednesday
@@ -1332,7 +1332,7 @@ Code Description
 5 Friday
 6 Saturday
 7 Sanday
-= =========
+==== ===========
 
 --------------
 
