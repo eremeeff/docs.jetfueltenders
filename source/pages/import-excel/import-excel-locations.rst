@@ -569,15 +569,15 @@ Example value: Ex-hydrant
 Description: This field should be populated with one of the following
 codes.
 
-============= =============
-Code          Description
-============= =============
-Ex-hydrant    EX-hydrant
-Ex-Rack       Ex-Rack
-Into wing     Into wing
-Into storage  Into storage
-Into pipeline Into pipeline
-============= =============
+==== =============
+Code Description
+==== =============
+INP  Into plane
+INS  Into storege
+INW  Into wing
+EXR  Ex-Rack
+IPI  Into pipeline
+==== =============
 
 --------------
 
