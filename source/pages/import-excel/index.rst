@@ -8,7 +8,7 @@ To begin bid submission using an Excel uploder:
 
 #. Go to the tender invitation page
 #. From the Tender menu select Excel Bid Importer
-..  image:: /img/ExcelBidImporter.png
+..  image:: ../../img/ExcelBidImporter.png
     :alt: some image
 
 #. From the Tender menu select Excel Bid Importer
